@@ -1,0 +1,1423 @@
+{
+  "id": "6_majora",
+  "title": "The Legend of Zelda: Majora's Mask",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/MM3D_English_Logo.png/250px-MM3D_English_Logo.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/5/57/OoT3D_Compass_Icon.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/2/20/MM3D_Boss_Key_Icon.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/aa/OoT3D_Piece_of_Heart_Model.png/320px-OoT3D_Piece_of_Heart_Model.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/f/fe/MM3D_Heart_Icon.png"
+  },
+  "styling": {
+    "items": 8,
+    "health": 10,
+    "side_quests": 4,
+    "minigames": 4,
+    "equipments": {
+      "powers": 2
+    },
+    "abilities": {
+      "songs": 5,
+      "boss_masks": 6,
+      "masks": 6
+    },
+    "collectibles": {
+      "maps": 6,
+      "ocean_fishing_hole": 6,
+      "swamp_fishing_hole": 6
+    }
+  },
+  "health": {
+    "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Majora%27s_Mask_Heart_Pieces",
+    "info": {
+      "min": 3,
+      "max": 20
+    },
+    "heart_containers": {
+      "heart_container_1": {
+        "name": "Heart Container #1",
+        "completed": false
+      },
+      "heart_container_2": {
+        "name": "Heart Container #2",
+        "completed": false
+      },
+      "heart_container_3": {
+        "name": "Heart Container #3",
+        "completed": false
+      },
+      "heart_container_4": {
+        "name": "Heart Container #4",
+        "completed": false
+      }
+    },
+    "heart_pieces": {
+      "heart_piece_1": {
+        "name": "Heart Piece #1",
+        "completed": false
+      },
+      "heart_piece_2": {
+        "name": "Heart Piece #2",
+        "completed": false
+      },
+      "heart_piece_3": {
+        "name": "Heart Piece #3",
+        "completed": false
+      },
+      "heart_piece_4": {
+        "name": "Heart Piece #4",
+        "completed": false
+      },
+      "heart_piece_5": {
+        "name": "Heart Piece #5",
+        "completed": false
+      },
+      "heart_piece_6": {
+        "name": "Heart Piece #6",
+        "completed": false
+      },
+      "heart_piece_7": {
+        "name": "Heart Piece #7",
+        "completed": false
+      },
+      "heart_piece_8": {
+        "name": "Heart Piece #8",
+        "completed": false
+      },
+      "heart_piece_9": {
+        "name": "Heart Piece #9",
+        "completed": false
+      },
+      "heart_piece_10": {
+        "name": "Heart Piece #10",
+        "completed": false
+      },
+      "heart_piece_11": {
+        "name": "Heart Piece #11",
+        "completed": false
+      },
+      "heart_piece_12": {
+        "name": "Heart Piece #12",
+        "completed": false  
+      },
+      "heart_piece_13": {
+        "name": "Heart Piece #13",
+        "completed": false
+      },
+      "heart_piece_14": {
+        "name": "Heart Piece #14",
+        "completed": false
+      },
+      "heart_piece_15": {
+        "name": "Heart Piece #15",
+        "completed": false
+      },
+      "heart_piece_16": {
+        "name": "Heart Piece #16",
+        "completed": false
+      },
+      "heart_piece_17": {
+        "name": "Heart Piece #17",
+        "completed": false
+      },
+      "heart_piece_18": {
+        "name": "Heart Piece #18",
+        "completed": false
+      },
+      "heart_piece_19": {
+        "name": "Heart Piece #19",
+        "completed": false
+      },
+      "heart_piece_20": {
+        "name": "Heart Piece #20",
+        "completed": false
+      },
+      "heart_piece_21": {
+        "name": "Heart Piece #21",
+        "completed": false
+      },
+      "heart_piece_22": {
+        "name": "Heart Piece #22",
+        "completed": false
+      },
+      "heart_piece_23": {
+        "name": "Heart Piece #23",
+        "completed": false
+      },
+      "heart_piece_24": {
+        "name": "Heart Piece #24",
+        "completed": false
+      },
+      "heart_piece_25": {
+        "name": "Heart Piece #25",
+        "completed": false
+      },
+      "heart_piece_26": {
+        "name": "Heart Piece #26",
+        "completed": false
+      },
+      "heart_piece_27": {
+        "name": "Heart Piece #27",
+        "completed": false
+      },
+      "heart_piece_28": {
+        "name": "Heart Piece #28",
+        "completed": false
+      },
+      "heart_piece_29": {
+        "name": "Heart Piece #29",
+        "completed": false
+      },
+      "heart_piece_30": {
+        "name": "Heart Piece #30",
+        "completed": false
+      },
+      "heart_piece_31": {
+        "name": "Heart Piece #31",
+        "completed": false
+      },
+      "heart_piece_32": {
+        "name": "Heart Piece #32",
+        "completed": false
+      },
+      "heart_piece_33": {
+        "name": "Heart Piece #33",
+        "completed": false
+      },
+      "heart_piece_34": {
+        "name": "Heart Piece #34",
+        "completed": false
+      },
+      "heart_piece_35": {
+        "name": "Heart Piece #35",
+        "completed": false
+      },
+      "heart_piece_36": {
+        "name": "Heart Piece #36",
+        "completed": false
+      },
+      "heart_piece_37": {
+        "name": "Heart Piece #37",
+        "completed": false
+      },
+      "heart_piece_38": {
+        "name": "Heart Piece #38",
+        "completed": false
+      },
+      "heart_piece_39": {
+        "name": "Heart Piece #39",
+        "completed": false
+      },
+      "heart_piece_40": {
+        "name": "Heart Piece #40",
+        "completed": false
+      },
+      "heart_piece_41": {
+        "name": "Heart Piece #41",
+        "completed": false
+      },
+      "heart_piece_42": {
+        "name": "Heart Piece #42",
+        "completed": false
+      },
+      "heart_piece_43": {
+        "name": "Heart Piece #43",
+        "completed": false
+      },
+      "heart_piece_44": {
+        "name": "Heart Piece #44",
+        "completed": false
+      },
+      "heart_piece_45": {
+        "name": "Heart Piece #45",
+        "completed": false
+      },
+      "heart_piece_46": {
+        "name": "Heart Piece #46",
+        "completed": false
+      },
+      "heart_piece_47": {
+        "name": "Heart Piece #47",
+        "completed": false
+      },
+      "heart_piece_48": {
+        "name": "Heart Piece #48",
+        "completed": false
+      },
+      "heart_piece_49": {
+        "name": "Heart Piece #49",
+        "completed": false
+      },
+      "heart_piece_50": {
+        "name": "Heart Piece #50",
+        "completed": false
+      },
+      "heart_piece_51": {
+        "name": "Heart Piece #51",
+        "completed": false
+      },
+      "heart_piece_52": {
+        "name": "Heart Piece #52",
+        "completed": false
+      }
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 0,
+      "max": 2
+    },
+    "magic_containers": {
+      "magic_container_1": {
+        "name": "Magic Container 1",
+        "completed": false
+      },
+      "magic_container_2": {
+        "name": "Magic Container 2",
+        "completed": false
+      }
+    }
+  },
+  "items": {
+    "ocarina_of_time": {
+      "name": "Ocarina of Time",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bc/OoT3D_Ocarina_of_Time_Icon.png",
+      "completed": false
+    },
+    "bow": {
+      "name": "Hero's Bow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/18/MM3D_Hero%27s_Bow_Icon.png",
+      "completed": false
+    },
+    "fire_arrow": {
+      "name": "Fire Arrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoT3D_Fire_Arrow_Icon.png",
+      "completed": false
+    },
+    "ice_arrow": {
+      "name": "Ice Arrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e2/OoT3D_Ice_Arrow_Icon.png",
+      "completed": false
+    },
+    "light_arrow": {
+      "name": "Light Arrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/OoT3D_Light_Arrow_Icon.png",
+      "completed": false
+    },
+    "hookshot": {
+      "name": "Hookshot",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d2/MM3D_Hookshot_Icon.png",
+      "completed": false
+    },
+    "lens_of_truth": {
+      "name": "Lens of Truth",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/OoT3D_Lens_of_Truth_Icon.png",
+      "completed": false
+    },
+    "great_fairy_sword": {
+      "name": "Great Fairy's Sword",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/MM3D_Great_Fairy%27s_Sword_Icon.png",
+      "completed": false
+    },
+    "bomb": {
+      "name": "Bomb",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/ca/OoT3D_Bomb_Icon.png",
+      "completed": false
+    },
+    "bombchu": {
+      "name": "Bombchu",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Bombchu_Icon.png",
+      "completed": false
+    },
+    "powder_keg": {
+      "name": "Powder Keg",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/00/MM3D_Powder_Keg_Icon.png",
+      "completed": false
+    },
+    "deku_stick": {
+      "name": "Deku Stick",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5e/OoT3D_Deku_Stick_Icon.png",
+      "completed": false
+    },
+    "deku_nut": {
+      "name": "Deku Nut",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/97/OoT3D_Deku_Nut_Icon.png",
+      "completed": false
+    },
+    "magic_bean": {
+      "name": "Magic Bean",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9f/OoT3D_Magic_Bean_Icon.png",
+      "completed": false
+    },
+    "pictograph": {
+      "name": "Pictograph Box",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6c/MM3D_Pictograph_Box_Icon.png",
+      "completed": false
+    },
+    "bombers_notebook": {
+      "name": "Bombers' Notebook",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/43/MM3D_Bombers%27_Notebook_Icon.png",
+      "completed": false
+    },
+    "bottle1": {
+      "name": "Bottle #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle2": {
+      "name": "Bottle #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle3": {
+      "name": "Bottle #3",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle4": {
+      "name": "Bottle #4",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle5": {
+      "name": "Bottle #5",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle6": {
+      "name": "Bottle #6",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle7": {
+      "name": "Bottle #6",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "kokiri_sword": {
+        "name": "Kokiri Sword",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/27/MM3D_Kokiri_Sword_Icon.png",
+        "completed": false
+      },
+      "razor_sword": {
+        "name": "Razor Sword",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b9/MM3D_Razor_Sword_Icon.png",
+        "completed": false
+      },
+      "gilded_sword": {
+        "name": "Gilded Sword",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/01/MM3D_Gilded_Sword_Icon.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "hero_shield": {
+        "name": "Hero's Shield",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/MM3D_Hero%27s_Shield_Icon.png",
+        "completed": false
+      },
+      "mirror_shield": {
+        "name": "Mirror Shield",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/MM3D_Mirror_Shield_Icon.png",
+        "completed": false
+      }
+    },
+    "powers": {
+      "super_spin_attack": {
+        "name": "Super Spin Attack",
+        "completed": false
+      },
+      "defensive": {
+        "name": "Defensive",
+        "completed": false
+      }
+    },
+    "bomb_bags": {
+      "bomb_bag": {
+        "name": "Bomb Bag",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/OoT3D_Bomb_Bag_Icon.png",
+        "completed": false
+      },
+      "big_bomb_bag": {
+        "name": "Big Bomb Bag",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/OoT3D_Big_Bomb_Bag_Icon.png",
+        "completed": false
+      },
+      "biggest_bomb_bag": {
+        "name": "Biggest Bomb Bag",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/78/OoT3D_Biggest_Bomb_Bag_Icon.png",
+        "completed": false
+      }
+    },
+    "quivers": {
+      "quiver": {
+        "name": "Quiver",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoT3D_Quiver_Icon.png",
+        "completed": false
+      },
+      "large_quiver": {
+        "name": "Large Quiver",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Big_Quiver_Icon.png",
+        "completed": false
+      },
+      "largest_quiver": {
+        "name": "Largest Quiver",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/88/OoT3D_Biggest_Quiver_Icon.png",
+        "completed": false
+      }
+    },
+    "wallets": {
+      "adult_wallet": {
+        "name": "Adult Wallet",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/OoT3D_Adult%27s_Wallet_Icon.png",
+        "completed": false
+      },
+      "giant_wallet": {
+        "name": "Giant Wallet",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/55/OoT3D_Giant%27s_Wallet_Icon.png",
+        "completed": false
+      }
+    },
+    "horse": {
+      "epona": {
+        "name": "Epona",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/MM3D_Epona_Model.png/102px-MM3D_Epona_Model.png",
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "woodfall_temple": {
+      "name": "Woodfall Temple",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ab/MM3D_Woodfall_Temple.png/167px-MM3D_Woodfall_Temple.png",
+      "item": {
+        "name": "bow",
+        "completed": false,
+        "hooks": ["bow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/87/MM_Odolwa_Artwork.png/71px-MM_Odolwa_Artwork.png",
+        "completed": false,
+        "hooks": ["odolwas_remains", "heart_container_1"]
+      },
+      "completed": false
+    },
+    "snowhead_temple": {
+      "name": "Snowhead Temple",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/MM3D_Snowhead_Temple.png/168px-MM3D_Snowhead_Temple.png",
+      "item": {
+        "name": "fire_arrow",
+        "completed": false,
+        "hooks": ["fire_arrow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7c/MM_Goht_Artwork.png/120px-MM_Goht_Artwork.png",
+        "completed": false,
+        "hooks": ["gohts_remains", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "great_bay_temple": {
+      "name": "Great Bay Temple",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/MM3D_Great_Bay_Temple.png/180px-MM3D_Great_Bay_Temple.png",
+      "item": {
+        "name": "ice_arrow",
+        "completed": false,
+        "hooks": ["ice_arrow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d0/MM3D_Gyorg_Artwork.png/120px-MM3D_Gyorg_Artwork.png",
+        "completed": false,
+        "hooks": ["gyorgs_remains", "heart_container_3"]
+      },
+      "completed": false
+    },
+    "stone_tower_temple": {
+      "name": "Stone Tower Temple",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d3/MM3D_Stone_Tower_Temple.png/167px-MM3D_Stone_Tower_Temple.png",
+      "item": {
+        "name": "light_arrow",
+        "completed": false,
+        "hooks": ["light_arrow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/MM_Twinmold_Artwork.png/120px-MM_Twinmold_Artwork.png",
+        "completed": false,
+        "hooks": ["twinmolds_remains", "heart_container_4", "giants_mask"]
+      },
+      "completed": false
+    }
+  },
+  "side_quests": {
+    "stray_fairy_clock_town_1": {
+      "name": "Stray Fairy Clock Town #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cf/MM_Stray_Fairy_Orange_Model.png/120px-MM_Stray_Fairy_Orange_Model.png",
+      "completed": false,
+      "hooks": ["magic_container_1"]
+    },
+    "stray_fairy_clock_town_2": {
+      "name": "Stray Fairy Clock Town #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cf/MM_Stray_Fairy_Orange_Model.png/120px-MM_Stray_Fairy_Orange_Model.png",
+      "completed": false,
+      "hooks": ["great_fairy_mask"]
+    },
+    "stray_fairy_from_swamp": {
+      "name": "Stray Fairy from Swamp",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b5/MM_Stray_Fairy_Pink_Model.png/120px-MM_Stray_Fairy_Pink_Model.png",
+      "completed": false,
+      "hooks": ["super_spin_attack"]
+    },
+    "stray_fairy_from_mountain": {
+      "name": "Stray Fairy from Montains",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b5/MM_Stray_Fairy_Pink_Model.png/120px-MM_Stray_Fairy_Pink_Model.png",
+      "completed": false,
+      "hooks": ["magic_container_2"]
+    },
+    "stray_fairy_from_great_bay": {
+      "name": "Stray Fairy from Great Bay",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/ba/MM_Stray_Fairy_Purple_Model.png/120px-MM_Stray_Fairy_Purple_Model.png",
+      "completed": false,
+      "hooks": ["defensive"]
+    },
+    "stray_fairy_from_canyon": {
+      "name": "Stray Fairy from Canyon",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ed/MM_Stray_Fairy_Yellow_Model.png/120px-MM_Stray_Fairy_Yellow_Model.png",
+      "completed": false,
+      "hooks": ["great_fairy_sword"]
+    },
+    "get_ocarina_back": {
+      "name": "Get Ocarina Back",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bc/OoT3D_Ocarina_of_Time_Icon.png",
+      "completed": false,
+      "hooks": ["ocarina_of_time", "song_of_time"]
+    },
+    "bank_deposit_1": {
+      "name": "Bank Deposit #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/OoT3D_Adult%27s_Wallet_Icon.png",
+      "completed": false,
+      "hooks": ["adult_wallet"]
+    },
+    "bank_deposit_2": {
+      "name": "Bank Deposit #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/55/OoT3D_Giant%27s_Wallet_Icon.png",
+      "completed": false,
+      "hooks": ["heart_piece_48"]
+    },
+    "robbed_old_lady": {
+      "name": "Robbed Old Lady",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/20/MM3D_Old_Lady_from_the_Bomb_Shop_Model.png/89px-MM3D_Old_Lady_from_the_Bomb_Shop_Model.png",
+      "completed": false,
+      "hooks": ["blast_mask"]
+    },
+    "heal_kamaro": {
+      "name": "Heal Kamaro",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/27/MM3D_Kamaro_Model.png/54px-MM3D_Kamaro_Model.png",
+      "completed": false,
+      "hooks": ["kamaros_mask"]
+    },
+    "rosa_sisters": {
+      "name": "Rosa Sisters",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2b/MM3D_Rosa_Sisters_Model.png/101px-MM3D_Rosa_Sisters_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_8"]
+    },
+    "guru_guru": {
+      "name": "Guru Guru",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/MM3D_Guru-Guru_Model.png/45px-MM3D_Guru-Guru_Model.png",
+      "completed": false,
+      "hooks": ["bremen_mask"]
+    },
+    "cuccos_parade": {
+      "name": "Cuccos Parade",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1f/MM3D_Grog_Model.png/61px-MM3D_Grog_Model.png",
+      "completed": false,
+      "hooks": ["bunny_hood"]
+    },
+    "postman_training": {
+      "name": "Postman Training",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/94/MM3D_Postman_Model.png/50px-MM3D_Postman_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_7"]
+    },
+    "grandmothers_tale_1": {
+      "name": "Grandmother's Tale #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/01/MM3D_Granny_Model.png/84px-MM3D_Granny_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_38"]
+    },
+    "grandmothers_tale_2": {
+      "name": "Grandmother's Tale #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/01/MM3D_Granny_Model.png/84px-MM3D_Granny_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_39"]
+    },
+    "dance_with_scarecrow": {
+      "name": "Dance with Scarecrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d9/MM3D_Pierre_Model.png/98px-MM3D_Pierre_Model.png",
+      "completed": false,
+      "hooks": ["scarecrow_song"]
+    },
+    "gossip_stones": {
+      "name": "Gossip Stones",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/OoT3D_Gossip_Stone_Model.png/90px-OoT3D_Gossip_Stone_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_18"]
+    },
+    "witch_rescue": {
+      "name": "Witch Rescue",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/MM3D_Koume_Model.png/120px-MM3D_Koume_Model.png",
+      "completed": false,
+      "hooks": ["bottle1"]
+    },
+    "foolish_monkey_rescue": {
+      "name": "Foolish Monkey Rescue",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cd/MM3D_Monkey_Model.png/91px-MM3D_Monkey_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "deku_butler": {
+      "name": "Deku Butler",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4a/MM3D_Deku_Butler_Model.png/92px-MM3D_Deku_Butler_Model.png",
+      "completed": false,
+      "hooks": ["mask_of_scents"]
+    },
+    "kaepora_gaeboras_lesson": {
+      "name": "Kaepora Gaebora's Lesson",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/MM3D_Kaepora_Gaebora_Model.png/97px-MM3D_Kaepora_Gaebora_Model.png",
+      "completed": false,
+      "hooks": ["lens_of_truth"]
+    },
+    "darmani_sorrow": {
+      "name": "Darmani Sorrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/14/MM3D_Darmani_III_Model.png/86px-MM3D_Darmani_III_Model.png",
+      "completed": false,
+      "hooks": ["goron_mask"]
+    },
+    "baby_goron_sleeping": {
+      "name": "Baby Goron Sleeping",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/69/MM3D_Elder%27s_Son_Model.png/91px-MM3D_Elder%27s_Son_Model.png",
+      "completed": false,
+      "hooks": ["gorons_lullaby"]
+    },
+    "gorons_hunger": {
+      "name": "Goron's Hunger",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9f/MM3D_Goron_Headache_Model.png/73px-MM3D_Goron_Headache_Model.png",
+      "completed": false,
+      "hooks": ["don_geros_mask"]
+    },
+    "ghosts_invasion": {
+      "name": "Ghost's Invasion",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ac/MM_Ghost_Model.png/120px-MM_Ghost_Model.png",
+      "completed": false,
+      "hooks": ["bottle5"]
+    },
+    "milk_run": {
+      "name": "Milk Run",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3f/MM3D_Cremia_Model.png/86px-MM3D_Cremia_Model.png",
+      "completed": false,
+      "hooks": ["romanis_mask"]
+    },
+    "mikau_sorrow": {
+      "name": "Mikau Sorrow",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3e/MM3D_Mikau_Model.png/89px-MM3D_Mikau_Model.png",
+      "completed": false,
+      "hooks": ["zora_mask"]
+    },
+    "pirates_fortress": {
+      "name": "Pirate's Fortress",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e9/MM_Gerudo_Pirate_Green_Model.png/85px-MM_Gerudo_Pirate_Green_Model.png",
+      "completed": false,
+      "hooks": ["hookshot"]
+    },
+    "help_invisible_soldier": {
+      "name": "Help Invisible Soldier",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7e/MM3D_Shiro_Model.png/120px-MM3D_Shiro_Model.png",
+      "completed": false,
+      "hooks": ["stone_mask"]
+    },
+    "zora_eggs_quest": {
+      "name": "Zora Eggs Quest",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/ce/MM3D_Lulu_Model.png/86px-MM3D_Lulu_Model.png",
+      "completed": false,
+      "hooks": ["new_wave_bossa_nova"]
+    },
+    "feed_the_fish": {
+      "name": "Feed the Fish",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/05/MM3D_Professor_Model.png/70px-MM3D_Professor_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_28"]
+    },
+    "a_zora_swan_song": {
+      "name": "A Zora Swan Song",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/MM3D_Japas_Model.png/83px-MM3D_Japas_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_32"]
+    },
+    "seahorse_rescue": {
+      "name": "Seahorse Rescue",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1e/MM_Seahorse_Item_Model.png/39px-MM_Seahorse_Item_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_31"]
+    },
+    "ballad_of_the_wind_fish": {
+      "name": "Ballad of the Wind Fish",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/11/MM3D_Toto_Model.png/112px-MM3D_Toto_Model.png",
+      "completed": false,
+      "hooks": ["troupe_leaders_mask"]
+    },
+    "frog_choir": {
+      "name": "Frog Choir",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM3D_Frog_Yellow_Model.png/120px-MM3D_Frog_Yellow_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_43"]
+    },
+    "scrub_hiding_place": {
+      "name": "Scrub Hiding Place",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8b/MM3D_Business_Scrub_Model.png/80px-MM3D_Business_Scrub_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_10"]
+    },
+    "property_trade": {
+      "name": "Property Trade",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/37/MM3D_Town_Title_Deed_Icon.png",
+      "completed": false
+    },
+    "paper_toilet": {
+      "name": "Paper Toilet",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cc/MM3D_%3F%3F%3F_Model.png/68px-MM3D_%3F%3F%3F_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_9"]
+    },
+    "stomach_ache": {
+      "name": "Stomach Ache",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5b/MM3D_Gorman_Model.png/47px-MM3D_Gorman_Model.png",
+      "completed": false,
+      "hooks": ["bottle7"]
+    },
+    "find_kafei": {
+      "name": "Find Kafei",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e8/MM3D_Kafei_Model.png/51px-MM3D_Kafei_Model.png",
+      "completed": false,
+      "hooks": ["bottle4"]
+    },
+    "stay_at_stock_pot_inn": {
+      "name": "Stay at Stock Pot Inn",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/81/MM3D_Link_%28Goron%29_Model.png/90px-MM3D_Link_%28Goron%29_Model.png",
+      "completed": false,
+      "hooks": ["couples_mask"]
+    },
+    "postman_last_delivery": {
+      "name": "Postman Last Delivery",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/94/MM3D_Postman_Model.png/50px-MM3D_Postman_Model.png",
+      "completed": false,
+      "hooks": ["postmans_hat"]
+    },
+    "anju_and_kafei": {
+      "name": "Anju and Kafei",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cc/MM3D_Anju_Model.png/33px-MM3D_Anju_Model.png",
+      "completed": false,
+      "hooks": ["couples_mask"]
+    },
+    "townspeople_fight": {
+      "name": "Townspeople Fight",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d7/MM3D_Mutoh_Model.png/69px-MM3D_Mutoh_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_41"]
+    },
+    "swamp_skultula_house": {
+      "name": "Swamp Skultula House",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/MM3D_Cursed_Rich_Man_Model.png/113px-MM3D_Cursed_Rich_Man_Model.png",
+      "completed": false,
+      "hooks": ["mask_of_truth"]
+    },
+    "skultula_ocean_house": {
+      "name": "Skultula Ocean House",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/MM3D_Cursed_Rich_Man_Model.png/113px-MM3D_Cursed_Rich_Man_Model.png",
+      "completed": false,
+      "hooks": ["giant_wallet"]
+    },
+    "captain_keeta": {
+      "name": "Captain Keeta",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/ce/MM_Captain_Keeta_Model.png/92px-MM_Captain_Keeta_Model.png",
+      "completed": false,
+      "hooks": ["captains_hat"]
+    },
+    "composer_brothers": {
+      "name": "Composer Brothers",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c0/MM3D_Flat_Model.png/120px-MM3D_Flat_Model.png",
+      "completed": false,
+      "hooks": ["song_of_storms"]
+    },
+    "dampe_digging_game": {
+      "name": "Dampe Digging",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/MM3D_Damp%C3%A9_Model.png/82px-MM3D_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_26"]
+    },
+    "music_box_house": {
+      "name": "Music Box House",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/44/MM3D_Pamela_Model.png/50px-MM3D_Pamela_Model.png",
+      "completed": false,
+      "hooks": ["gibdo_mask"]
+    },
+    "beneath_the_well": {
+      "name": "Beneath the Well",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/70/OoT_Gibdo_Model.png/50px-OoT_Gibdo_Model.png",
+      "completed": false,
+      "hooks": ["mirror_shield"]
+    },
+    "ancient_castle_of_ikana": {
+      "name": "Ancient Castle of Ikana",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d0/MM_Igos_du_Ikana_Model.png/116px-MM_Igos_du_Ikana_Model.png",
+      "completed": false,
+      "hooks": ["elegy_of_emptiness"]
+    },
+    "moon_dungeon": {
+      "name": "Moon Dungeon",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f7/MM3D_Moon_Artwork.png/64px-MM3D_Moon_Artwork.png",
+      "completed": false,
+      "hooks": ["fierce_deitys_mask"]
+    },
+    "defeat_majora": {
+      "name": "Defeat Majora",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/MM3D_Majora%27s_Mask_Render.png/120px-MM3D_Majora%27s_Mask_Render.png",
+      "completed": false,
+      "hooks": []
+    }
+  },
+  "minigames": {
+    "hide_and_seek": {
+      "name": "Hide and Seek",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1b/MM3D_Jim_Model.png/70px-MM3D_Jim_Model.png",
+      "completed": false,
+      "hooks": ["bombers_notebook"]
+    },
+    "town_shooting_gallery_1": {
+      "name": "Town Shooting Gallery #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f1/MM3D_Town_Shooting_Gallery_Guy_Model.png/120px-MM3D_Town_Shooting_Gallery_Guy_Model.png",
+      "completed": false,
+      "hooks": ["large_quiver"]
+    },
+    "town_shooting_gallery_2": {
+      "name": "Town Shooting Gallery #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f1/MM3D_Town_Shooting_Gallery_Guy_Model.png/120px-MM3D_Town_Shooting_Gallery_Guy_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_20"]
+    },
+    "honey_and_darling_shop": {
+      "name": "Honey & Darling Shop",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2c/MM3D_Honey_and_Darling_Model.png/67px-MM3D_Honey_and_Darling_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_22"]
+    },
+    "lottery_shop": {
+      "name": "Lottery Shop",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fe/OoT3D_Green_Rupee_Model.png/196px-OoT3D_Green_Rupee_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "treasure_chest_game": {
+      "name": "Treasure Chest Game",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/20/MM3D_Treasure_Chest_Shop_Gal_Model.png/120px-MM3D_Treasure_Chest_Shop_Gal_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_24"]
+    },
+    "swordsmans_school_expert_course": {
+      "name": "Swordsmans' School - Expert Course",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e9/MM3D_Swordsman_Model.png/96px-MM3D_Swordsman_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_3"]
+    },
+    "deku_scrub_playground": {
+      "name": "Deku Scrub Playground",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5a/MM_Deku_Flower_Model.png/120px-MM_Deku_Flower_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_6"]
+    },
+    "keaton_quiz": {
+      "name": "Keaton Quiz",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/ba/MM3D_Keaton_Model.png/120px-MM3D_Keaton_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_11"]
+    },
+    "pictograph_contest": {
+      "name": "Pictograph Contest",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5b/MM3D_Swamp_Tourist_Center_Guide_Model.png/120px-MM3D_Swamp_Tourist_Center_Guide_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_15"]
+    },
+    "koumes_target_shooting": {
+      "name": "Koume's Target Shooting",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/MM3D_Koume_Model.png/120px-MM3D_Koume_Model.png",
+      "completed": false,
+      "hooks": ["bottle6"]
+    },
+    "swamp_shooting_gallery": {
+      "name": "Swamp Shooting Gallery",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/56/MM3D_Swamp_Shooting_Gallery_Guy_Model.png/120px-MM3D_Swamp_Shooting_Gallery_Guy_Model.png",
+      "completed": false,
+      "hooks": ["largest_quiver", "heart_piece_21"]
+    },
+    "goron_powder_certification": {
+      "name": "Goron Powder Certification",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/42/MM3D_Shopkeeper_Model.png/120px-MM3D_Shopkeeper_Model.png",
+      "completed": false,
+      "hooks": ["powder_keg"]
+    },
+    "goron_race": {
+      "name": "Goron Race",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/69/MM3D_Elder%27s_Son_Model.png/91px-MM3D_Elder%27s_Son_Model.png",
+      "completed": false,
+      "hooks": ["bottle2"]
+    },
+    "romani_target_challenge": {
+      "name": "Romani Target Challenge",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/15/MM3D_Romani_Model.png/64px-MM3D_Romani_Model.png",
+      "completed": false,
+      "hooks": ["epona", "eponas_song"]
+    },
+    "doggy_racetrack": {
+      "name": "Doggy Racetrack",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/58/MM3D_Mamamu_Yan_Model.png/61px-MM3D_Mamamu_Yan_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_19"]
+    },
+    "horse_race": {
+      "name": "Horse Race",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/75/MM3D_Gorman_Brother_Blue_Model.png/49px-MM3D_Gorman_Brother_Blue_Model.png",
+      "completed": false,
+      "hooks": ["garos_mask"]
+    },
+    "zora_game_site": {
+      "name": "Zora Game Site",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/15/MM3D_Zora_Model.png/61px-MM3D_Zora_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "beaver_race_1": {
+      "name": "Beaver Race #1",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7a/MM3D_Little_Brother_Beaver_Model.png/110px-MM3D_Little_Brother_Beaver_Model.png",
+      "completed": false,
+      "hooks": ["bottle3"]
+    },
+    "beaver_race_2": {
+      "name": "Beaver Race #2",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/MM3D_Big_Brother_Beaver_Model.png/120px-MM3D_Big_Brother_Beaver_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_34"]
+    },
+    "fishermans_jumping_game": {
+      "name": "Fisherman's Jumping Game",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f8/MM3D_Fisherman_Model.png/65px-MM3D_Fisherman_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_44"]
+    },
+    "spirit_house": {
+      "name": "Spirit House",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/OoT_Big_Poe_Model.png/120px-OoT_Big_Poe_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_45"]
+    },
+    "secret_shrine": {
+      "name": "Secret Shrine",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/82/MM_Wart_Model.png/120px-MM_Wart_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_47"]
+    }
+  },
+  "abilities": {
+    "sidebar": {
+      "songs": {
+        "song_of_time": {
+          "name": "Song of Time",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a5/MM3D_Song_of_Time_Icon.png",
+          "completed": false
+        },
+        "song_of_healing": {
+          "name": "Song of Healing",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/MM3D_Song_of_Healing_Icon.png",
+          "completed": false
+        },
+        "eponas_song": {
+          "name": "Epona's Song",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4e/MM3D_Epona%27s_Song_Icon.png",
+          "completed": false
+        },
+        "song_of_soaring": {
+          "name": "Song of Soaring",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/01/MM3D_Song_of_Soaring_Icon.png",
+          "completed": false
+        },
+        "song_of_storms": {
+          "name": "Song of Storms",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/61/MM3D_Song_of_Storms_Icon.png",
+          "completed": false
+        },
+        "sonata_of_awakening": {
+          "name": "Sonata of Awakening",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/35/MM3D_Sonata_of_Awakening_Icon.png",
+          "completed": false
+        },
+        "gorons_lullaby": {
+          "name": "Goron's Lullaby",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/cb/MM3D_Goron_Lullaby_Icon.png",
+          "completed": false
+        },
+        "new_wave_bossa_nova": {
+          "name": "New Wave Bossa Nova",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/42/MM3D_New_Wave_Bossa_Nova_Icon.png",
+          "completed": false
+        },
+        "elegy_of_emptiness": {
+          "name": "Elegy of Emptiness",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/MM3D_Elegy_of_Emptiness_Icon.png",
+          "completed": false
+        },
+        "oath_of_order": {
+          "name": "Oath of Order",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/ff/MM3D_Oath_to_Order_Icon.png",
+          "completed": false
+        },
+        "scarecrow_song": {
+          "name": "Scarecrow's Song",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e3/MM3D_Scarecrow%27s_Song_Icon.png",
+          "completed": false
+        },
+        "song_of_double_time": {
+          "name": "Song of Double Time",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3a/MM3D_Song_of_Double_Time_Icon.png",
+          "completed": false
+        },
+        "song_of_inverted_time": {
+          "name": "Song of Inverted Time",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/aa/MM3D_Inverted_Song_of_Time_Icon.png",
+          "completed": false
+        }
+      }
+    },
+    "main": {
+      "boss_masks": {
+        "odolwas_remains": {
+          "name": "Odolwa's Remains",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/MM3D_Odolwa%27s_Remains_Icon.png",
+          "completed": false
+        },
+        "gohts_remains": {
+          "name": "Goht's Remains",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/MM3D_Goht%27s_Remains_Icon.png",
+          "completed": false
+        },
+        "gyorgs_remains": {
+          "name": "Gyorg's Remains",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/MM3D_Gyorg%27s_Remains_Icon.png",
+          "completed": false
+        },
+        "twinmolds_remains": {
+          "name": "Twinmold's Remains",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/MM3D_Twinmold%27s_Remains_Icon.png",
+          "completed": false
+        }
+      },
+      "masks": {
+        "deku_mask": {
+          "name": "Deku Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/MM3D_Deku_Mask_Icon.png",
+          "completed": false
+        },
+        "goron_mask": {
+          "name": "Goron Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/de/MM3D_Goron_Mask_Icon.png",
+          "completed": false
+        },
+        "zora_mask": {
+          "name": "Zora Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/70/OoT3D_Zora_Mask_Icon.png",
+          "completed": false
+        },
+        "fierce_deitys_mask": {
+          "name": "Fierce Deity Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/MM3D_Fierce_Deity%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "bunny_hood": {
+          "name": "Bunny Hood",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3d/OoT3D_Bunny_Hood_Icon.png",
+          "completed": false
+        },
+        "mask_of_truth": {
+          "name": "Mask of Truth",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/36/OoT3D_Mask_of_Truth_Icon.png",
+          "completed": false
+        },
+        "stone_mask": {
+          "name": "Stone Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/89/MM3D_Stone_Mask_Icon.png",
+          "completed": false 
+        },
+        "great_fairy_mask": {
+          "name": "Great Fairy's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/da/MM3D_Great_Fairy_Mask_Icon.png",
+          "completed": false
+        },
+        "keaton_mask": {
+          "name": "Keaton Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ea/OoT3D_Keaton_Mask_Icon.png",
+          "completed": false
+        },
+        "bremen_mask": {
+          "name": "Bremen Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7a/MM3D_Bremen_Mask_Icon.png",
+          "completed": false
+        },
+        "giants_mask": {
+          "name": "Giant's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/MM3D_Giant%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "kamaros_mask": {
+          "name": "Kamaro Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/MM3D_Kamaro%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "captains_hat": {
+          "name": "Captain's Hat",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/76/MM3D_Captain%27s_Hat_Icon.png",
+          "completed": false
+        },
+        "mask_of_scents": {
+          "name": "Mask of Scents",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a0/MM3D_Mask_of_Scents_Icon.png",
+          "completed": false
+        },
+        "romanis_mask": {
+          "name": "Romani's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d0/MM3D_Romani%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "troupe_leaders_mask": {
+          "name": "Troupe Leader's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/cc/MM3D_Troupe_Leader%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "postmans_hat": {
+          "name": "Postman's Hat",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/92/MM3D_Postman%27s_Hat_Icon.png",
+          "completed": false
+        },
+        "all_night_mask": {
+          "name": "All_Night Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/MM3D_All-Night_Mask_Icon.png",
+          "completed": false
+        },
+        "blast_mask": {
+          "name": "Blast Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/04/MM3D_Blast_Mask_Icon.png",
+          "completed": false
+        },
+        "garos_mask": {
+          "name": "Garo's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/MM3D_Garo%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "couples_mask": {
+          "name": "Couple's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8a/MM3D_Couple%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "don_geros_mask": {
+          "name": "Don Gero's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/48/MM3D_Don_Gero%27s_Mask_Icon.png",
+          "completed": false
+        },
+        "gibdo_mask": {
+          "name": "Gibdo Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/89/MM3D_Gibdo_Mask_Icon.png",
+          "completed": false
+        },
+        "kafeis_mask": {
+          "name": "Kafei's Mask",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/MM3D_Kafei%27s_Mask_Icon.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+      "maps": {
+        "map_of_clock_town": {
+          "name": "Map of Clock Town",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        },
+        "map_of_woodfall": {
+          "name": "Map of Woodfall",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        },
+        "map_of_snowhead": {
+          "name": "Map of Snowhead",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        },
+        "map_of_romani_ranch": {
+          "name": "Map of Romani Ranch",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        },
+        "map_of_great_bay": {
+          "name": "Map of Great Bay",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        },
+        "map_of_stone_tower": {
+          "name": "Map of Stone Tower",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoT3D_Dungeon_Map_Icon.png",
+          "completed": false
+        }
+      }
+    },
+    "bottom": {
+      "ocean_fishing_hole": {
+        "termina_seabass": {
+          "name": "Termina Seabass",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3e/MM3D_Termina_Seabass_Model.png/150px-MM3D_Termina_Seabass_Model.png",
+          "completed": false
+        },
+        "goodta_goby": {
+          "name": "Goodta Goby",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ad/MM3D_Goodta_Goby_Model.png/150px-MM3D_Goodta_Goby_Model.png",
+          "completed": false
+        },
+        "ambrosial_amberjack": {
+          "name": "Ambrosial Amberjack",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/MM3D_Ambrosial_Amberjack_Model.png/150px-MM3D_Ambrosial_Amberjack_Model.png",
+          "completed": false
+        },
+        "bashful_angler": {
+          "name": "Bashful Angler",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/ff/MM3D_Bashful_Angler_Model.png/150px-MM3D_Bashful_Angler_Model.png",
+          "completed": false
+        },
+        "dancing_sea_bream": {
+          "name": "Dancing Sea Bream",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3c/MM3D_Dancing_Sea_Bream_Model.png/150px-MM3D_Dancing_Sea_Bream_Model.png",
+          "completed": false
+        },
+        "fairy_fish": {
+          "name": "Fairy Fish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/df/MM3D_Fairy_Fish_Model.png/150px-MM3D_Fairy_Fish_Model.png",
+          "completed": false
+        },
+        "ninja_flounder": {
+          "name": "Ninja Flounder",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a9/MM3D_Ninja_Flounder_Model.png/150px-MM3D_Ninja_Flounder_Model.png",
+          "completed": false
+        },
+        "skullfish": {
+          "name": "Skullfish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/11/MM3D_Skullfish_Model.png/150px-MM3D_Skullfish_Model.png",
+          "completed": false
+        },
+        "nuptuna": {
+          "name": "Nuptuna",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/MM3D_Nuptuna_Model.png/150px-MM3D_Nuptuna_Model.png",
+          "completed": false
+        },
+        "grand_swordfish": {
+          "name": "Grand Swordfish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/66/MM3D_Grand_Swordfish_Model.png/150px-MM3D_Grand_Swordfish_Model.png",
+          "completed": false
+        },
+        "savage_shark": {
+          "name": "Savage Shark",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/db/MM3D_Savage_Shark_Model.png/150px-MM3D_Savage_Shark_Model.png",
+          "completed": false
+        },
+        "great_fairy_fish": {
+          "name": "Great Fairy Fish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f6/MM3D_Great_Fairy_Fish_Model.png/150px-MM3D_Great_Fairy_Fish_Model.png",
+          "completed": false
+        }
+      },
+      "swamp_fishing_hole": {
+        "termina_bass": {
+          "name": "Termina Bass",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/82/MM3D_Termina_Bass_Model.png/150px-MM3D_Termina_Bass_Model.png",
+          "completed": false
+        },
+        "termina_loach": {
+          "name": "Termina Loach",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/32/MM3D_Termina_Loach_Model.png/150px-MM3D_Termina_Loach_Model.png",
+          "completed": false
+        },
+        "groovy_carp": {
+          "name": "Groovy Carp",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cd/MM3D_Groovy_Carp_Model.png/150px-MM3D_Groovy_Carp_Model.png",
+          "completed": false
+        },
+        "sweet_ranchfish": {
+          "name": "Sweet Ranchfish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/64/MM3D_Sweet_Ranchfish_Model.png/150px-MM3D_Sweet_Ranchfish_Model.png",
+          "completed": false
+        },
+        "fragrant_reekfish": {
+          "name": "Fragrant Reekfish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bd/MM3D_Fragrant_Reekfish_Model.png/150px-MM3D_Fragrant_Reekfish_Model.png",
+          "completed": false
+        },
+        "mooranha": {
+          "name": "Mooranha",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fd/MM3D_Mooranha_Model.png/150px-MM3D_Mooranha_Model.png",
+          "completed": false
+        },
+        "postal_salmon": {
+          "name": "Postal Salmon",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a0/MM3D_Postal_Salmon_Model.png/150px-MM3D_Postal_Salmon_Model.png",
+          "completed": false
+        },
+        "cuccofish": {
+          "name": "Cuccofish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/ce/MM3D_Cuccofish_Model.png/150px-MM3D_Cuccofish_Model.png",
+          "completed": false
+        },
+        "ancient_fish": {
+          "name": "Ancient Fish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0f/MM3D_Ancient_Fish_Model.png/150px-MM3D_Ancient_Fish_Model.png",
+          "completed": false
+        },
+        "ferocious_pirarucu": {
+          "name": "Ferocious Pirarucu",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/MM3D_Ferocious_Pirarucu_Model.png/150px-MM3D_Ferocious_Pirarucu_Model.png",
+          "completed": false
+        },
+        "colossal_catfish": {
+          "name": "Colossal Catfish",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8f/MM3D_Colossal_Catfish_Model.png/150px-MM3D_Colossal_Catfish_Model.png",
+          "completed": false
+        },
+        "lord_chapu_chapu": {
+          "name": "Savage Shark",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/56/MM3D_Lord_Chapu-Chapu_Model.png/150px-MM3D_Lord_Chapu-Chapu_Model.png",
+          "completed": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100 leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+}
+
+/* SVG Styles for circular progress */
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke: #27ae60;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.percentage {
+  fill: #2c3e50;
+  font-size: 0.5em;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.magic-triangle-around {
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  /* Triângulo dourado */
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 9px solid #facc15;
+
+  opacity: 0;
+  filter: drop-shadow(0 0 5px rgba(250, 204, 21, 0.95));
+
+  animation: triangle-burst 0.75s ease-out forwards;
+}
+
+@keyframes triangle-burst {
+  0% {
+    transform: translate(0, 0) scale(0.4) rotate(0deg);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(var(--dx), var(--dy)) scale(1.1) rotate(240deg);
+    opacity: 0;
+  }
+}
+
