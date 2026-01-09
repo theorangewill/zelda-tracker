@@ -64,6 +64,9 @@ npm run build
 
 # Preview the production build:
 npm run preview
+
+# Deploy on github pages
+npm run deploy
 ```
 
 The app will be available at `http://localhost:5173/`.

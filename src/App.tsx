@@ -5,7 +5,7 @@ import './styles.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/zelda-tracker">
       <div className="min-h-screen bg-gray-900">
         <Routes>
           <Route path="/" element={<Home />} />
