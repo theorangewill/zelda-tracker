@@ -1,4 +1,3 @@
-
 # 🗡️ Zelda Quest Tracker
 
 A progress tracker for classic The Legend of Zelda games, built with React + Vite.
@@ -53,6 +52,9 @@ src/
 ```bash
 # Install dependencies (if needed):
 npm install
+
+# Execute tests
+npx jest
 
 # Run in development mode:
 npm run dev
