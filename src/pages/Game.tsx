@@ -14,6 +14,7 @@ import ManageSaveModal from '../components/modals/ManageSaveModal';
 import { useGameLoader } from '../hooks/useGameLoader';
 import { useGameProgress } from '../hooks/useGameProgress';
 import { useGamePersistence } from '../hooks/useGamePersistence';
+import ItemsContainerComponent from '../components/containers/ItemsContainer';
 
 
 export default function Game() {
@@ -110,12 +111,11 @@ export default function Game() {
                 cols={gameData.styling.health ?? 10}
               />
 
-              <DefinedContainerComponent
+              <ItemsContainerComponent
                 name='Items'
                 section={gameData.items}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                type='image'
                 cols={gameData.styling.items ?? 5}
               />
 
@@ -181,7 +181,6 @@ export default function Game() {
                 section={gameData.side_quests}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                type='button'
                 cols={gameData.styling.side_quests ?? 4}
               />
 
@@ -190,7 +189,6 @@ export default function Game() {
                 section={gameData.minigames}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                type='button'
                 cols={gameData.styling.minigames ?? 4}
               />
 
