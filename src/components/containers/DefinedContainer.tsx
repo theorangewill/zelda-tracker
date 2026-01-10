@@ -7,10 +7,9 @@ interface Props {
     section: QuestsSchema | ItemsSchema;
     onToggle?: (...args: any[]) => void;
     hookedItems: Set<string>;
-    cols: number;
 }
 
-export default function DefinedContainerComponent({ name, section, onToggle, hookedItems, cols }: Props) {
+export default function DefinedContainerComponent({ name, section, onToggle, hookedItems }: Props) {
 
   return (
     <div>

@@ -11,8 +11,6 @@ export interface StylingSchema {
   items?: number
   equipments?: Record<string, number>;
   health?: number;
-  side_quests?: number;
-  minigames?: number;
   maps?: number;
   abilities?: Record<string, number>;
   collectibles?: Record<string, number>;

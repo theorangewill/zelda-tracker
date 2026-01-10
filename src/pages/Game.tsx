@@ -181,7 +181,6 @@ export default function Game() {
                 section={gameData.side_quests}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                cols={gameData.styling.side_quests ?? 4}
               />
 
               <DefinedContainerComponent
@@ -189,7 +188,6 @@ export default function Game() {
                 section={gameData.minigames}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                cols={gameData.styling.minigames ?? 4}
               />
 
               <GenericContainerComponent
