@@ -7,7 +7,7 @@ interface Props {
     section: QuestsSchema | ItemsSchema;
     onToggle?: (...args: any[]) => void;
     hookedItems: Set<string>;
-    cols: number;
+    cols: string;
 }
 
 export default function ItemsContainerComponent({ name, section, onToggle, hookedItems, cols }: Props) {

@@ -7,13 +7,14 @@ export interface ImagesSchema {
   heart_container: string;
 }
 
-export interface StylingSchema {
-  items?: number
-  equipments?: Record<string, number>;
-  health?: number;
-  maps?: number;
-  abilities?: Record<string, number>;
-  collectibles?: Record<string, number>;
+export interface SectionsSchema {
+  items?: string
+  equipments?: Record<string, string>;
+  health?: string;
+  maps?: string;
+  abilities?: Record<string, string>;
+  collectibles?: Record<string, string>;
+  countable_collectibles?: Record<string, string>;
 }
 
 // =================================================
@@ -99,21 +100,41 @@ export interface GenericContainersSchema {
 
 // =================================================
 
+export interface CountableItemSchema {
+  name: string;
+  key: string;
+  image: string;
+  info: string;
+  total: number;
+}
+
+export type CountableCollectibleSchema = Record<string, CountableItemSchema>;
+
+
+export interface CountableCollectiblesSchema {
+  sidebar?: CountableCollectibleSchema;
+  main?: CountableCollectibleSchema;
+  bottom?: CountableCollectibleSchema;
+}
+// =================================================
+
 export interface GameDataSchema {
   id: string;
   title: string;
   images: ImagesSchema;
-  styling: StylingSchema;
+  styling: SectionsSchema;
+  infos: SectionsSchema;
   health: HealthSchema;
   magic_power: MagicPowerSchema;
   items: ItemsSchema;
   equipments: GenericContainerSchema;
   dungeons: DungeonsSchema;
-  side_quests: QuestsSchema;
+  quests: QuestsSchema;
   minigames: QuestsSchema;
   maps: ItemsSchema;
   abilities: GenericContainersSchema;
   collectibles: GenericContainersSchema;
+  countable_collectibles: CountableCollectiblesSchema;
 }
 
 // =================================================

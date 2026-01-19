@@ -46,7 +46,7 @@ def validate_game_data(game_data: Dict[str, Any]) -> List[str]:
     keys, errors = get_all_keys(game_data)
 
     # ------------------------------------------------------------
-    # 2) Validate hooks in side quests
+    # 2) Validate hooks in quests
     # ------------------------------------------------------------
     hooked = get_hooked_keys(game_data)
     if diff := (hooked - keys):

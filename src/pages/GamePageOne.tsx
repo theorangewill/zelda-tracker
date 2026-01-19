@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useState, useEffect, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Footer from '../components/Footer';
 import { Settings, ArrowLeft } from 'lucide-react';
 import GenericContainerComponent from '../components/containers/GenericContainer';
@@ -17,14 +17,35 @@ import { useGamePersistence } from '../hooks/useGamePersistence';
 import ItemsContainerComponent from '../components/containers/ItemsContainer';
 
 
-export default function Game() {
-  const { gameId } = useParams<{ gameId: string }>();
+export default function GamePageTwo({ gameId }: { gameId: string }) {
   const [showImportExportModal, setShowImportExportModal] = useState(false);
   const navigate = useNavigate();
   const [showCongratsModal, setShowCongratsModal] = useState(false);
 
   const { baseGame, gameData, setGameData } = useGameLoader(gameId);
-  
+
+
+  const itemsImages = useMemo(() => {
+    if (!gameData) return {};
+
+    const images: Record<string, string> = {};
+
+    for (const [key, item] of Object.entries(gameData.items || {})) {
+      if (item.image) {
+        images[key] = item.image;
+      }
+    }
+
+    for (const item of Object.values(gameData.equipments || {})) {
+      for (const [subkey, subitem] of Object.entries(item)) {
+        if (subitem.image) {
+          images[subkey] = subitem.image;
+        }
+      }
+    }
+
+    return images;
+  }, [gameData]);
 
   const {
     progress,
@@ -108,7 +129,7 @@ export default function Game() {
                 amtHeartContainers={amtHeartContainers}
                 magic_power={gameData.magic_power}
                 amtMagicPower={amtMagicPower}
-                cols={gameData.styling.health ?? 10}
+                cols={gameData.styling.health ?? "10"}
               />
 
               <ItemsContainerComponent
@@ -116,13 +137,14 @@ export default function Game() {
                 section={gameData.items}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                cols={gameData.styling.items ?? 5}
+                cols={gameData.styling.items ?? "5"}
               />
 
               <EquipmentsContainerComponent
                 section={gameData.equipments}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
+                containerCols="1"
                 cols={gameData.styling.equipments}
               />
 
@@ -131,6 +153,7 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.abilities}
+                infos={gameData.infos.abilities}
               />
 
               <GenericContainerComponent
@@ -138,6 +161,7 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.collectibles}
+                infos={gameData.infos.collectibles}
               />
 
               <HeartPiecesContainerComponent
@@ -154,8 +178,9 @@ export default function Game() {
               <DungeonsContainerComponent
                 section={gameData.dungeons}
                 images={gameData.images}
-                items={gameData.items}
+                itemsImages={itemsImages}
                 onToggle={toggleSelectedDungeon}
+                containerCols="1"
               />
             </div>
 
@@ -165,6 +190,7 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.abilities}
+                infos={gameData.infos.abilities}
               />
             </div>
 
@@ -174,11 +200,12 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.collectibles}
+                infos={gameData.infos.collectibles}
               />
 
               <DefinedContainerComponent
-                name='Side-quests'
-                section={gameData.side_quests}
+                name='Quests'
+                section={gameData.quests}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
               />
@@ -195,6 +222,7 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.abilities}
+                infos={gameData.infos.abilities}
               />
 
               <GenericContainerComponent
@@ -202,6 +230,7 @@ export default function Game() {
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
                 cols={gameData.styling.collectibles}
+                infos={gameData.infos.collectibles}
               />
 
           </div>

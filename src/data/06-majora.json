@@ -1,5 +1,5 @@
 {
-  "id": "6_majora",
+  "id": "06_majora",
   "title": "The Legend of Zelda: Majora's Mask",
   "images": {
     "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/MM3D_English_Logo.png/250px-MM3D_English_Logo.png",
@@ -12,7 +12,7 @@
   "styling": {
     "items": 8,
     "health": 10,
-    "side_quests": 4,
+    "quests": 4,
     "minigames": 4,
     "equipments": {
       "powers": 2
@@ -27,6 +27,9 @@
       "ocean_fishing_hole": 6,
       "swamp_fishing_hole": 6
     }
+  },
+  "infos": {
+
   },
   "health": {
     "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Majora%27s_Mask_Heart_Pieces",
@@ -564,7 +567,7 @@
       "completed": false
     }
   },
-  "side_quests": {
+  "quests": {
     "stray_fairy_clock_town_1": {
       "name": "Stray Fairy Clock Town #1",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cf/MM_Stray_Fairy_Orange_Model.png/120px-MM_Stray_Fairy_Orange_Model.png",
@@ -1419,5 +1422,8 @@
         }
       }
     }
+  },
+  "countable_collectibles": {
+    
   }
 }

@@ -6,7 +6,7 @@ interface Props {
   amtHeartContainers: number;
   magic_power: MagicPowerSchema;
   amtMagicPower: number;
-  cols: number;
+  cols: string;
 }
 
 export default function StatusContainerComponent({ images, health, amtHeartContainers, magic_power, amtMagicPower, cols }: Props) {

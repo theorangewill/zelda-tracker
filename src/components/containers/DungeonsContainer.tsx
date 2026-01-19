@@ -1,19 +1,21 @@
-import { DungeonKeys, DungeonsSchema, ImagesSchema, ItemsSchema } from "../../schemas/gameData";
+import { DungeonKeys, DungeonsSchema, ImagesSchema } from "../../schemas/gameData";
 import ImageToggleableItem from '../ImageToggleableItem';
 
 interface Props {
     section: DungeonsSchema;
     images: ImagesSchema;
-    items: ItemsSchema;
+    itemsImages: Record<string, string>;
     onToggle: (dungeonKey: string, element: DungeonKeys) => void;
+    containerCols: string;
 }
 
-export default function DungeonsContainerComponent({ section, images, items, onToggle }: Props) {
+export default function DungeonsContainerComponent({ section, images, itemsImages, onToggle, containerCols }: Props) {
 
   return (
     <div className="bg-gray-800 border border-gray-700 p-1 m-2 rounded-xl shadow-xl">
-      <div className="flex flex-col gap-1 p-2">
         <h2 className="text-lg font-bold text-white mb-2">Dungeons</h2>
+
+      <div className={`grid grid-cols-1 md:grid-cols-${containerCols} gap-3 p-2`}>
         {Object.entries(section || {}).map(([key, dungeon]) => (
         <div 
           key={key}
@@ -53,7 +55,7 @@ export default function DungeonsContainerComponent({ section, images, items, onT
           <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
             <ImageToggleableItem key={`${key}_item`} 
               element="item" 
-              image={items[dungeon.item.name].image} 
+              image={itemsImages[dungeon.item.name] ?? ''} 
               name={`${dungeon.name} Item`} 
               active={dungeon.item.completed} 
               onToggle={() => onToggle(key, 'item')} 

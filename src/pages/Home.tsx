@@ -33,7 +33,7 @@ export default function Home() {
             {Object.entries(gamesData).map(([filename, game]) => (
               <Link
                 key={filename}
-                to={`/game/${encodeURIComponent(filename)}`}
+                to={`/${encodeURIComponent(filename)}`}
                 className="group relative h-32 rounded-lg overflow-hidden transition-all duration-300 hover:ring-4 hover:ring-primary hover:shadow-lg hover:shadow-primary/50 bg-gray-800 flex items-center justify-center p-2"
               >
                 <img 

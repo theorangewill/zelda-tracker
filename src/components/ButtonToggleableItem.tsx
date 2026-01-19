@@ -114,6 +114,19 @@ export default function ButtonToggleableItem({ element, image, name, active, onT
       >
         {name}
       </span>
+
+
+      {(
+        <div
+          className="absolute left-1/2 -bottom-8 -translate-x-1/2
+                    opacity-0 group-hover:opacity-100
+                    transition-opacity duration-200
+                    bg-black text-white text-xs px-2 py-1 rounded-lg
+                    pointer-events-none whitespace-nowrap shadow-lg z-10"
+        >
+          {blocked ? name + " is hooked to a quest" : name}
+        </div>
+      )}
     </button>
 
     </div>

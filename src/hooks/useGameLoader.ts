@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import GameDataSchema from '../schemas/gameData';
 import applyProgressMap from '../utils/applyProgressMap';
 import { STORAGE_PREFIX } from '../constants/persistance';
+import applyCountableCollectibles from '../utils/applyCountableCollectibles';
 
 
 export function useGameLoader(gameId?: string) {
@@ -19,17 +20,22 @@ export function useGameLoader(gameId?: string) {
         { eager: true }
       );
 
-      const base = modules[`../data/${gameId}.json`]?.default;
+      let base = modules[`../data/${gameId}.json`]?.default;
       if (!base) {
         navigate('/');
         return;
       }
+      
+      base = applyCountableCollectibles(base);
+
 
       const saved = localStorage.getItem(`${STORAGE_PREFIX}${gameId}`);
+
       const data = saved
         ? applyProgressMap(base, JSON.parse(saved))
         : base;
 
+        
       setBaseGame(base);
       setGameData(data);
     } catch (e) {

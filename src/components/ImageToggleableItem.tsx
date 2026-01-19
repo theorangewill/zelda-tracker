@@ -30,7 +30,6 @@ export default function ImageToggleableItem({ element, image, name, active, onTo
         type="button"
         onClick={blocked ? undefined : () => onToggle && onToggle(element)}
         className="w-full aspect-square flex flex-col items-center overflow-visible relative transition-all duration-150"
-        title={name}
         disabled={blocked}
       >
         {/* ✨ Sparkles */}
