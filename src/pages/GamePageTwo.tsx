@@ -189,7 +189,7 @@ export default function GamePageTwo({ gameId }: { gameId: string }) {
                 images={gameData.images}
                 itemsImages={itemsImages}
                 onToggle={toggleSelectedDungeon}
-                containerCols="2"
+                containerCols="3"
               />
 
 
@@ -197,7 +197,7 @@ export default function GamePageTwo({ gameId }: { gameId: string }) {
                 section={gameData.equipments}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                containerCols="3"
+                containerCols="4"
                 cols={gameData.styling.equipments}
               />
 
