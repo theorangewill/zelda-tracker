@@ -20,8 +20,9 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
         <div 
           key={key}
           className={`relative flex flex-row items-center justify-between
-    w-full
-    border ${dungeon.completed ? 'border-green-700 border-4' : 'border-gray-700'} rounded-lg mt-3 mb-1 mx-1 p-1 pr-3 pl-3 pt-2`}
+            w-full
+            border ${dungeon.completed ? 'border-green-700 border-4' : 'border-gray-700'} rounded-lg mt-3 mb-1 mx-1 p-1 pr-3 pl-3 pt-2`
+          }
         >
           
           <span className="absolute -top-2 left-2 bg-gray-800 px-2 text-xs font-semibold text-gray-300">{dungeon.name}</span>
