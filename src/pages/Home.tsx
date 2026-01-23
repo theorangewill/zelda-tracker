@@ -34,13 +34,38 @@ export default function Home() {
               <Link
                 key={filename}
                 to={`/${encodeURIComponent(filename)}`}
-                className="group relative h-32 rounded-lg overflow-hidden transition-all duration-300 hover:ring-4 hover:ring-primary hover:shadow-lg hover:shadow-primary/50 hover:bg-gray-500 bg-gray-800 flex items-center justify-center p-2"
+                className="group relative h-32 rounded-lg overflow-hidden transition-all duration-300 hover:ring-4 hover:ring-primary hover:shadow-lg hover:shadow-primary/50 hover:bg-gray-700 bg-gray-800 flex items-center justify-center p-2"
               >
-                <img 
+
+
+
+              {/* Image */}
+              <div className="
+                w-full h-full
+                bg-gray-700
+                rounded-md
+                overflow-hidden
+                flex items-center justify-center
+              ">
+                <img
                   src={game.images.logo}
                   alt={game.title}
-                  className="w-full h-full object-contain"
+                  className="h-full max-w-none object-contain"
                 />
+              </div>
+
+              {/* Title */}
+              <div
+                className="absolute bottom-0 left-0 w-full z-10
+                          bg-gray-200/90 text-gray-900
+                          text-xs font-semibold px-2 py-1
+                          truncate
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-200"
+              >
+                {game.title}
+              </div>
+              
               </Link>
             ))}
           </div>
