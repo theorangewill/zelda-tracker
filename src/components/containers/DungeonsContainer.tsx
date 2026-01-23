@@ -28,8 +28,8 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
           
           <span className="absolute -top-2 left-2 bg-gray-800 px-2 text-xs font-semibold text-gray-300">{formatLabel(key)}</span>
           
-          <div className="flex-shrink-0 w-16 h-16 border border-gray-600 rounded overflow-hidden">
-            <img src={dungeon.image} alt={`${formatLabel(key)}`} className="w-full h-full object-cover" />
+          <div className="cursor-pointer flex-shrink-0 w-16 h-16 border border-gray-600 rounded overflow-hidden" onClick={() => onToggle(key, 'all')}>
+            <img src={dungeon.image} alt={`${formatLabel(key)}`} className="w-full h-full object-cover"  />
           </div>
 
           <div className="flex-shrink-0 w-8 h-8 overflow-hidden">

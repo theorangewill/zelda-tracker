@@ -72,7 +72,23 @@ export function useGameProgress(
             const hookParent = findObjectWithKey(draft, hook);
             hookParent[hook].completed = dungeon.boss.completed;
           }
-        } else {
+        } 
+        if (element === 'all') {
+          dungeon.item.completed = !dungeon.item.completed;
+          for (const hook of dungeon.item.hooks) {
+            const hookParent = findObjectWithKey(draft, hook);
+            hookParent[hook].completed = dungeon.item.completed;
+          }
+          dungeon.boss.completed = !dungeon.boss.completed;
+          for (const hook of dungeon.boss.hooks) {
+            const hookParent = findObjectWithKey(draft, hook);
+            hookParent[hook].completed = dungeon.boss.completed;
+          }
+          dungeon.compass = !dungeon.compass;
+          dungeon.map = !dungeon.map;
+          dungeon.boss_key = !dungeon.boss_key;
+        }
+        else if (element === 'compass' || element === 'map' || element === 'boss_key') {
           dungeon[element] = !dungeon[element];
         }
 

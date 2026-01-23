@@ -65,7 +65,7 @@ export interface QuestSchema extends ItemSchema {
   hooks: string[];
 }
 
-export type DungeonKeys = 'compass' | 'map' | 'boss_key' | 'completed' | 'item' | 'boss';
+export type DungeonKeys = 'compass' | 'map' | 'boss_key' | 'completed' | 'item' | 'boss' | 'all';
 export type DungeonsSchema = Record<string, DungeonSchema>;
 
 export interface DungeonSchema {
