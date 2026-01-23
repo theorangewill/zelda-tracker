@@ -17,7 +17,6 @@ export default function applyCountableCollectibles(base: GameDataSchema): GameDa
 
         for (let i = 0; i < section.total; i++) {
             newSection[`${sectionKey}_${i + 1}`] = {
-            name: `${section.name} ${i + 1}`,
             image: section.image,
             completed: false,
             };

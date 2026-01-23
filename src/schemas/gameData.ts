@@ -22,7 +22,6 @@ export interface SectionsSchema {
 export type ItemsSchema = Record<string, ItemSchema>;
 
 export interface ItemSchema {
-  name: string;
   image?: string;
   completed: boolean;
 }
@@ -61,7 +60,6 @@ export interface MagicPowerSchema {
 export type QuestsSchema = Record<string, QuestSchema>;
 
 export interface QuestSchema extends ItemSchema {
-  name: string;
   image?: string;
   completed: boolean;
   hooks: string[];
@@ -71,10 +69,9 @@ export type DungeonKeys = 'compass' | 'map' | 'boss_key' | 'completed' | 'item' 
 export type DungeonsSchema = Record<string, DungeonSchema>;
 
 export interface DungeonSchema {
-  name: string;
   image: string;
   item: {
-    name: string;
+    key: string;
     completed: boolean;
     hooks: string[];
   }
@@ -104,7 +101,6 @@ export interface GenericContainersSchema {
 // =================================================
 
 export interface CountableItemSchema {
-  name: string;
   key: string;
   image: string;
   info: string;

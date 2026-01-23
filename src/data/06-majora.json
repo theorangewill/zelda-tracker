@@ -221,10 +221,9 @@
   },
   "dungeons": {
     "woodfall_temple": {
-      "name": "Woodfall Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ab/MM3D_Woodfall_Temple.png/167px-MM3D_Woodfall_Temple.png",
       "item": {
-        "name": "bow",
+        "key": "bow",
         "completed": false,
         "hooks": ["bow"]
       },
@@ -239,10 +238,9 @@
       "completed": false
     },
     "snowhead_temple": {
-      "name": "Snowhead Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/MM3D_Snowhead_Temple.png/168px-MM3D_Snowhead_Temple.png",
       "item": {
-        "name": "fire_arrow",
+        "key": "fire_arrow",
         "completed": false,
         "hooks": ["fire_arrow"]
       },
@@ -257,10 +255,9 @@
       "completed": false
     },
     "great_bay_temple": {
-      "name": "Great Bay Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c5/MM3D_Great_Bay_Temple.png/180px-MM3D_Great_Bay_Temple.png",
       "item": {
-        "name": "ice_arrow",
+        "key": "ice_arrow",
         "completed": false,
         "hooks": ["ice_arrow"]
       },
@@ -275,10 +272,9 @@
       "completed": false
     },
     "stone_tower_temple": {
-      "name": "Stone Tower Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d3/MM3D_Stone_Tower_Temple.png/167px-MM3D_Stone_Tower_Temple.png",
       "item": {
-        "name": "light_arrow",
+        "key": "light_arrow",
         "completed": false,
         "hooks": ["light_arrow"]
       },

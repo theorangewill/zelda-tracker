@@ -318,10 +318,9 @@
   },
   "dungeons": {
     "inside_the_deku_tree": {
-      "name": "Inside the Deku Tree",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b9/OoT3D_Great_Deku_Tree_Model.png/320px-OoT3D_Great_Deku_Tree_Model.png",
       "item": {
-        "name": "fairy_slingshot",
+        "key": "fairy_slingshot",
         "completed": false,
         "hooks": ["fairy_slingshot"]
       },
@@ -335,11 +334,10 @@
       },
       "completed": false
     },
-    "dodongos_cavern": {
-      "name": "Dodongo's Cavern",
+    "dodongo's_cavern": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/OoT3D_Dodongo%27s_Cavern.png/320px-OoT3D_Dodongo%27s_Cavern.png",
       "item": {
-        "name": "bomb_bag",
+        "key": "bomb_bag",
         "completed": false,
         "hooks": ["bomb_bag", "bomb"]
       },
@@ -353,11 +351,10 @@
       },
       "completed": false
     },
-    "inside_jabu_jabus_belly": {
-      "name": "Inside Jabu-Jabu's Belly",
+    "inside_jabu-jabu's_belly": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e7/OoT3D_Inside_Jabu-Jabu%27s_Belly.png/320px-OoT3D_Inside_Jabu-Jabu%27s_Belly.png",
       "item": {
-        "name": "boomerang",
+        "key": "boomerang",
         "completed": false,
         "hooks": ["boomerang"]
       },
@@ -372,10 +369,9 @@
       "completed": false
     },
     "forest_temple": {
-      "name": "Forest Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f0/OoT3D_Forest_Temple.png/320px-OoT3D_Forest_Temple.png",
       "item": {
-        "name": "fairy_bow",
+        "key": "fairy_bow",
         "completed": false,
         "hooks": ["fairy_bow", "quiver"]
       },
@@ -390,10 +386,9 @@
       "completed": false
     },
     "fire_temple": {
-      "name": "Fire Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/41/OoT3D_Fire_Temple.png/320px-OoT3D_Fire_Temple.png",
       "item": {
-        "name": "megaton_hammer",
+        "key": "megaton_hammer",
         "completed": false,
         "hooks": ["megaton_hammer"]
       },
@@ -408,10 +403,9 @@
       "completed": false
     },
     "water_temple": {
-      "name": "Water Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a4/OoT3D_Water_Temple.png/320px-OoT3D_Water_Temple.png",
       "item": {
-        "name": "longshot",
+        "key": "longshot",
         "completed": false,
         "hooks": ["longshot"]
       },
@@ -426,10 +420,9 @@
       "completed": false
     },
     "shadow_temple": {
-      "name": "Shadow Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cd/OoT3D_Shadow_Temple.png/320px-OoT3D_Shadow_Temple.png",
       "item": {
-        "name": "hover_boots",
+        "key": "hover_boots",
         "completed": false,
         "hooks": ["hover_boots"]
       },
@@ -444,10 +437,9 @@
       "completed": false
     },
     "spirit_temple": {
-      "name": "Spirit Temple",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/da/OoT3D_Spirit_Temple.png/320px-OoT3D_Spirit_Temple.png",
       "item": {
-        "name": "mirror_shield",
+        "key": "mirror_shield",
         "completed": false,
         "hooks": ["mirror_shield"]
       },
@@ -461,11 +453,10 @@
       },
       "completed": false
     },
-    "ganons_castle": {
-      "name": "Ganon's Castle",
+    "ganon's_castle": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/74/OoT3D_Inside_Ganon%27s_Castle.png/320px-OoT3D_Inside_Ganon%27s_Castle.png",
       "item": {
-        "name": "golden_gauntlets",
+        "key": "golden_gauntlets",
         "completed": false,
         "hooks": ["golden_gauntlets"]
       },
@@ -967,7 +958,6 @@
   "countable_collectibles": {
     "sidebar": {
       "golden_skulltulas": {
-        "name": "Golden Skulltula",
         "key": "golden_skulltula",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
         "total": 100

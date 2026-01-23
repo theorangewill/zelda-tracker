@@ -30,7 +30,7 @@ export default function EquipmentsContainerComponent({ section, onToggle, hooked
                 key={variant_key} 
                 element={variant_key} 
                 image={variant.image} 
-                name={variant.name ?? formatLabel(variant_key)} 
+                name={formatLabel(variant_key)} 
                 active={variant.completed} 
                 onToggle={onToggle} 
                 blocked={hookedItems.has(variant_key)}
@@ -40,7 +40,7 @@ export default function EquipmentsContainerComponent({ section, onToggle, hooked
                 key={variant_key}
                 element={variant_key}
                 image={variant.image}
-                name={variant.name ?? formatLabel(variant_key)}
+                name={formatLabel(variant_key)}
                 active={variant.completed}
                 onToggle={onToggle}
                 blocked={hookedItems.has(variant_key)}

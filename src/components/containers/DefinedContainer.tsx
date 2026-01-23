@@ -21,7 +21,7 @@ export default function DefinedContainerComponent({ name, section, onToggle, hoo
               key={element_key}
               element={element_key}
               image={element.image}
-              name={element.name ?? formatLabel(element_key)}
+              name={formatLabel(element_key)}
               active={element.completed}
               onToggle={onToggle}
               blocked={hookedItems.has(element_key)}

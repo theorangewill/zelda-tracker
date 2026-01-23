@@ -155,8 +155,7 @@
   },
   "equipments": {
     "swords": {
-      "fighters_sword": {
-        "name": "Fighter's Sword",
+      "fighter's_sword": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/ALttP_Fighter%27s_Sword_Sprite.png",
         "completed": false
       },
@@ -174,8 +173,7 @@
       }
     },
     "shields": {
-      "fighters_shield": {
-        "name": "Fighter's Shield",
+      "fighter's_shield": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/ALttP_Fighter%27s_Shield_Sprite.png",
         "completed": false
       },
@@ -207,8 +205,7 @@
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/ALttP_Pegasus_Shoes_Sprite.png",
         "completed": false
       },
-      "zoras_flippers": {
-        "name": "Zora's Flippers",
+      "zora's_flippers": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/88/ALttP_Zora%27s_Flippers_Sprite.png",
         "completed": false
       }
@@ -218,8 +215,7 @@
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/54/ALttP_Power_Glove_Sprite.png",
         "completed": false
       },
-      "titans_mitt": {
-        "name": "Titan's Mitt",
+      "titan's_mitt": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/ALttP_Titan%27s_Mitt_Sprite.png",
         "completed": false
       }
@@ -241,10 +237,9 @@
   },
   "dungeons": {
     "eastern_palace": {
-      "name": "Eastern Palace",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/13/ALttP_Eastern_Palace.png/150px-ALttP_Eastern_Palace.png",
       "item": {
-        "name": "bow",
+        "key": "bow",
         "completed": false,
         "hooks": ["bow"]
       },
@@ -259,10 +254,9 @@
       "completed": false
     },
     "desert_palace": {
-      "name": "Desert Palace",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/61/ALttP_Desert_Palace.png/150px-ALttP_Desert_Palace.png",
       "item": {
-        "name": "power_glove",
+        "key": "power_glove",
         "completed": false,
         "hooks": ["power_glove"]
       },
@@ -277,10 +271,9 @@
       "completed": false
     },
     "tower_of_hera": {
-      "name": "Tower of Hera",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b1/ALttP_Tower_of_Hera.png/150px-ALttP_Tower_of_Hera.png",
       "item": {
-        "name": "moon_pearl",
+        "key": "moon_pearl",
         "completed": false,
         "hooks": ["moon_pearl"]
       },
@@ -295,10 +288,9 @@
       "completed": false
     },
     "palace_of_darkness": {
-      "name": "Power of Darkness",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b2/ALttP_Palace_of_Darkness.png/150px-ALttP_Palace_of_Darkness.png",
       "item": {
-        "name": "magic_hammer",
+        "key": "magic_hammer",
         "completed": false,
         "hooks": ["magic_hammer"]
       },
@@ -313,10 +305,9 @@
       "completed": false
     },
     "swamp_palace": {
-      "name": "Swamp Palace",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/47/ALttP_Swamp_Palace.png/150px-ALttP_Swamp_Palace.png",
       "item": {
-        "name": "hookshot",
+        "key": "hookshot",
         "completed": false,
         "hooks": ["hookshot"]
       },
@@ -331,10 +322,9 @@
       "completed": false
     },
     "skull_woods": {
-      "name": "Skull Woods",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/ba/ALttP_Skull_Woods.png/150px-ALttP_Skull_Woods.png",
       "item": {
-        "name": "fire_rod",
+        "key": "fire_rod",
         "completed": false,
         "hooks": ["fire_rod"]
       },
@@ -348,11 +338,10 @@
       },
       "completed": false
     },
-    "thieves_town": {
-      "name": "Thieves' Town",
+    "thieves'_town": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d6/ALttP_Thieves%27_Town.png/150px-ALttP_Thieves%27_Town.png",
       "item": {
-        "name": "titans_mitt",
+        "key": "titans_mitt",
         "completed": false,
         "hooks": ["titans_mitt"]
       },
@@ -367,10 +356,9 @@
       "completed": false
     },
     "ice_palace": {
-      "name": "Ice Palace",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7e/ALttP_Ice_Palace.png/75px-ALttP_Ice_Palace.png",
       "item": {
-        "name": "blue_mail",
+        "key": "blue_mail",
         "completed": false,
         "hooks": ["blue_mail"]
       },
@@ -385,10 +373,9 @@
       "completed": false
     },
     "misery_mire": {
-      "name": "Misery Mire",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/ALttP_Misery_Mire.png/150px-ALttP_Misery_Mire.png",
       "item": {
-        "name": "cane_of_somaria",
+        "key": "cane_of_somaria",
         "completed": false,
         "hooks": ["cane_of_somaria"]
       },
@@ -403,10 +390,9 @@
       "completed": false
     },
     "turtle_rock": {
-      "name": "Turtle Rock",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a6/ALttP_Turtle_Rock.png/150px-ALttP_Turtle_Rock.png",
       "item": {
-        "name": "mirror_shield",
+        "key": "mirror_shield",
         "completed": false,
         "hooks": ["mirror_shield"]
       },
@@ -420,11 +406,10 @@
       },
       "completed": false
     },
-    "ganons_tower": {
-      "name": "Ganon's Tower",
+    "ganon's_tower": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/ALttP_Ganon%27s_Tower.png/150px-ALttP_Ganon%27s_Tower.png",
       "item": {
-        "name": "red_mail",
+        "key": "red_mail",
         "completed": false,
         "hooks": ["red_mail"]
       },
@@ -614,17 +599,14 @@
     "main": {
       "pendants": {
         "pendant_of_courage": {
-          "name": "Pendant of Courage",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/ALttP_Pendant_of_Courage_Sprite.png",
           "completed": false
         },
         "pendant_of_power": {
-          "name": "Pendant of Power",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/ALttP_Pendant_of_Power_Sprite.png",
           "completed": false
         },
         "pendant_of_wisdom": {
-          "name": "Pendant of Wisdom",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/ALttP_Pendant_of_Wisdom_Sprite.png",
           "completed": false
         }

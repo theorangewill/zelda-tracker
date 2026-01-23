@@ -9,7 +9,6 @@ describe("applyCountableCollectibles", () => {
       countable_collectibles: {
         sidebar: {
           coins: {
-            name: "Coin",
             image: "coin.png",
             total: 3,
           },
@@ -22,17 +21,14 @@ describe("applyCountableCollectibles", () => {
 
     expect(result.collectibles.sidebar?.coins).toEqual({
       coins_1: {
-        name: "Coin 1",
         image: "coin.png",
         completed: false,
       },
       coins_2: {
-        name: "Coin 2",
         image: "coin.png",
         completed: false,
       },
       coins_3: {
-        name: "Coin 3",
         image: "coin.png",
         completed: false,
       },
@@ -44,14 +40,12 @@ describe("applyCountableCollectibles", () => {
       countable_collectibles: {
         sidebar: {
           gems: {
-            name: "Gem",
             image: "gem.png",
             total: 2,
           },
         },
         main: {
           stars: {
-            name: "Star",
             image: "star.png",
             total: 1,
           },
@@ -84,7 +78,6 @@ describe("applyCountableCollectibles", () => {
       countable_collectibles: {
         bottom: {
           relics: {
-            name: "Relic",
             image: "relic.png",
             total: 1,
           },
@@ -94,7 +87,6 @@ describe("applyCountableCollectibles", () => {
         sidebar: {
           existing: {
             item_1: {
-              name: "Existing",
               image: "x.png",
               completed: true,
             },
@@ -114,7 +106,6 @@ describe("applyCountableCollectibles", () => {
       countable_collectibles: {
         main: {
           tokens: {
-            name: "Token",
             image: "token.png",
             total: 2,
           },
@@ -133,7 +124,6 @@ describe("applyCountableCollectibles", () => {
       countable_collectibles: {
         sidebar: {
           empty: {
-            name: "Empty",
             image: "empty.png",
             total: 0,
           },
