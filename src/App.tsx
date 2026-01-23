@@ -10,6 +10,7 @@ function App() {
       <div className="min-h-screen bg-gray-900">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/03-linktothepast" element={<GamePageTwo gameId='03-linktothepast' />} />
           <Route path="/06-majora" element={<GamePageOne gameId='06-majora' />} />
           <Route path="/05-ocarina" element={<GamePageTwo gameId='05-ocarina' />} />
         </Routes>

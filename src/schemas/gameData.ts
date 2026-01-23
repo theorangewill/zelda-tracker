@@ -33,24 +33,27 @@ export interface HealthSchema {
   info: {
     min: number;
     max: number;
+    heart_cointainers_total: number;
+    heart_pieces_total: number;
+    heart_pieces_list: string;
   }
-  heart_containers: Record<string, {
-      name: string;
+  heart_containers?: Record<string, {
       completed: boolean;
     }>;
-  heart_pieces: Record<string, {
-      name: string;
+  heart_pieces?: Record<string, {
       completed: boolean;
     }>;
-  heart_pieces_list: string;
 }
 
 export interface MagicPowerSchema {
   info: {
     min: number;
     max: number;
+    magic_containers_total: number;
   }
-  magic_containers: Record<string, ItemSchema>;
+  magic_containers?: Record<string, {
+      completed: boolean;
+    }>;
 }
 
 // =================================================

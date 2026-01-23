@@ -51,7 +51,8 @@ def validate_game_data(game_data: Dict[str, Any]) -> List[str]:
     hooked = get_hooked_keys(game_data)
     if diff := (hooked - keys):
         for k in diff:
-            errors.append(f"Hooked key '{k}' does not exist")
+            if not(k.startswith("heart_piece_") or k.startswith("heart_container_") or k.startswith("magic_container_")):
+                errors.append(f"Hooked key '{k}' does not exist")
 
     return errors
 

@@ -34,7 +34,7 @@ export default function Home() {
               <Link
                 key={filename}
                 to={`/${encodeURIComponent(filename)}`}
-                className="group relative h-32 rounded-lg overflow-hidden transition-all duration-300 hover:ring-4 hover:ring-primary hover:shadow-lg hover:shadow-primary/50 bg-gray-800 flex items-center justify-center p-2"
+                className="group relative h-32 rounded-lg overflow-hidden transition-all duration-300 hover:ring-4 hover:ring-primary hover:shadow-lg hover:shadow-primary/50 hover:bg-gray-500 bg-gray-800 flex items-center justify-center p-2"
               >
                 <img 
                   src={game.images.logo}

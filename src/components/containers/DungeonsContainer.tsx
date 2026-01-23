@@ -1,4 +1,5 @@
 import { DungeonKeys, DungeonsSchema, ImagesSchema } from "../../schemas/gameData";
+import formatLabel from "../../utils/formatLabel";
 import ImageToggleableItem from '../ImageToggleableItem';
 
 interface Props {
@@ -28,7 +29,7 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
           <span className="absolute -top-2 left-2 bg-gray-800 px-2 text-xs font-semibold text-gray-300">{dungeon.name}</span>
           
           <div className="flex-shrink-0 w-16 h-16 border border-gray-600 rounded overflow-hidden">
-            <img src={dungeon.image} alt={`${dungeon.name} Dungeon`} className="w-full h-full object-cover" />
+            <img src={dungeon.image} alt={`${dungeon.name ?? formatLabel(key)} Dungeon`} className="w-full h-full object-cover" />
           </div>
 
           <div className="flex-shrink-0 w-8 h-8 overflow-hidden">

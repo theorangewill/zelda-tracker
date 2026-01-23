@@ -1,4 +1,5 @@
 import { HealthSchema } from "../../schemas/gameData";
+import formatLabel from "../../utils/formatLabel";
 import ImageToggleableItem from '../ImageToggleableItem';
 import InfoLink from "../InfoLink";
 
@@ -16,7 +17,7 @@ export default function HeartPiecesContainerComponent({ section, image, onToggle
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-lg font-bold text-white mb-2">Heart pieces</h2>
         <InfoLink
-          href={section.heart_pieces_list}
+          href={section.info.heart_pieces_list}
           label="Heart Pieces locations"
         />
       </div>
@@ -26,7 +27,7 @@ export default function HeartPiecesContainerComponent({ section, image, onToggle
             key={key} 
             element={key} 
             image={image} 
-            name={heart_piece.name} 
+            name={formatLabel(key)} 
             active={heart_piece.completed} 
             onToggle={onToggle} 
             blocked={hookedItems.has(key)}

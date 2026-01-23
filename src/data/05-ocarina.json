@@ -35,336 +35,123 @@
     }
   },
   "health": {
-    "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Ocarina_of_Time_Heart_Pieces",
     "info": {
       "min": 3,
-      "max": 20
-    },
-    "heart_containers": {
-      "heart_container_1": {
-        "name": "Heart Container #1",
-        "completed": false
-      },
-      "heart_container_2": {
-        "name": "Heart Container #2",
-        "completed": false
-      },
-      "heart_container_3": {
-        "name": "Heart Container #3",
-        "completed": false
-      },
-      "heart_container_4": {
-        "name": "Heart Container #4",
-        "completed": false
-      },
-      "heart_container_5": {
-        "name": "Heart Container #5",
-        "completed": false
-      },
-      "heart_container_6": {
-        "name": "Heart Container #6",
-        "completed": false
-      },
-      "heart_container_7": {
-        "name": "Heart Container #7",
-        "completed": false
-      },
-      "heart_container_8": {
-        "name": "Heart Container #8",
-        "completed": false
-      }
-    },
-    "heart_pieces": {
-      "heart_piece_1": {
-        "name": "Heart Piece #1",
-        "completed": false
-      },
-      "heart_piece_2": {
-        "name": "Heart Piece #2",
-        "completed": false
-      },
-      "heart_piece_3": {
-        "name": "Heart Piece #3",
-        "completed": false
-      },
-      "heart_piece_4": {
-        "name": "Heart Piece #4",
-        "completed": false
-      },
-      "heart_piece_5": {
-        "name": "Heart Piece #5",
-        "completed": false
-      },
-      "heart_piece_6": {
-        "name": "Heart Piece #6",
-        "completed": false
-      },
-      "heart_piece_7": {
-        "name": "Heart Piece #7",
-        "completed": false
-      },
-      "heart_piece_8": {
-        "name": "Heart Piece #8",
-        "completed": false
-      },
-      "heart_piece_9": {
-        "name": "Heart Piece #9",
-        "completed": false
-      },
-      "heart_piece_10": {
-        "name": "Heart Piece #10",
-        "completed": false
-      },
-      "heart_piece_11": {
-        "name": "Heart Piece #11",
-        "completed": false
-      },
-      "heart_piece_12": {
-        "name": "Heart Piece #12",
-        "completed": false  
-      },
-      "heart_piece_13": {
-        "name": "Heart Piece #13",
-        "completed": false
-      },
-      "heart_piece_14": {
-        "name": "Heart Piece #14",
-        "completed": false
-      },
-      "heart_piece_15": {
-        "name": "Heart Piece #15",
-        "completed": false
-      },
-      "heart_piece_16": {
-        "name": "Heart Piece #16",
-        "completed": false
-      },
-      "heart_piece_17": {
-        "name": "Heart Piece #17",
-        "completed": false
-      },
-      "heart_piece_18": {
-        "name": "Heart Piece #18",
-        "completed": false
-      },
-      "heart_piece_19": {
-        "name": "Heart Piece #19",
-        "completed": false
-      },
-      "heart_piece_20": {
-        "name": "Heart Piece #20",
-        "completed": false
-      },
-      "heart_piece_21": {
-        "name": "Heart Piece #21",
-        "completed": false
-      },
-      "heart_piece_22": {
-        "name": "Heart Piece #22",
-        "completed": false
-      },
-      "heart_piece_23": {
-        "name": "Heart Piece #23",
-        "completed": false
-      },
-      "heart_piece_24": {
-        "name": "Heart Piece #24",
-        "completed": false
-      },
-      "heart_piece_25": {
-        "name": "Heart Piece #25",
-        "completed": false
-      },
-      "heart_piece_26": {
-        "name": "Heart Piece #26",
-        "completed": false
-      },
-      "heart_piece_27": {
-        "name": "Heart Piece #27",
-        "completed": false
-      },
-      "heart_piece_28": {
-        "name": "Heart Piece #28",
-        "completed": false
-      },
-      "heart_piece_29": {
-        "name": "Heart Piece #29",
-        "completed": false
-      },
-      "heart_piece_30": {
-        "name": "Heart Piece #30",
-        "completed": false
-      },
-      "heart_piece_31": {
-        "name": "Heart Piece #31",
-        "completed": false
-      },
-      "heart_piece_32": {
-        "name": "Heart Piece #32",
-        "completed": false
-      },
-      "heart_piece_33": {
-        "name": "Heart Piece #33",
-        "completed": false
-      },
-      "heart_piece_34": {
-        "name": "Heart Piece #34",
-        "completed": false
-      },
-      "heart_piece_35": {
-        "name": "Heart Piece #35",
-        "completed": false
-      },
-      "heart_piece_36": {
-        "name": "Heart Piece #36",
-        "completed": false
-      }
+      "max": 20,
+      "heart_cointainers_total": 8,
+      "heart_pieces_total": 36,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Ocarina_of_Time_Heart_Pieces",
     }
   },
   "magic_power": {
     "info": {
       "min": 0,
-      "max": 2
-    },
-    "magic_containers": {
-      "magic_container_1": {
-        "name": "Magic Container 1",
-        "completed": false
-      },
-      "magic_container_2": {
-        "name": "Magic Container 2",
-        "completed": false
-      }
+      "max": 2,
+      "magic_containers_total": 2
     }
   },
   "items": {
     "fairy_ocarina": {
-      "name": "Fairy Ocarina",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoT3D_Fairy_Ocarina_Icon.png",
       "completed": false
     },
     "ocarina_of_time": {
-      "name": "Ocarina of Time",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bc/OoT3D_Ocarina_of_Time_Icon.png",
       "completed": false
     },
     "fairy_slingshot": {
-      "name": "Fairy Slingshot",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f2/OoT3D_Fairy_Slingshot_Icon.png",
       "completed": false
     },
     "boomerang": {
-      "name": "Boomerang",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/60/OoT3D_Boomerang_Icon.png",
       "completed": false
     },
     "fairy_bow": {
-      "name": "Fairy Bow",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoT3D_Fairy_Bow_Icon.png",
       "completed": false
     },
     "fire_arrow": {
-      "name": "Fire Arrow",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoT3D_Fire_Arrow_Icon.png",
       "completed": false
     },
     "ice_arrow": {
-      "name": "Ice Arrow",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e2/OoT3D_Ice_Arrow_Icon.png",
       "completed": false
     },
     "light_arrow": {
-      "name": "Light Arrow",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/OoT3D_Light_Arrow_Icon.png",
       "completed": false
     },
     "hookshot": {
-      "name": "Hookshot",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoT3D_Hookshot_Icon.png",
       "completed": false
     },
     "longshot": {
-      "name": "Longshot",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Longshot_Icon.png",
       "completed": false
     },
     "megaton_hammer": {
-      "name": "Megaton Hammer",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c7/OoT3D_Megaton_Hammer_Icon.png",
       "completed": false
     },
     "lens_of_truth": {
-      "name": "Lens of Truth",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/OoT3D_Lens_of_Truth_Icon.png",
       "completed": false
     },
     "bomb": {
-      "name": "Bomb",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/ca/OoT3D_Bomb_Icon.png",
       "completed": false
     },
     "bombchu": {
-      "name": "Bombchu",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Bombchu_Icon.png",
       "completed": false
     },
     "deku_stick": {
-      "name": "Deku Stick",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5e/OoT3D_Deku_Stick_Icon.png",
       "completed": false
     },
     "deku_nut": {
-      "name": "Deku Nut",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/97/OoT3D_Deku_Nut_Icon.png",
       "completed": false
     },
     "magic_bean": {
-      "name": "Magic Bean",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9f/OoT3D_Magic_Bean_Icon.png",
       "completed": false
     },
-    "dins_fire": {
-      "name": "Din's Fire",
+    "din's_fire": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7a/OoT3D_Din%27s_Fire_Icon.png",
       "completed": false
     },
-    "farores_wind": {
-      "name": "Farore's Wind",
+    "farore's_wind": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoT3D_Farore%27s_Wind_Icon.png",
       "completed": false
     },
-    "nayrus_love": {
-      "name": "Nayru's Love",
+    "nayru's_love": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d2/OoT3D_Nayru%27s_Love_Icon.png",
       "completed": false
     },
     "shard_of_agony": {
-      "name": "Shard of Agony",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/OoT3D_Shard_of_Agony_Icon.png",
       "completed": false
     },
     "gerudos_membership_card": {
-      "name": "Gerudo Membership Card",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/OoT3D_Gerudo_Token_Icon.png",
       "completed": false
     },
-    "bottle1": {
-      "name": "Bottle #1",
+    "bottle_1": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
       "completed": false
     },
-    "bottle2": {
-      "name": "Bottle #2",
+    "bottle_2": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
       "completed": false
     },
-    "bottle3": {
-      "name": "Bottle #3",
+    "bottle_3": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
       "completed": false
     },
-    "bottle4": {
-      "name": "Bottle #4",
+    "bottle_4": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoT3D_Bottle_Icon.png",
       "completed": false
     }
@@ -372,192 +159,158 @@
   "equipments": {
     "swords": {
       "kokiri_sword": {
-        "name": "Kokiri Sword",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/OoT_Kokiri_Sword_Icon.png",
         "completed": false
       },
       "master_sword": {
-        "name": "Master Sword",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8a/OoT_Master_Sword_Icon.png",
         "completed": false
       },
-      "broken_giants_knife": {
-        "name": "Broken Giant's Knife",
+      "broken_giant's_knife": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f5/OoT_Broken_Giant%27s_Knife_Icon.png",
         "completed": false
       },
-      "giants_knife": {
-        "name": "Giant's Knife",
+      "giant's_knife": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2e/OoT_Giant%27s_Knife_Icon.png",
         "completed": false
       },
-      "biggorons_sword": {
-        "name": "Biggoron's Sword",
+      "biggoron's_sword": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2e/OoT_Giant%27s_Knife_Icon.png",
         "completed": false
       }
     },
     "shields": {
       "deku_shield": {
-        "name": "Deku Shield",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5e/OoT_Deku_Shield_Icon.png",
         "completed": false
       },
       "hylian_shield": {
-        "name": "Hylian Shield",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/OoT_Hylian_Shield_Icon.png",
         "completed": false
       },
       "mirror_shield": {
-        "name": "Mirror Shield",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/39/OoT_Mirror_Shield_Icon.png",
         "completed": false
       }
     },
     "clothing": {
       "kokiri_tunic": {
-        "name": "Kokiri Tunic",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f0/OoT3D_Kokiri_Tunic_Icon.png",
         "completed": false
       },
       "goron_tunic": {
-        "name": "Goron Tunic",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/00/OoT3D_Goron_Tunic_Icon.png",
         "completed": false
       },
       "zora_tunic": {
-        "name": "Zora Tunic",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f7/OoT3D_Zora_Tunic_Icon.png",
         "completed": false
       }
     },
     "boots": {
       "kokiri_boots": {
-        "name": "Kokiri Boots",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1c/OoT3D_Kokiri_Boots_Icon.png",
         "completed": false
       },
       "iron_boots": {
-        "name": "Iron Boots",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/97/OoT3D_Iron_Boots_Icon.png",
         "completed": false
       },
       "hover_boots": {
-        "name": "Hover Boots",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bd/OoT3D_Hover_Boots_Icon.png",
         "completed": false
       }
     },
     "bullet_bags": {
       "bullet_bag": {
-        "name": "Bullet Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/61/OoT3D_Bullet_Bag_Icon.png",
         "completed": false
       },
       "bigger_bullet_bag": {
-        "name": "Bigger Bullet Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/95/OoT3D_Bigger_Bullet_Bag_Icon.png",
         "completed": false
       },
       "biggest_bullet_bag": {
-        "name": "Biggest Bullet Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/OoT3D_Biggest_Bullet_Bag_Icon.png",
         "completed": false
       }
     },
     "powers": {
       "spin_attack": {
-        "name": "Spin Attack",
         "completed": false
       },
       "defensive": {
-        "name": "Defensive",
         "completed": false
       }
     },
     "bomb_bags": {
       "bomb_bag": {
-        "name": "Bomb Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/OoT3D_Bomb_Bag_Icon.png",
         "completed": false
       },
       "big_bomb_bag": {
-        "name": "Big Bomb Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/OoT3D_Big_Bomb_Bag_Icon.png",
         "completed": false
       },
       "biggest_bomb_bag": {
-        "name": "Biggest Bomb Bag",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/78/OoT3D_Biggest_Bomb_Bag_Icon.png",
         "completed": false
       }
     },
     "quivers": {
       "quiver": {
-        "name": "Quiver",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoT3D_Quiver_Icon.png",
         "completed": false
       },
       "large_quiver": {
-        "name": "Large Quiver",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Big_Quiver_Icon.png",
         "completed": false
       },
       "largest_quiver": {
-        "name": "Largest Quiver",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/88/OoT3D_Biggest_Quiver_Icon.png",
         "completed": false
       }
     },
     "wallets": {
       "adult_wallet": {
-        "name": "Adult Wallet",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/OoT3D_Adult%27s_Wallet_Icon.png",
         "completed": false
       },
       "giant_wallet": {
-        "name": "Giant Wallet",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/55/OoT3D_Giant%27s_Wallet_Icon.png",
         "completed": false
       }
     },
     "strength_enhancements": {
-      "gorons_bracelet": {
-        "name": "Goron's Bracelet",
+      "goron's_bracelet": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1a/OoT3D_Goron%27s_Bracelet_Icon.png",
         "completed": false
       },
       "silver_gauntlets": {
-        "name": "Silver Gauntlets",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/05/OoT3D_Silver_Gauntlets_Icon.png",
         "completed": false
       },
       "golden_gauntlets": {
-        "name": "Golden Gauntlets",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/74/OoT3D_Golden_Gauntlets_Icon.png",
         "completed": false
       }
     },
     "diving_scales": {
       "silver_scale": {
-        "name": "Silver Scale",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4e/OoT_Silver_Scale_Icon.png",
         "completed": false
       },
       "golden_scale": {
-        "name": "Golden Scale",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/95/OoT_Golden_Scale_Icon.png",
         "completed": false
       }
     },
     "animals": {
       "epona": {
-        "name": "Epona",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a1/OoT3D_Epona_Model.png/118px-OoT3D_Epona_Model.png",
         "completed": false
       },
       "cow": {
-        "name": "Cow",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/61/OoT3D_Cow_Model.png/320px-OoT3D_Cow_Model.png",
         "completed": false
       }
@@ -729,411 +482,343 @@
   },
   "quests": {
     "get_sword_and_shield": {
-      "name": "Get Sword and Shield",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/OoT_Kokiri_Sword_Icon.png",
       "completed": false,
       "hooks": ["kokiri_sword", "deku_shield"]
     },
     "say_goodbye_to_saria": {
-      "name": "Say Goodbye to Saria",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c3/OoT3D_Saria_Model.png/42px-OoT3D_Saria_Model.png",
       "completed": false,
       "hooks": ["fairy_ocarina"]
     },
     "wake_talon_up": {
-      "name": "Wake Talon Up",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3c/OoT3D_Talon_Model.png/76px-OoT3D_Talon_Model.png",
       "completed": false,
       "hooks": []
     },
     "rescue_mamamu_yan_dog": {
-      "name": "Rescue Mamamu Yan Dog",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/21/OoT3D_Pooch_Lady_Model.png/99px-OoT3D_Pooch_Lady_Model.png",
       "completed": false,
       "hooks": ["heart_piece_9"]
     },
     "meet_princess_zelda": {
-      "name": "Meet Princess Zelda",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cb/OoT3D_Princess_Zelda_Model.png/46px-OoT3D_Princess_Zelda_Model.png",
       "completed": false,
-      "hooks": ["zeldas_lullaby"]
+      "hooks": ["zelda's_lullaby"]
     },
     "get_all_cuccos": {
-      "name": "Get all Cuccos",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/OoT3D_Cucco_Icon.png",
       "completed": false,
-      "hooks": ["bottle2"]
+      "hooks": ["bottle_2"]
     },
-    "royal_familys_tomb": {
-      "name": "Royal Family's Tomb",
+    "royal_family's_tomb": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4d/OoT3D_ReDead_Model.png/46px-OoT3D_ReDead_Model.png",
       "completed": false,
-      "hooks": ["suns_song"]
+      "hooks": ["sun's_song"]
     },
     "dance_with_darunia": {
-      "name": "Dance with Darunia",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2b/OoT3D_Darunia_Model.png/102px-OoT3D_Darunia_Model.png",
       "completed": false,
-      "hooks": ["gorons_bracelet"]
+      "hooks": ["goron's_bracelet"]
     },
     "bomb_giant_faced_urn": {
-      "name": "Bomb Giant Faced Urn",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/ca/OoT3D_Bomb_Icon.png",
       "completed": false,
       "hooks": ["heart_piece_10"]
     },
-    "stop_hot_rodder_gorons_rolling": {
-      "name": "Stop Hot Rodder Goron's Rolling",
+    "stop_hot_rodder_goron's_rolling": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9a/OoT_Hot_Rodder_Goron_Model.png/320px-OoT_Hot_Rodder_Goron_Model.png",
       "completed": false,
       "hooks": ["big_bomb_bag"]
     },
-    "learn_eponas_song": {
-      "name": "Learn Epona's Song",
+    "learn_epona's_song": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/51/OoT3D_Malon_Model.png/64px-OoT3D_Malon_Model.png",
       "completed": false,
-      "hooks": ["eponas_song"]
+      "hooks": ["epona's_song"]
     },
     "fabulous_five_groggish_tenors_as_kid":{
-      "name": "Fabulous Five Groggish Tenors as Kid",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM3D_Frog_Yellow_Model.png/320px-MM3D_Frog_Yellow_Model.png",
       "completed": false,
       "hooks": ["heart_piece_31"]
     },
     "get_clues_from_princess_ruto": {
-      "name": "Get Clues from Princess Ruto",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/OoT3D_Princess_Ruto_Model.png/72px-OoT3D_Princess_Ruto_Model.png",
       "completed": false,
-      "hooks": ["bottle3"]
+      "hooks": ["bottle_3"]
     },
     "sing_for_scarecrow": {
-      "name": "Sing for Scarecrow",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9c/OoT3D_Pierre_Model.png/111px-OoT3D_Pierre_Model.png",
       "completed": false,
-      "hooks": ["scarecrow_song"]
+      "hooks": ["scarecrow's_song"]
     },
     "feed_lord_jabu_jabu": {
-      "name": "Feed Lord Jabu-Jabu",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/60/OoT3D_Lord_Jabu-Jabu_Model.png/120px-OoT3D_Lord_Jabu-Jabu_Model.png",
       "completed": false,
       "hooks": []
     },
     "take_the_stones_to_zelda": {
-      "name": "Take the Stones to Zelda",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoT3D_Spiritual_Stone_of_Water_Icon.png",
       "completed": false,
       "hooks": ["ocarina_of_time", "song_of_time"]
     },
     "pull_the_master_sword": {
-      "name": "Pull the Master Sword",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8a/OoT_Master_Sword_Icon.png",
       "completed": false,
       "hooks": ["master_sword", "light_medallion"]
     },
     "meet_sheik": {
-      "name": "Meet Sheik",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b7/OoT3D_Sheik_Model.png/37px-OoT3D_Sheik_Model.png",
       "completed": false,
       "hooks": []
     },
-    "hunt_bit_poes": {
-      "name": "Hunt Bit Poes",
+    "hunt_big_poes": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/OoT_Big_Poe_Model.png/120px-OoT_Big_Poe_Model.png",
       "completed": false,
-      "hooks": ["bottle4"]
+      "hooks": ["bottle_4"]
     },
     "defeat_mr_ingo": {
-      "name": "Defeat Mr. Ingo",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/24/OoT3D_Ingo_Model.png/50px-OoT3D_Ingo_Model.png",
       "completed": false,
       "hooks": ["epona"]
     },
     "sing_with_skull_kid":{
-      "name": "Sing with Skull Kid",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/84/OoT3D_Skull_Kid_Model.png/56px-OoT3D_Skull_Kid_Model.png",
       "completed": false,
       "hooks": ["heart_piece_8"]
     },
     "meet_goron_link": {
-      "name": "Meet Goron Link",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cf/OoT3D_Goron_Model.png/120px-OoT3D_Goron_Model.png",
       "completed": false,
       "hooks": ["goron_tunic"]
     },
     "mess_with_windmill": {
-      "name": "Mess with Windmill",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/OoT_Phonogram_Man_Model.png/135px-OoT_Phonogram_Man_Model.png",
       "completed": false,
       "hooks": ["song_of_storms"]
     },
     "reach_the_bottom_of_the_well": {
-      "name": "Reach the Bottom of the Well",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/OoT3D_Lens_of_Truth_Icon.png",
       "completed": false,
       "hooks": ["lens_of_truth"]
     },
     "explore_ice_cavern": {
-      "name": "Explore Ice Cavern",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/14/OoT3D_Dark_Link_Model.png/69px-OoT3D_Dark_Link_Model.png",
       "completed": false,
       "hooks": ["iron_boots"]
     },
     "unfrozen_zora_king": {
-      "name": "Unfrozen Zora King",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/99/OoT3D_King_Zora_Model.png/91px-OoT3D_King_Zora_Model.png",
       "completed": false,
       "hooks": ["zora_tunic"]
     },
-    "fabulous_five_groggish_tenors_as_adult":{
-      "name": "Fabulous Five Groggish Tenors as Adult",
+    "fabulous_five_groggish_tenors_as_adult": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/MM3D_Frog_Yellow_Model.png/320px-MM3D_Frog_Yellow_Model.png",
       "completed": false,
       "hooks": ["heart_piece_32"]
     },
     "trading_quest": {
-      "name": "Trading Quest",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a8/OoT3D_Medigoron_Model.png/120px-OoT3D_Medigoron_Model.png",
       "completed": false,
-      "hooks": ["biggorons_sword"]
+      "hooks": ["biggoron's_sword"]
     },
     "shoot_the_sun_rise": {
-      "name": "Shoot the Sun Rise",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoT3D_Fairy_Bow_Icon.png",
       "completed": false,
       "hooks": ["fire_arrow"]
     },
     "save_the_carpenters": {
-      "name": "Save the Carpenters",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/OoT3D_Shiro_Model.png/76px-OoT3D_Shiro_Model.png",
       "completed": false,
       "hooks": ["gerudos_membership_card"]
     },
     "Face the Desert": {
-      "name": "Face the Desert",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/18/OoT3D_Carpet_Merchant_Model.png/94px-OoT3D_Carpet_Merchant_Model.png",
       "completed": false,
       "hooks": []
     },
     "get_the_item_for_nabooru": {
-      "name": "Get the Item for Nabooru",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/04/OoT3D_Nabooru_Model.png/46px-OoT3D_Nabooru_Model.png",
       "completed": false,
       "hooks": ["silver_gauntlets"]
     },
     "get_all_medallions": {
-      "name": "Get All Medallions",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/OoT_Spirit_Medallion_Icon.png",
       "completed": false,
       "hooks": ["light_arrow"]
     },
     "defeat_ganon": {
-      "name": "Defeat Ganon",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/74/OoT3D_Ganon_Model.png/149px-OoT3D_Ganon_Model.png",
       "completed": false,
       "hooks": []
     },
     "find_great_fairy_fountain_death_mountain": {
-      "name": "Great Fairy Fountain at Death Mountain",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
       "hooks": ["spin_attack", "magic_container_1"]
     },
     "find_great_fairy_fountain_hyrule_castle": {
-      "name": "Great Fairy Fountain at Hyrule Castle",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
-      "hooks": ["dins_fire"]
+      "hooks": ["din's_fire"]
     },
     "find_great_fairy_fountain_zoras_domain": {
-      "name": "Great Fairy Fountain at Zora's Domain",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
-      "hooks": ["farores_wind"]
+      "hooks": ["farore's_wind"]
     },
     "find_great_fairy_fountain_death_mountain_crater": {
-      "name": "Great Fairy Fountain at Death Mountain Crater",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
       "hooks": ["magic_container_2"]
     },
     "find_great_fairy_fountain_desert_colossus": {
-      "name": "Great Fairy Fountain at Desert Colossus",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
-      "hooks": ["nayrus_love"]
+      "hooks": ["nayru's_love"]
     },
     "find_great_fairy_fountain_ganons_castle": {
-      "name": "Great Fairy Fountain at Ganon's Castle",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/OoT3D_Great_Fairy_Model.png/120px-OoT3D_Great_Fairy_Model.png",
       "completed": false,
       "hooks": ["defensive"]
     },
     "sell_keaton_mask": {
-      "name": "Sell Keaton Mask",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/OoT_Keaton_Mask_Icon.png",
       "completed": false,
       "hooks": []
     },
     "sell_skull_mask": {
-      "name": "Sell Skull Mask",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/df/OoT_Skull_Mask_Icon.png",
       "completed": false,
       "hooks": []
     },
     "sell_spooky_mask": {
-      "name": "Sell Spooky Mask",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoT_Spooky_Mask_Icon.png",
       "completed": false,
       "hooks": []
     },
     "sell_bunny_hood": {
-      "name": "Sell Bunny Hood",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoT_Bunny_Hood_Icon.png",
       "completed": false,
       "hooks": []
     },
     "get_10_gold_skulltulas": {
-      "name": "Get 10 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": ["adult_wallet"]
     },
     "get_20_gold_skulltulas": {
-      "name": "Get 20 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": ["shard_of_agony"]
     },
     "get_30_gold_skulltulas": {
-      "name": "Get 30 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": ["giant_wallet"]
     },
     "get_40_gold_skulltulas": {
-      "name": "Get 40 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": []
     },
     "get_50_gold_skulltulas": {
-      "name": "Get 50 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": ["heart_piece_22"]
     },
     "get_100_gold_skulltulas": {
-      "name": "Get 100 Gold Skulltulas",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
       "completed": false,
       "hooks": []
     }
   },
   "minigames": {
-    "bombchu_bowling_alley_heart_piece": {
-      "name": "Bombchu Bowling Alley - Heart Piece",
+    "bombchu_bowling_alley_-_heart_piece": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Bombchu_Icon.png",
       "completed": false,
       "hooks": ["heart_piece_13"]
     },
-    "bombchu_bowling_alley_bomb_bag": {
-      "name": "Bombchu Bowling Alley - Big Bomb Bag",
+    "bombchu_bowling_alley_-_biggest_bomb_bag": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/OoT3D_Bombchu_Icon.png",
       "completed": false,
       "hooks": ["biggest_bomb_bag"]
     },
     "slingshot_target_practice": {
-      "name": "Slingshot Target Practice",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f2/OoT3D_Fairy_Slingshot_Icon.png",
       "completed": false,
       "hooks": ["bigger_bullet_bag"]
     },
     "heart_pounding_gravedigging_tour":{
-      "name": "Heart-Pounding Gravedigging Tour",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fd/DampeOoT3D.png/247px-DampeOoT3D.png",
       "completed": false,
       "hooks": ["heart_piece_2"]
     },
     "diving_game":{
-      "name": "Diving Game",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/10/OoT3D_Zora_Model.png/78px-OoT3D_Zora_Model.png",
       "completed": false,
       "hooks": ["silver_scale"]
     },
-    "play_along":{
-      "name": "Play-Along",
+    "play-along":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoT3D_Fairy_Ocarina_Icon.png",
       "completed": false,
       "hooks": ["heart_piece_7"]
     },
     "shooting_gallery_as_kid":{
-      "name": "Shooting Gallery as Kid",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/62/OoT3D_Shooting_Gallery_Owner_Model.png/120px-OoT3D_Shooting_Gallery_Owner_Model.png",
       "completed": false,
       "hooks": ["biggest_bullet_bag"]
     },
     "shooting_gallery_as_adult":{
-      "name": "Shooting Gallery as Adult",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/62/OoT3D_Shooting_Gallery_Owner_Model.png/120px-OoT3D_Shooting_Gallery_Owner_Model.png",
       "completed": false,
       "hooks": ["large_quiver"]
     },
-    "super_cucco-findin-game":{
-      "name": "Super Cucco-findin' Game",
+    "super_cucco_findin'_game":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/OoT3D_Cucco_Icon.png",
       "completed": false,
-      "hooks": ["bottle1"]
+      "hooks": ["bottle_1"]
     },
     "treasure_chest_game":{
-      "name": "Treasure Chest Game",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c4/OoT_Treasure_Chest_Model_2.png/120px-OoT_Treasure_Chest_Model_2.png",
       "completed": false,
       "hooks": ["heart_piece_33"]
     },
-    "dampes_catacomb_race_1":{
-      "name": "Dampe's Catacomb Race #1",
+    "dampes_catacomb_race_#1":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fd/DampeOoT3D.png/247px-DampeOoT3D.png",
       "completed": false,
       "hooks": ["hookshot"]
     },
-    "dampes_catacomb_race_2":{
-      "name": "Dampe's Catacomb Race #2",
+    "dampes_catacomb_race_#2":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fd/DampeOoT3D.png/247px-DampeOoT3D.png",
       "completed": false,
       "hooks": ["heart_piece_20"]
     },
-    "horseback_archery_1":{
-      "name": "Horseback Archery #1",
+    "horseback_archery_#1":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoT3D_Fairy_Bow_Icon.png",
       "completed": false,
       "hooks": ["heart_piece_35"]
     },
-    "horseback_archery_2":{
-      "name": "Horseback Archery #2",
+    "horseback_archery_#2":{
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoT3D_Fairy_Bow_Icon.png",
       "completed": false,
       "hooks": ["largest_quiver"]
     },
     "gerudo_training_grounds":{
-      "name": "Gerudo Training Grounds",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d2/OoT_Gerudo_Mask_Icon.png",
       "completed": false,
       "hooks": ["ice_arrow"]
     },
     "obstacle_course":{
-      "name": "Obstacle Course",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/61/OoT3D_Cow_Model.png/320px-OoT3D_Cow_Model.png",
       "completed": false,
       "hooks": ["cow"]
     },
     "fishing_as_kid":{
-      "name": "Fishing as Kid",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b1/OoT3D_Fishing_Hole_Man_Model.png/120px-OoT3D_Fishing_Hole_Man_Model.png",
       "completed": false,
       "hooks": ["heart_piece_6"]
     },
     "fishing_as_adult":{
-      "name": "Fishing as Adult",
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b1/OoT3D_Fishing_Hole_Man_Model.png/120px-OoT3D_Fishing_Hole_Man_Model.png",
       "completed": false,
       "hooks": ["golden_scale"]
@@ -1142,68 +827,55 @@
   "abilities": {
     "sidebar": {
       "songs": {
-        "zeldas_lullaby": {
-          "name": "Zelda's Lullaby",
+        "zelda's_lullaby": {
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b7/OoT3D_Zelda%27s_Lullaby_Icon.png",
           "completed": false
         },
-        "eponas_song": {
-          "name": "Epona's Song",
+        "epona's_song": {
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ee/OoT3D_Epona%27s_Song_Icon.png",
           "completed": false
         },
-        "sariassong": {
-          "name": "Saria's Song",
+        "saria's_song": {
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/29/OoT3D_Saria%27s_Song_Icon.png",
           "completed": false
         },
         "song_of_storms": {
-          "name": "Song of Storms",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/OoT3D_Song_of_Storms_Icon.png",
           "completed": false
         },
-        "suns_song": {
-          "name": "Sun's Song",
+        "sun's_song": {
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ad/OoT3D_Sun%27s_Song_Icon.png",
           "completed": false
         },
         "song_of_time": {
-          "name": "Song of Time",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9d/OoT3D_Song_of_Time_Icon.png",
           "completed": false
         },
         "minuet_of_forest": {
-          "name": "Minuet of Forest",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/OoT3D_Minuet_of_Forest_Icon.png",
           "completed": false
         },
         "bolero_of_fire": {
-          "name": "Bolero of Fire",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/OoT3D_Bolero_of_Fire_Icon.png",
           "completed": false
         },
         "serenade_of_water": {
-          "name": "Serenade of Water",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b1/OoT3D_Serenade_of_Water_Icon.png",
           "completed": false
         },
         "requiem_of_spirit": {
-          "name": "Requiem of Spirit",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/93/OoT3D_Requiem_of_Spirit_Icon.png",
           "completed": false
         },
         "nocturne_of_shadow": {
-          "name": "Nocturne of Shadow",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1b/OoT3D_Nocturne_of_Shadow_Icon.png",
           "completed": false
         },
         "prelude_of_light": {
-          "name": "Prelude of Light",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/61/OoT3D_Prelude_of_Light_Icon.png",
           "completed": false
         },
-        "scarecrow_song": {
-          "name": "Scarecrow's Song",
+        "scarecrow's_song": {
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e3/MM3D_Scarecrow%27s_Song_Icon.png",
           "completed": false
         }
@@ -1212,49 +884,40 @@
     "main": {
       "spiritual_stones": {
         "spiritual_stones_of_the_forest": {
-          "name": "Spiritual Stone of the Forest",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0b/OoT3D_Spiritual_Stone_of_the_Forest_Icon.png",
           "completed": false
         },
         "spiritual_stone_of_fire": {
-          "name": "Spiritual Stone of Fire",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/26/OoT3D_Spiritual_Stone_of_Fire_Icon.png",
           "completed": false
         },
         "spiritual_stone_of_water": {
-          "name": "Spiritual Stone of Water",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoT3D_Spiritual_Stone_of_Water_Icon.png",
           "completed": false
         }
       },
       "medallions": {
         "light_medallion": {
-          "name": "Light Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3a/OoT_Light_Medallion_Icon.png",
           "completed": false
         },
         "forest_medallion": {
-          "name": "Forest Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/ba/OoT_Forest_Medallion_Icon.png",
           "completed": false
         },
         "fire_medallion": {
-          "name": "Fire Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoT_Fire_Medallion_Icon.png",
           "completed": false
         },
         "water_medallion": {
-          "name": "Water Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e1/OoT_Water_Medallion_Icon.png",
           "completed": false
         },
         "shadow_medallion": {
-          "name": "Shadow Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/dc/OoT_Shadow_Medallion_Icon.png",
           "completed": false
         },
         "spirit_medallion": {
-          "name": "Spirit Medallion",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/OoT_Spirit_Medallion_Icon.png",
           "completed": false
         }
@@ -1263,549 +926,38 @@
   },
   "collectibles": {
     "sidebar": {
-      "golden_skulltulas": {
-        "_info": "https://www.zeldadungeon.net/wiki/Ocarina_of_Time_Gold_Skulltulas",
-        "golden_skulltula_1": {
-          "name": "Golden Skulltula 1",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_2": {
-          "name": "Golden Skulltula 2",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_3": {
-          "name": "Golden Skulltula 3",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_4": {
-          "name": "Golden Skulltula 4",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_5": {
-          "name": "Golden Skulltula 5",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_6": {
-          "name": "Golden Skulltula 6",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_7": {
-          "name": "Golden Skulltula 7",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_8": {
-          "name": "Golden Skulltula 8",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_9": {
-          "name": "Golden Skulltula 9",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_10": {
-          "name": "Golden Skulltula 10",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_11": {
-          "name": "Golden Skulltula 11",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_12": {
-          "name": "Golden Skulltula 12",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_13": {
-          "name": "Golden Skulltula 13",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_14": {
-          "name": "Golden Skulltula 14",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_15": {
-          "name": "Golden Skulltula 15",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_16": {
-          "name": "Golden Skulltula 16",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_17": {
-          "name": "Golden Skulltula 17",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_18": {
-          "name": "Golden Skulltula 18",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_19": {
-          "name": "Golden Skulltula 19",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_20": {
-          "name": "Golden Skulltula 20",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_21": {
-          "name": "Golden Skulltula 21",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_22": {
-          "name": "Golden Skulltula 22",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_23": {
-          "name": "Golden Skulltula 23",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_24": {
-          "name": "Golden Skulltula 24",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_25": {
-          "name": "Golden Skulltula 25",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_26": {
-          "name": "Golden Skulltula 26",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_27": {
-          "name": "Golden Skulltula 27",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_28": {
-          "name": "Golden Skulltula 28",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_29": {
-          "name": "Golden Skulltula 29",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_30": {
-          "name": "Golden Skulltula 30",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_31": {
-          "name": "Golden Skulltula 31",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_32": {
-          "name": "Golden Skulltula 32",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_33": {
-          "name": "Golden Skulltula 33",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_34": {
-          "name": "Golden Skulltula 34",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_35": {
-          "name": "Golden Skulltula 35",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_36": {
-          "name": "Golden Skulltula 36",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_37": {
-          "name": "Golden Skulltula 37",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_38": {
-          "name": "Golden Skulltula 38",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_39": {
-          "name": "Golden Skulltula 39",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_40": {
-          "name": "Golden Skulltula 40",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_41": {
-          "name": "Golden Skulltula 41",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_42": {
-          "name": "Golden Skulltula 42",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_43": {
-          "name": "Golden Skulltula 43",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_44": {
-          "name": "Golden Skulltula 44",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_45": {
-          "name": "Golden Skulltula 45",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_46": {
-          "name": "Golden Skulltula 46",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_47": {
-          "name": "Golden Skulltula 47",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_48": {
-          "name": "Golden Skulltula 48",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_49": {
-          "name": "Golden Skulltula 49",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_50": {
-          "name": "Golden Skulltula 50",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_51": {
-          "name": "Golden Skulltula 51",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_52": {
-          "name": "Golden Skulltula 52",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_53": {
-          "name": "Golden Skulltula 53",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_54": {
-          "name": "Golden Skulltula 54",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_55": {
-          "name": "Golden Skulltula 55",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_56": {
-          "name": "Golden Skulltula 56",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_57": {
-          "name": "Golden Skulltula 57",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_58": {
-          "name": "Golden Skulltula 58",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_59": {
-          "name": "Golden Skulltula 59",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_60": {
-          "name": "Golden Skulltula 60",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_61": {
-          "name": "Golden Skulltula 61",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_62": {
-          "name": "Golden Skulltula 62",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_63": {
-          "name": "Golden Skulltula 63",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_64": {
-          "name": "Golden Skulltula 64",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_65": {
-          "name": "Golden Skulltula 65",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_66": {
-          "name": "Golden Skulltula 66",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_67": {
-          "name": "Golden Skulltula 67",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_68": {
-          "name": "Golden Skulltula 68",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_69": {
-          "name": "Golden Skulltula 69",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_70": {
-          "name": "Golden Skulltula 70",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_71": {
-          "name": "Golden Skulltula 71",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_72": {
-          "name": "Golden Skulltula 72",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_73": {
-          "name": "Golden Skulltula 73",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_74": {
-          "name": "Golden Skulltula 74",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_75": {
-          "name": "Golden Skulltula 75",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_76": {
-          "name": "Golden Skulltula 76",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_77": {
-          "name": "Golden Skulltula 77",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_78": {
-          "name": "Golden Skulltula 78",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_79": {
-          "name": "Golden Skulltula 79",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_80": {
-          "name": "Golden Skulltula 80",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_81": {
-          "name": "Golden Skulltula 81",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_82": {
-          "name": "Golden Skulltula 82",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_83": {
-          "name": "Golden Skulltula 83",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_84": {
-          "name": "Golden Skulltula 84",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_85": {
-          "name": "Golden Skulltula 85",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_86": {
-          "name": "Golden Skulltula 86",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_87": {
-          "name": "Golden Skulltula 87",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_88": {
-          "name": "Golden Skulltula 88",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_89": {
-          "name": "Golden Skulltula 89",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_90": {
-          "name": "Golden Skulltula 90",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_91": {
-          "name": "Golden Skulltula 91",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_92": {
-          "name": "Golden Skulltula 92",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_93": {
-          "name": "Golden Skulltula 93",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_94": {
-          "name": "Golden Skulltula 94",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_95": {
-          "name": "Golden Skulltula 95",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_96": {
-          "name": "Golden Skulltula 96",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_97": {
-          "name": "Golden Skulltula 97",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_98": {
-          "name": "Golden Skulltula 98",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_99": {
-          "name": "Golden Skulltula 99",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        },
-        "golden_skulltula_100": {
-          "name": "Golden Skulltula 100",
-          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
-          "completed": false
-        }
-      }
     },
     "bottom": {
       "masks": {
         "keaton_mask": {
-          "name": "Keaton Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/OoT_Keaton_Mask_Icon.png",
           "completed": false
         },
         "skull_mask": {
-          "name": "Skull Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/df/OoT_Skull_Mask_Icon.png",
           "completed": false
         },
         "spooky_mask": {
-          "name": "Spooky Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoT_Spooky_Mask_Icon.png",
           "completed": false
         },
         "bunny_hood": {
-          "name": "Bunny Hood",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoT_Bunny_Hood_Icon.png",
           "completed": false
         },
         "mask_of_truth": {
-          "name": "Mask of Truth",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/ce/OoT_Mask_of_Truth_Icon.png",
           "completed": false
         },
         "goron_mask": {
-          "name": "Goron Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/OoT_Goron_Mask_Icon.png",
           "completed": false
         },
         "zora_mask": {
-          "name": "Zora Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/OoT_Zora_Mask_Icon.png",
           "completed": false
         },
         "gerudo_mask": {  
-          "name": "Gerudo Mask",
           "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d2/OoT_Gerudo_Mask_Icon.png",
           "completed": false
         }

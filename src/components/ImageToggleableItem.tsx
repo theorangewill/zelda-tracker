@@ -90,7 +90,7 @@ export default function ImageToggleableItem({ element, image, name, active, onTo
                     bg-black text-white text-xs px-2 py-1 rounded-lg
                     pointer-events-none whitespace-nowrap shadow-lg z-10"
         >
-          {blocked ? name + " is hooked to a quest" : name}
+          {blocked ? name + " - is hooked to a quest" : name}
         </div>
       )}
     </div>

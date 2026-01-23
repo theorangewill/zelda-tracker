@@ -1,0 +1,678 @@
+{
+  "id": "03_linktothepast",
+  "title": "The Legend of Zelda: A Link to the Past",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/91/ALttP_English_Logo.png/250px-ALttP_English_Logo.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/3/3a/CompassALttP.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/6/66/ALttP_Map_Sprite.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/3/33/ALttP_Big_Key_Sprite.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/e/e4/ALttP_Piece_of_Heart_Sprite.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/ALttP_Heart_Sprite.png"
+  },
+  "styling": {
+    "items": "9",
+    "health": "10",
+    "quests": "4",
+    "minigames": "4",
+    "equipments": {
+      "capacities": "2"
+    },
+    "abilities": {
+      "songs": "5",
+      "boss_masks": "6",
+      "masks": "6"
+    },
+    "collectibles": {
+      "maps": "6",
+      "ocean_fishing_hole": "6",
+      "swamp_fishing_hole": "6",
+      "golden_skulltulas": "10"
+    }
+  },
+  "infos": {
+  },
+  "health": {
+    "info": {
+      "min": 3,
+      "max": 20,
+      "heart_cointainers_total": 11,
+      "heart_pieces_total": 24,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/A_Link_to_the_Past_Heart_Pieces"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 1,
+      "max": 2,
+      "magic_containers_total": 1
+    }
+  },
+  "items": {
+    "bow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6c/ALttP_Bow_Sprite.png",
+      "completed": false
+    },
+    "silver_arrow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ec/ALttP_Silver_Arrow_Sprite.png",
+      "completed": false
+    },
+    "boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c3/ALttP_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "magical_boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b9/ALttP_Magical_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "hookshot": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/ALttP_Hookshot_Sprite.png",
+      "completed": false
+    },
+    "bomb": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/ALttP_Bomb_Sprite.png",
+      "completed": false
+    },
+    "magic_hammer": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/66/ALttP_Magic_Hammer_Sprite.png",
+      "completed": false
+    },
+    "shovel": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/ALttP_Shovel_Sprite.png",
+      "completed": false
+    },
+    "lamp": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/06/ALttP_Lamp_Sprite.png",
+      "completed": false
+    },
+    "flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/db/Flute.png",
+      "completed": false
+    },
+    "fire_rod": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/FireRod.png",
+      "completed": false
+    },
+    "ice_rod": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/ALttP_Ice_Rod_Sprite.png",
+      "completed": false
+    },
+    "cane_of_somaria": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e1/ALttP_Cane_of_Somaria_Sprite.png",
+      "completed": false
+    },
+    "cane_of_byrna": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bc/ALttP_Cane_of_Byrna_Sprite.png",
+      "completed": false
+    },
+    "bombos_medallion": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/ALttP_Bombos_Medallion_Sprite.png",
+      "completed": false
+    },
+    "ether_medallion": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f9/ALttP_Ether_Medallion_Sprite.png",
+      "completed": false
+    },
+    "quake_medallion": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/ALttP_Quake_Medallion_Sprite.png",
+      "completed": false
+    },
+    "bug_catching_net": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d4/ALttP_Bug_Catching_Net_Sprite.png",
+      "completed": false
+    },
+    "magic_cape": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1c/ALttP_Magic_Cape_Sprite.png",
+      "completed": false
+    },
+    "magic_mirror": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e5/ALttP_Magic_Mirror_Sprite.png",
+      "completed": false
+    },
+    "magic_powder": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e5/ALttP_Magic_Powder_Sprite.png",
+      "completed": false
+    },
+    "book_of_mudora": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/22/ALttP_Book_of_Mudora_Sprite.png",
+      "completed": false
+    },
+    "bottle_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/ALttP_Magic_Bottle_Sprite.png",
+      "completed": false
+    },
+    "bottle_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/ALttP_Magic_Bottle_Sprite.png",
+      "completed": false
+    },
+    "bottle_3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/ALttP_Magic_Bottle_Sprite.png",
+      "completed": false
+    },
+    "bottle_4": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/ALttP_Magic_Bottle_Sprite.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "fighters_sword": {
+        "name": "Fighter's Sword",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/ALttP_Fighter%27s_Sword_Sprite.png",
+        "completed": false
+      },
+      "master_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/cc/ALttP_Master_Sword_Sprite.png",
+        "completed": false
+      },
+      "tempered_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/ALttP_Master_Sword_Lv2_Sprite.png",
+        "completed": false
+      },
+      "golden_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/ALttP_Master_Sword_Lv3_Sprite.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "fighters_shield": {
+        "name": "Fighter's Shield",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/ALttP_Fighter%27s_Shield_Sprite.png",
+        "completed": false
+      },
+      "red_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6d/ALttP_Red_Shield_Sprite.png",
+        "completed": false
+      },
+      "mirror_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3c/ALttP_Mirror_Shield_Sprite.png",
+        "completed": false
+      }
+    },
+    "clothing": {
+      "green_clothes": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8a/ALttP_Green_Clothes_Sprite.png",
+        "completed": false
+      },
+      "blue_mail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4a/ALttP_Blue_Mail_Sprite.png",
+        "completed": false
+      },
+      "red_mail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/ALttP_Red_Mail_Sprite.png",
+        "completed": false
+      }
+    },
+    "shoes": {
+      "pegasus_shoes": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/ALttP_Pegasus_Shoes_Sprite.png",
+        "completed": false
+      },
+      "zoras_flippers": {
+        "name": "Zora's Flippers",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/88/ALttP_Zora%27s_Flippers_Sprite.png",
+        "completed": false
+      }
+    },
+    "gloves": {
+      "power_glove": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/54/ALttP_Power_Glove_Sprite.png",
+        "completed": false
+      },
+      "titans_mitt": {
+        "name": "Titan's Mitt",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/ALttP_Titan%27s_Mitt_Sprite.png",
+        "completed": false
+      }
+    },
+    "capacities": {
+      "50_bombs_capacity": {
+        "completed": false
+      },
+      "70_arrows_capacity": {
+        "completed": false
+      }
+    },
+    "gems": {
+      "moon_pearl": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/63/ALttP_Moon_Pearl_Sprite.png",
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "eastern_palace": {
+      "name": "Eastern Palace",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/13/ALttP_Eastern_Palace.png/150px-ALttP_Eastern_Palace.png",
+      "item": {
+        "name": "bow",
+        "completed": false,
+        "hooks": ["bow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/ALttP_Armos_Knight_Sprite.png",
+        "completed": false,
+        "hooks": ["pendant_of_courage", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "desert_palace": {
+      "name": "Desert Palace",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/61/ALttP_Desert_Palace.png/150px-ALttP_Desert_Palace.png",
+      "item": {
+        "name": "power_glove",
+        "completed": false,
+        "hooks": ["power_glove"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ed/ALttP_Lanmola_Sprite.png/27px-ALttP_Lanmola_Sprite.png",
+        "completed": false,
+        "hooks": ["pendant_of_power", "heart_container_3"]
+      },
+      "completed": false
+    },
+    "tower_of_hera": {
+      "name": "Tower of Hera",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b1/ALttP_Tower_of_Hera.png/150px-ALttP_Tower_of_Hera.png",
+      "item": {
+        "name": "moon_pearl",
+        "completed": false,
+        "hooks": ["moon_pearl"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3c/ALttP_Moldorm_Sprite.png",
+        "completed": false,
+        "hooks": ["pendant_of_wisdom", "heart_container_4"]
+      },
+      "completed": false
+    },
+    "palace_of_darkness": {
+      "name": "Power of Darkness",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b2/ALttP_Palace_of_Darkness.png/150px-ALttP_Palace_of_Darkness.png",
+      "item": {
+        "name": "magic_hammer",
+        "completed": false,
+        "hooks": ["magic_hammer"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/ALttP_Helmasaur_King_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_1", "heart_container_5"]
+      },
+      "completed": false
+    },
+    "swamp_palace": {
+      "name": "Swamp Palace",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/47/ALttP_Swamp_Palace.png/150px-ALttP_Swamp_Palace.png",
+      "item": {
+        "name": "hookshot",
+        "completed": false,
+        "hooks": ["hookshot"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a7/ALttP_Arrghus_Solo_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_2", "heart_container_6"]
+      },
+      "completed": false
+    },
+    "skull_woods": {
+      "name": "Skull Woods",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/ba/ALttP_Skull_Woods.png/150px-ALttP_Skull_Woods.png",
+      "item": {
+        "name": "fire_rod",
+        "completed": false,
+        "hooks": ["fire_rod"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d4/ALttP_Mothula_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_3", "heart_container_7"]
+      },
+      "completed": false
+    },
+    "thieves_town": {
+      "name": "Thieves' Town",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d6/ALttP_Thieves%27_Town.png/150px-ALttP_Thieves%27_Town.png",
+      "item": {
+        "name": "titans_mitt",
+        "completed": false,
+        "hooks": ["titans_mitt"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/86/ALttP_Blind_the_Thief_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_4", "heart_container_8"]
+      },
+      "completed": false
+    },
+    "ice_palace": {
+      "name": "Ice Palace",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7e/ALttP_Ice_Palace.png/75px-ALttP_Ice_Palace.png",
+      "item": {
+        "name": "blue_mail",
+        "completed": false,
+        "hooks": ["blue_mail"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/33/ALttP_Kholdstare_Sprite.png/120px-ALttP_Kholdstare_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_5", "heart_container_9"]
+      },
+      "completed": false
+    },
+    "misery_mire": {
+      "name": "Misery Mire",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/ALttP_Misery_Mire.png/150px-ALttP_Misery_Mire.png",
+      "item": {
+        "name": "cane_of_somaria",
+        "completed": false,
+        "hooks": ["cane_of_somaria"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/ALttP_Vitreous_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_6", "heart_container_10"]
+      },
+      "completed": false
+    },
+    "turtle_rock": {
+      "name": "Turtle Rock",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a6/ALttP_Turtle_Rock.png/150px-ALttP_Turtle_Rock.png",
+      "item": {
+        "name": "mirror_shield",
+        "completed": false,
+        "hooks": ["mirror_shield"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/ALttP_Trinexx_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_7", "heart_container_11"]
+      },
+      "completed": false
+    },
+    "ganons_tower": {
+      "name": "Ganon's Tower",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/ALttP_Ganon%27s_Tower.png/150px-ALttP_Ganon%27s_Tower.png",
+      "item": {
+        "name": "red_mail",
+        "completed": false,
+        "hooks": ["red_mail"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/ALttP_Agahnim_Sprite.png",
+        "completed": false,
+        "hooks": []
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    "find_your_uncle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
+      "completed": false,
+      "hooks": ["fighters_sword", "fighters_shield"]
+    },
+    "rescue_zelda": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/ALttP_Princess_Zelda_Sprite.png",
+      "completed": false,
+      "hooks": ["heart_container_1"]
+    },
+    "talk_to_sahasrahla": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/42/ALttP_Sahasrahla_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "take_pendant_of_courage_to_sahasrahla": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/ALttP_Pendant_of_Courage_Sprite.png",
+      "completed": false,
+      "hooks": ["pegasus_shoes"]
+    },
+    "find_the_hobo": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bd/Camper.png",
+      "completed": false,
+      "hooks": ["bottle_3"]
+    },
+    "catch_running_man": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2f/ALttP_Running_Man_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "get_the_book_of_mudora": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/22/ALttP_Book_of_Mudora_Sprite.png",
+      "completed": false,
+      "hooks": ["book_of_mudora"]
+    },
+    "give_the_mushroom_to_the_witch": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/35/ALttP_Mushroom_Sprite.png",
+      "completed": false,
+      "hooks": ["magic_powder"]
+    },
+    "help_the_old_man_at_the_cave": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e5/ALttP_Magic_Mirror_Sprite.png",
+      "completed": false,
+      "hooks": ["magic_mirror"]
+    },
+    "retrieve_the_master_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/cc/ALttP_Master_Sword_Sprite.png",
+      "completed": false,
+      "hooks": ["master_sword"]
+    },
+    "defeat_agahnim": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/ALttP_Agahnim_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "welcome_to_the_dark_world": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3c/ALttP_Bunny_Link_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "get_dwarven_swordsmiths_together": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/LttP_darkworldsmith.gif",
+      "completed": false,
+      "hooks": []
+    },
+    "temper_the_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0e/LttP_lightworldsmith.gif",
+      "completed": false,
+      "hooks": ["tempered_sword"]
+    },
+    "dig_it_up": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/ALttP_Shovel_Sprite.png",
+      "completed": false,
+      "hooks": ["flute"]
+    },
+    "free_the_flute_boy": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3b/ALttP_Flute_Boy_Dark_World_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "summon_the_flute_boy's_bird": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/Duck.gif",
+      "completed": false,
+      "hooks": []
+    },
+    "open_the_blue_treasure_chest": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2c/BushMan.png",
+      "completed": false,
+      "hooks": ["bottle_4"]
+    },
+    "wake_mad_batter": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/92/ALttP_Mad_Batter_Sprite.png",
+      "completed": false,
+      "hooks": ["magic_container_1"]
+    },
+    "toss_the_boomerang_into_the_pond": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/14/ALttP_Great_Fairy_Sprite.png",
+      "completed": false,
+      "hooks": ["magical_boomerang"]
+    },
+    "toss_the_shield_into_the_pond": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/14/ALttP_Great_Fairy_Sprite.png",
+      "completed": false,
+      "hooks": ["red_shield"]
+    },
+    "decipher_the_ancient_text_at_the_desert": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/80/ALttP_Hylian_Monolith_Sprite.png",
+      "completed": false,
+      "hooks": ["bombos_medallion"]
+    },
+    "decipher_the_ancient_text_in_the_mountain": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/80/ALttP_Hylian_Monolith_Sprite.png",
+      "completed": false,
+      "hooks": ["ether_medallion"]
+    },
+    "disturb_the_circle_of_stones": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/16/ALttP_Rock_Sprite.png",
+      "completed": false,
+      "hooks": ["quake_medallion"]
+    },
+    "toss_the_tempered_sword_into_the_pond": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a2/ALttP_Cursed_Fairy_Sprite.png",
+      "completed": false,
+      "hooks": ["golden_sword"]
+    },
+    "toss_the_bow_into_the_pond": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a2/ALttP_Cursed_Fairy_Sprite.png",
+      "completed": false,
+      "hooks": ["silver_arrow"]
+    },
+    "defeat_ganon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b9/ALttP_Ganon_Sprite.png",
+      "completed": false,
+      "hooks": []
+    }
+  },
+  "minigames": {
+    "15_seconds_game": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/98/ALttP_Race_Man_Sprite.png",
+      "completed": false,
+      "hooks": ["heart_piece_4"]
+    },
+    "digging_game": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f4/ALttP_Digging_Game_Keeper_Sprite.png",
+      "completed": false,
+      "hooks": ["heart_piece_18"]
+    },
+    "shooting_gallery": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/ALttP_Shooting_Gallery_Keeper_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "treasure_chest_game_at_kakariko_village": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5a/ALttP_Treasure_Chest_Game_Keeper_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "treasure_chest_game_at_lost_woods": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/73/ALttP_Treasure_Chest_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "treasure_chest_game_at_village_of_outcasts": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/18/ALttP_Dark_World_Shopkeeper_Sprite.png",
+      "completed": false,
+      "hooks": ["heart_piece_17"]
+    }
+  },
+  "abilities": {
+    "sidebar": {
+    },
+    "main": {
+      "pendants": {
+        "pendant_of_courage": {
+          "name": "Pendant of Courage",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/ALttP_Pendant_of_Courage_Sprite.png",
+          "completed": false
+        },
+        "pendant_of_power": {
+          "name": "Pendant of Power",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/ALttP_Pendant_of_Power_Sprite.png",
+          "completed": false
+        },
+        "pendant_of_wisdom": {
+          "name": "Pendant of Wisdom",
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/ALttP_Pendant_of_Wisdom_Sprite.png",
+          "completed": false
+        }
+      },
+      "crystals": {
+        "crystal_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_5": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_6": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        },
+        "crystal_7": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/Crystal.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+    },
+    "bottom": {
+      
+    }
+  },
+  "countable_collectibles": {
+    "sidebar": {
+
+    },
+    "bottom": {
+    }
+  }
+}

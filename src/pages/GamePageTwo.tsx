@@ -15,6 +15,7 @@ import { useGameLoader } from '../hooks/useGameLoader';
 import { useGameProgress } from '../hooks/useGameProgress';
 import { useGamePersistence } from '../hooks/useGamePersistence';
 import ItemsContainerComponent from '../components/containers/ItemsContainer';
+import createProgressMap from '../utils/createProgressMap';
 
 
 export default function GamePageTwo({ gameId }: { gameId: string }) {
@@ -55,7 +56,7 @@ export default function GamePageTwo({ gameId }: { gameId: string }) {
     toggleSelected,
     toggleSelectedDungeon,
   } = useGameProgress(gameData, setGameData);
-
+  console.log(createProgressMap(gameData))
 
   const {
     handleExport,

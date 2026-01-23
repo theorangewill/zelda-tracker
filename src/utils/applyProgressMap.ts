@@ -10,7 +10,7 @@ export default function applyProgressMap(base: GameDataSchema, progressMap: Reco
       const v = obj[k];
 
       if (v && typeof v === 'object') {
-        if ('completed' in v && k in progressMap) {
+        if (k in progressMap) {
           v.completed = Boolean(progressMap[k]);
           if ('compass' in v && `${k}_compass` in progressMap) {
             v.compass = Boolean(progressMap[`${k}_compass`]);

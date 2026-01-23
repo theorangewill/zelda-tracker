@@ -4,6 +4,7 @@ import GameDataSchema from '../schemas/gameData';
 import applyProgressMap from '../utils/applyProgressMap';
 import { STORAGE_PREFIX } from '../constants/persistance';
 import applyCountableCollectibles from '../utils/applyCountableCollectibles';
+import applyStatusTotals from '../utils/applyStatusTotals';
 
 
 export function useGameLoader(gameId?: string) {
@@ -27,6 +28,7 @@ export function useGameLoader(gameId?: string) {
       }
       
       base = applyCountableCollectibles(base);
+      base = applyStatusTotals(base);
 
 
       const saved = localStorage.getItem(`${STORAGE_PREFIX}${gameId}`);
@@ -35,7 +37,7 @@ export function useGameLoader(gameId?: string) {
         ? applyProgressMap(base, JSON.parse(saved))
         : base;
 
-        
+      
       setBaseGame(base);
       setGameData(data);
     } catch (e) {
