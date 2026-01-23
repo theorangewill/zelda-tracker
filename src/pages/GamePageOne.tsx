@@ -144,7 +144,7 @@ export default function GamePageTwo({ gameId }: { gameId: string }) {
                 section={gameData.equipments}
                 onToggle={toggleSelected}
                 hookedItems={hookedItems}
-                containerCols="1"
+                containerCols="2"
                 cols={gameData.styling.equipments}
               />
 

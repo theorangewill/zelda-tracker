@@ -166,14 +166,6 @@
         "completed": false
       }
     },
-    "powers": {
-      "super_spin_attack": {
-        "completed": false
-      },
-      "defensive": {
-        "completed": false
-      }
-    },
     "bomb_bags": {
       "bomb_bag": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/OoT3D_Bomb_Bag_Icon.png",
@@ -215,6 +207,14 @@
     "horse": {
       "epona": {
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/MM3D_Epona_Model.png/102px-MM3D_Epona_Model.png",
+        "completed": false
+      }
+    },
+    "powers": {
+      "super_spin_attack": {
+        "completed": false
+      },
+      "defensive": {
         "completed": false
       }
     }
