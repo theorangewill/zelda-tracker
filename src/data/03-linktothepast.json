@@ -341,9 +341,9 @@
     "thieves'_town": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d6/ALttP_Thieves%27_Town.png/150px-ALttP_Thieves%27_Town.png",
       "item": {
-        "key": "titans_mitt",
+        "key": "titan's_mitt",
         "completed": false,
-        "hooks": ["titans_mitt"]
+        "hooks": ["titan's_mitt"]
       },
       "compass": false,
       "map": false,
@@ -428,7 +428,7 @@
     "find_your_uncle": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
       "completed": false,
-      "hooks": ["fighters_sword", "fighters_shield"]
+      "hooks": ["fighter's_sword", "fighter's_shield"]
     },
     "rescue_zelda": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/ALttP_Princess_Zelda_Sprite.png",
