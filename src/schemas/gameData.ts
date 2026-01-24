@@ -34,6 +34,7 @@ export interface HealthSchema {
     max: number;
     heart_cointainers_total: number;
     heart_pieces_total: number;
+    proportion_of_heart_pieces_per_heart_container: number;
     heart_pieces_list: string;
   }
   heart_containers?: Record<string, {

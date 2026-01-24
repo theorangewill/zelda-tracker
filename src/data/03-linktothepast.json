@@ -37,6 +37,7 @@
       "max": 20,
       "heart_cointainers_total": 11,
       "heart_pieces_total": 24,
+      "proportion_of_heart_pieces_per_heart_container": 4,
       "heart_pieces_list": "https://www.zeldadungeon.net/wiki/A_Link_to_the_Past_Heart_Pieces"
     }
   },
