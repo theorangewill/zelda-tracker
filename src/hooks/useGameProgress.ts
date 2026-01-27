@@ -66,6 +66,12 @@ export function useGameProgress(
             const hookParent = findObjectWithKey(draft, hook);
             hookParent[hook].completed = dungeon.item.completed;
           }
+        } else if (element === 'item2') {
+          dungeon.item2.completed = !dungeon.item2.completed;
+          for (const hook of dungeon.item2.hooks) {
+            const hookParent = findObjectWithKey(draft, hook);
+            hookParent[hook].completed = dungeon.item2.completed;
+          }
         } else if (element === 'boss') {
           dungeon.boss.completed = !dungeon.boss.completed;
           for (const hook of dungeon.boss.hooks) {
@@ -74,19 +80,26 @@ export function useGameProgress(
           }
         } 
         if (element === 'all') {
-          dungeon.item.completed = !dungeon.item.completed;
+          dungeon.item.completed = !dungeon.completed;
           for (const hook of dungeon.item.hooks) {
             const hookParent = findObjectWithKey(draft, hook);
-            hookParent[hook].completed = dungeon.item.completed;
+            hookParent[hook].completed = !dungeon.completed;
           }
-          dungeon.boss.completed = !dungeon.boss.completed;
+          if (dungeon.item2) {
+            dungeon.item2.completed = !dungeon.completed;
+            for (const hook of dungeon.item2.hooks) {
+              const hookParent = findObjectWithKey(draft, hook);
+              hookParent[hook].completed = !dungeon.completed;
+            }
+          }
+          dungeon.boss.completed = !dungeon.completed;
           for (const hook of dungeon.boss.hooks) {
             const hookParent = findObjectWithKey(draft, hook);
-            hookParent[hook].completed = dungeon.boss.completed;
+            hookParent[hook].completed = !dungeon.completed;
           }
-          dungeon.compass = !dungeon.compass;
-          dungeon.map = !dungeon.map;
-          dungeon.boss_key = !dungeon.boss_key;
+          dungeon.compass = !dungeon.completed;
+          dungeon.map = !dungeon.completed;
+          dungeon.boss_key = !dungeon.completed;
         }
         else if (element === 'compass' || element === 'map' || element === 'boss_key') {
           dungeon[element] = !dungeon[element];
@@ -96,6 +109,7 @@ export function useGameProgress(
           dungeon.compass &&
           dungeon.map &&
           dungeon.item.completed &&
+          (dungeon.item2 ? dungeon.item2.completed : true) &&
           dungeon.boss_key &&
           dungeon.boss.completed;
       });

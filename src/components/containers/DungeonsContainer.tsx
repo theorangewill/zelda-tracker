@@ -65,6 +65,21 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
               />
           </div>
 
+          {dungeon.item2 ? 
+          
+            (<div className="flex-shrink-0 w-8 h-8 overflow-hidden">
+              <ImageToggleableItem key={`${key}_item2`} 
+                element="item" 
+                image={itemsImages[dungeon.item2.key] ?? ''} 
+                name={`${formatLabel(key)} Item 2`} 
+                active={dungeon.item2.completed} 
+                onToggle={() => onToggle(key, 'item2')} 
+                blocked={false}
+                />
+            </div>)
+            : null
+          }
+
           <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
             <ImageToggleableItem key={`${key}_boss_key`} 
               element="boss_key" 

@@ -23,6 +23,9 @@ export default function createProgressMap(gameData: GameDataSchema): Record<stri
           if ('item' in v && v.item && typeof v.item === 'object' && 'completed' in v.item) {
             tasks[`${k}_item`] = Boolean(v.item.completed);
           }
+          if ('item2' in v && v.item2 && typeof v.item2 === 'object' && 'completed' in v.item2) {
+            tasks[`${k}_item2`] = Boolean(v.item.completed);
+          }
           if ('boss' in v && v.boss && typeof v.boss === 'object' && 'completed' in v.boss) {
             tasks[`${k}_boss`] = Boolean(v.boss.completed);
             continue;

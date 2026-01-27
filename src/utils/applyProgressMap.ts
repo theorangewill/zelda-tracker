@@ -24,6 +24,9 @@ export default function applyProgressMap(base: GameDataSchema, progressMap: Reco
           if ('item' in v && `${k}_item` in progressMap) {
             v.item.completed = Boolean(progressMap[`${k}_item`]);
           }
+          if ('item2' in v && `${k}_item2` in progressMap) {
+            v.item2.completed = Boolean(progressMap[`${k}_item2`]);
+          }
           if ('boss' in v && `${k}_boss` in progressMap) {
             v.boss.completed = Boolean(progressMap[`${k}_boss`]);
             continue;
