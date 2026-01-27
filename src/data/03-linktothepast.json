@@ -18,15 +18,8 @@
       "capacities": "2"
     },
     "abilities": {
-      "songs": "5",
-      "boss_masks": "6",
-      "masks": "6"
     },
     "collectibles": {
-      "maps": "6",
-      "ocean_fishing_hole": "6",
-      "swamp_fishing_hole": "6",
-      "golden_skulltulas": "10"
     }
   },
   "infos": {
