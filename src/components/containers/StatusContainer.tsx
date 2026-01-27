@@ -28,14 +28,16 @@ export default function StatusContainerComponent({ images, health, amtHeartConta
       ))}
       
     </div>
-    <div className="w-full flex justify-center">
-      <div className="h-3 w-80  bg-gray-700 overflow-hidden border border-white border-2">
-      <div 
-        className="h-full bg-gradient-to-r from-primary to-primary-light transition-all duration-300  flex items-center justify-center text-[10px] font-bold text-white" 
-        style={{ width: `${100 * amtMagicPower / magic_power.info.max}%` }} 
-      />
+    {magic_power.info.max > 0 ? (
+      <div className="w-full flex justify-center">
+        <div className="h-3 w-80  bg-gray-700 overflow-hidden border border-white border-2">
+        <div 
+          className="h-full bg-gradient-to-r from-primary to-primary-light transition-all duration-300  flex items-center justify-center text-[10px] font-bold text-white" 
+          style={{ width: `${100 * amtMagicPower / magic_power.info.max}%` }} 
+        />
+        </div>
       </div>
-    </div>
+    ) : null}
   </div>
   );
 }
