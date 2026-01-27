@@ -1,0 +1,435 @@
+{
+  "id": "01_zelda",
+  "title": "The Legend of Zelda",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/60/TLoZ_English_Logo.png/250px-TLoZ_English_Logo.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/4/4e/TLoZ_Compass_Sprite.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/4/4c/TLoZ_Map_Sprite.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/TLoZ_Key_Sprite.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/TLoZ_Heart_Container_Sprite.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/TLoZ_Heart_Container_Sprite.png"
+  },
+  "styling": {
+    "items": "11",
+    "health": "8",
+    "quests": "4",
+    "minigames": "4",
+    "equipments": {
+      "bomb_capacities": "2"
+    },
+    "abilities": {
+    },
+    "collectibles": {
+    }
+  },
+  "infos": {
+  },
+  "health": {
+    "info": {
+      "min": 3,
+      "max": 16,
+      "heart_cointainers_total": 8,
+      "heart_pieces_total": 5,
+      "proportion_of_heart_pieces_per_heart_container": 1,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda_Heart_Containers"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 0,
+      "max": 0,
+      "magic_containers_total": 0
+    }
+  },
+  "items": {
+    "boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/41/TLoZ_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "magical_boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/73/TLoZ_Magical_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "bow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/40/TLoZ_Bow_Sprite.png",
+      "completed": false
+    },
+    "silver_arrow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5b/TLoZ_Silver_Arrow_Sprite.png",
+      "completed": false
+    },
+    "bomb": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TLoZ_Bomb_Sprite.png",
+      "completed": false
+    },
+    "blue_candle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/TLoZ_Blue_Candle_Sprite.png",
+      "completed": false
+    },
+    "red_candle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/37/TLoZ_Red_Candle_Sprite.png",
+      "completed": false
+    },
+    "flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/70/TLoZ_Flute_Sprite.png",
+      "completed": false
+    },
+    "magical_rod": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/TLoZ_Magical_Rod_Sprite.png",
+      "completed": false
+    },
+    "book_of_magic": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9e/TLoZ_Book_of_Magic_Sprite.png",
+      "completed": false
+    },
+    "magical_key": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ec/TLoZ_Magical_Key_Sprite.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "wooden_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/TLoZ_Sword_Sprite.png",
+        "completed": false
+      },
+      "white_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/TLoZ_White_Sword_Sprite.png",
+        "completed": false
+      },
+      "magical_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/93/TLoZ_Magical_Sword_Sprite.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Wooden_Shield_Sprite.png",
+        "completed": false
+      },
+      "magical_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/73/TLoZ_Magical_Shield_Sprite.png",
+        "completed": false
+      }
+    },
+    "rings": {
+      "blue_ring": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/TLoZ_Blue_Ring_Sprite.png",
+        "completed": false
+      },
+      "red_ring": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/TLoZ_Red_Ring_Sprite.png",
+        "completed": false
+      },
+      "power_bracelet": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/61/TLoZ_Power_Bracelet_Sprite.png",
+        "completed": false
+      }
+    },
+    "navigation": {
+      "raft": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/TLoZ_Raft_Sprite.png",
+        "completed": false
+      },
+      "stepladder": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/be/TLoZ_Stepladder_Sprite.png",
+        "completed": false
+      }
+    },
+    "bomb_capacities": {
+      "12_bombs": {
+        "completed": false
+      },
+      "16_bombs": {
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "level_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1f/TLoZ_Level-1_Map.png/150px-TLoZ_Level-1_Map.png",
+      "item": {
+        "key": "bow",
+        "completed": false,
+        "hooks": ["bow"]
+      },
+      "item2": {
+        "key": "boomerang",
+        "completed": false,
+        "hooks": ["boomerang"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/TLoZ_Aquamentus_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_1", "heart_container_1"]
+      },
+      "completed": false
+    },
+    "level_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/28/TLoZ_Level-2_Map.png/112px-TLoZ_Level-2_Map.png",
+      "item": {
+        "key": "magical_boomerang",
+        "completed": false,
+        "hooks": ["magical_boomerang"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3e/TLoZ_Dodongo_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_2", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "level_3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/47/TLoZ_Level-3_Map.png/150px-TLoZ_Level-3_Map.png",
+      "item": {
+        "key": "raft",
+        "completed": false,
+        "hooks": ["raft"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d4/TLoZ_Manhandla_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_3", "heart_container_3"]
+      },
+      "completed": false
+    },
+    "level_4": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/49/TLoZ_Level-4_Map.png/112px-TLoZ_Level-4_Map.png",
+      "item": {
+        "key": "stepladder",
+        "completed": false,
+        "hooks": ["stepladder"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/TLoZ_Gleeok_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_4", "heart_container_4"]
+      },
+      "completed": false
+    },
+    "level_5": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a2/TLoZ_Level-5_Map.png/112px-TLoZ_Level-5_Map.png",
+      "item": {
+        "key": "flute",
+        "completed": false,
+        "hooks": ["flute"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/TLoZ_Digdogger_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_5", "heart_container_5"]
+      },
+      "completed": false
+    },
+    "level_6": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/TLoZ_Level-6_Map.png/150px-TLoZ_Level-6_Map.png",
+      "item": {
+        "key": "magical_rod",
+        "completed": false,
+        "hooks": ["magical_rod"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/01/TLoZ_Red_Gohma_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_6", "heart_container_6"]
+      },
+      "completed": false
+    },
+    "level_7": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9d/TLoZ_Level-7_Map.png/150px-TLoZ_Level-7_Map.png",
+      "item": {
+        "key": "red_candle",
+        "completed": false,
+        "hooks": ["red_candle"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/TLoZ_Aquamentus_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_7", "heart_container_7"]
+      },
+      "completed": false
+    },
+    "level_8": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/65/TLoZ_Level-8_Map.png/141px-TLoZ_Level-8_Map.png",
+      "item": {
+        "key": "book_of_magic",
+        "completed": false,
+        "hooks": ["book_of_magic"]
+      },
+      "item2": {
+        "key": "magical_key",
+        "completed": false,
+        "hooks": ["magical_key"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/TLoZ_Gleeok_Sprite.png",
+        "completed": false,
+        "hooks": ["triforce_shard_8", "heart_container_8"]
+      },
+      "completed": false
+    },
+    "level_9": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/32/TLoZ_Level-9_Map.png/150px-TLoZ_Level-9_Map.png",
+      "item": {
+        "key": "red_ring",
+        "completed": false,
+        "hooks": ["red_ring"]
+      },
+      "item2": {
+        "key": "silver_arrow",
+        "completed": false,
+        "hooks": ["silver_arrow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/TLoZ_Ganon_Sprite_5.png",
+        "completed": false,
+        "hooks": []
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    "it's_dangerous_to_go_alone": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
+      "completed": false,
+      "hooks": ["wooden_sword"]
+    },
+    "give_the_letter_to_the_old_woman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/41/TLoZ_Boomerang_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/70/TLoZ_Flute_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/73/TLoZ_Magical_Boomerang_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_4": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9e/TLoZ_Book_of_Magic_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_5": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/40/TLoZ_Bow_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_6": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/be/TLoZ_Stepladder_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_7": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/37/TLoZ_Red_Candle_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_8": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/TLoZ_Magical_Rod_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "second_quest_-_level_9": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/TLoZ_Red_Ring_Sprite.png",
+      "completed": false,
+      "hooks": []
+    }
+  },
+  "minigames": {
+    "money_making_game": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/TLoZ_Blue_Rupee_Sprite.png",
+      "completed": false
+    }
+  },
+  "abilities": {
+    "sidebar": {
+    },
+    "main": {
+      "triforce_shards": {
+        "triforce_shard_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_5": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_6": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_7": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        },
+        "triforce_shard_8": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+    },
+    "bottom": {
+      
+    }
+  },
+  "countable_collectibles": {
+    "sidebar": {
+
+    },
+    "bottom": {
+    }
+  }
+}
