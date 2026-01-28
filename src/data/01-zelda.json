@@ -317,12 +317,12 @@
   },
   "quests": {
     "it's_dangerous_to_go_alone": {
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/TLoZ_Old_Man_Sprite.png",
       "completed": false,
       "hooks": ["wooden_sword"]
     },
     "give_the_letter_to_the_old_woman": {
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/ALttP_Link%27s_Uncle_Sprite.png",
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2d/TLoZ_Old_Woman_Sprite.png",
       "completed": false,
       "hooks": []
     },
