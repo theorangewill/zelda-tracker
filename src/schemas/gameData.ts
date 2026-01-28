@@ -71,19 +71,19 @@ export type DungeonsSchema = Record<string, DungeonSchema>;
 
 export interface DungeonSchema {
   image: string;
-  item: {
+  item?: {
     key: string;
     completed: boolean;
     hooks: string[];
   }
-  item2: {
+  item2?: {
     key: string;
     completed: boolean;
     hooks: string[];
   }
-  compass: boolean;
-  map: boolean;
-  boss_key: boolean;
+  compass?: boolean;
+  map?: boolean;
+  boss_key?: boolean;
   boss: {
     image: string;
     completed: boolean;

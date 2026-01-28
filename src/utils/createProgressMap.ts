@@ -11,19 +11,19 @@ export default function createProgressMap(gameData: GameDataSchema): Record<stri
       if (v && typeof v === 'object') {
         if ('completed' in v) {
           tasks[k] = Boolean(v.completed);
-          if ('compass' in v && typeof v.compass === 'boolean') {
+          if ('compass' in v && v.compass != null && typeof v.compass === 'boolean') {
             tasks[`${k}_compass`] = Boolean(v.compass);
           }
-          if ('map' in v && typeof v.map === 'boolean') {
+          if ('map' in v && v.map != null && typeof v.map === 'boolean') {
             tasks[`${k}_map`] = Boolean(v.map);
           }
-          if ('boss_key' in v && typeof v.boss_key === 'boolean') {
+          if ('boss_key' in v && v.boss_key != null && typeof v.boss_key === 'boolean') {
             tasks[`${k}_boss_key`] = Boolean(v.boss_key);
           }
-          if ('item' in v && v.item && typeof v.item === 'object' && 'completed' in v.item) {
+          if ('item' in v && v.item != null && typeof v.item === 'object' && 'completed' in v.item) {
             tasks[`${k}_item`] = Boolean(v.item.completed);
           }
-          if ('item2' in v && v.item2 && typeof v.item2 === 'object' && 'completed' in v.item2) {
+          if ('item2' in v && v.item2 != null && typeof v.item2 === 'object' && 'completed' in v.item2) {
             tasks[`${k}_item2`] = Boolean(v.item.completed);
           }
           if ('boss' in v && v.boss && typeof v.boss === 'object' && 'completed' in v.boss) {

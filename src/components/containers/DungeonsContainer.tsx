@@ -32,40 +32,50 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
             <img src={dungeon.image} alt={`${formatLabel(key)}`} className="w-full h-full object-cover"  />
           </div>
 
-          <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
-            <ImageToggleableItem key={`${key}_compass`} 
-              element="compass" 
-              image={images.compass}
-              name={`${formatLabel(key)} Compass`}
-              active={dungeon.compass} 
-              onToggle={() => onToggle(key, 'compass')} 
-              blocked={false}
-            />
-          </div>
-
-          <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
-            <ImageToggleableItem key={`${key}_map`} 
-              element="map" 
-              image={images.map} 
-              name={`${formatLabel(key)} Map`} 
-              active={dungeon.map} 
-              onToggle={() => onToggle(key, 'map')} 
-              blocked={false}
-            />
-          </div>
-
-          <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
-            <ImageToggleableItem key={`${key}_item`} 
-              element="item" 
-              image={itemsImages[dungeon.item.key] ?? ''} 
-              name={`${formatLabel(key)} Item`} 
-              active={dungeon.item.completed} 
-              onToggle={() => onToggle(key, 'item')} 
-              blocked={false}
+          {dungeon.compass != null ? 
+            <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
+              <ImageToggleableItem key={`${key}_compass`} 
+                element="compass" 
+                image={images.compass}
+                name={`${formatLabel(key)} Compass`}
+                active={dungeon.compass} 
+                onToggle={() => onToggle(key, 'compass')} 
+                blocked={false}
               />
-          </div>
+            </div>
+            : null
+          }
 
-          {dungeon.item2 ? 
+          {dungeon.map != null ? 
+            <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
+              <ImageToggleableItem key={`${key}_map`} 
+                element="map" 
+                image={images.map} 
+                name={`${formatLabel(key)} Map`} 
+                active={dungeon.map} 
+                onToggle={() => onToggle(key, 'map')} 
+                blocked={false}
+              />
+            </div>
+            : null
+          }
+
+
+          {dungeon.item != null ? 
+            <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
+              <ImageToggleableItem key={`${key}_item`} 
+                element="item" 
+                image={itemsImages[dungeon.item.key] ?? ''} 
+                name={`${formatLabel(key)} Item`} 
+                active={dungeon.item.completed} 
+                onToggle={() => onToggle(key, 'item')} 
+                blocked={false}
+                />
+            </div>
+            : null
+          }
+
+          {dungeon.item2 != null ? 
           
             (<div className="flex-shrink-0 w-8 h-8 overflow-hidden">
               <ImageToggleableItem key={`${key}_item2`} 
@@ -80,6 +90,8 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
             : null
           }
 
+          {dungeon.boss_key != null ? 
+          
           <div className="flex-shrink-0 w-8 h-8 overflow-hidden">
             <ImageToggleableItem key={`${key}_boss_key`} 
               element="boss_key" 
@@ -90,6 +102,8 @@ export default function DungeonsContainerComponent({ section, images, itemsImage
               blocked={false} 
             />
           </div>
+            : null
+          }
 
           <div className="flex-shrink-0 w-16 h-16 overflow-hidden">
             <ImageToggleableItem key={`${key}_boss`} 
