@@ -30,9 +30,6 @@
     }
   },
   "infos": {
-    "collectibles": {
-      "golden_skulltulas": "https://www.zeldadungeon.net/wiki/Ocarina_of_Time_Gold_Skulltulas"
-    }
   },
   "health": {
     "info": {
@@ -961,6 +958,7 @@
       "golden_skulltulas": {
         "key": "golden_skulltula",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
+        "info": "https://www.zeldadungeon.net/wiki/Ocarina_of_Time_Gold_Skulltulas",
         "total": 100
       }
     },
