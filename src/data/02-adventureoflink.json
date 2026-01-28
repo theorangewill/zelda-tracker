@@ -1,0 +1,347 @@
+{
+  "id": "02_adventureoflink",
+  "title": "Zelda II: Adventure of Link",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/44/TAoL_English_Logo.png/250px-TAoL_English_Logo.png",
+    "compass": "",
+    "map": "",
+    "boss_key": "",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/d/db/TAoL_Bowl_of_Hearts_Sprite.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/d/db/TAoL_Bowl_of_Hearts_Sprite.png"
+  },
+  "styling": {
+    "items": "8",
+    "health": "8",
+    "quests": "1",
+    "minigames": "4",
+    "equipments": {
+      "spells": "4",
+      "combat_techniques": "2"
+    },
+    "abilities": {
+    },
+    "collectibles": {
+    }
+  },
+  "infos": {
+    "abilities": {
+      "magic_containers_pieces": "https://www.zeldadungeon.net/wiki/The_Adventure_of_Link_Magic_Containers"
+    }
+  },
+  "health": {
+    "info": {
+      "min": 4,
+      "max": 8,
+      "heart_cointainers_total": 0,
+      "heart_pieces_total": 4,
+      "proportion_of_heart_pieces_per_heart_container": 1,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/The_Adventure_of_Link_Heart_Containers"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 4,
+      "max": 8,
+      "magic_containers_total": 4
+    }
+  },
+  "items": {
+    "candle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/57/TAoL_Candle_Sprite.png",
+      "completed": false
+    },
+    "hammer": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/TAoL_Hammer_Sprite.png",
+      "completed": false
+    },
+    "handy_glove": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/20/TAoL_Handy_Glove_Sprite.png",
+      "completed": false
+    },
+    "raft": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/TAoL_Raft_Sprite.png",
+      "completed": false
+    },
+    "boots": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TAoL_Boots_Sprite.png",
+      "completed": false
+    },
+    "whistle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f6/TAoL_Flute_Sprite.png",
+      "completed": false
+    },
+    "magical_key": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/TAoL_Magical_Key_Sprite.png",
+      "completed": false
+    },
+    "cross": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/65/TAoL_Cross_Sprite.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "spells": {
+      "shield_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6e/TAoL_Shield_%28Magic%29_Artwork.png",
+        "completed": false
+      },
+      "jump_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/ff/TAoL_Jump_Artwork.png",
+        "completed": false
+      },
+      "life_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/TAoL_Life_Artwork.png",
+        "completed": false
+      },
+      "fairy_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2b/TAoL_Fairy_Artwork.png/301px-TAoL_Fairy_Artwork.png",
+        "completed": false
+      },
+      "fire_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0c/TAoL_Fire_Artwork.png",
+        "completed": false
+      },
+      "reflect_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/TAoL_Reflect_Artwork.png",
+        "completed": false
+      },
+      "spell_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/TAoL_Spell_Artwork.png",
+        "completed": false
+      },
+      "thunder_spell":{
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/TAoL_Thunder_Artwork.png",
+        "completed": false
+      }
+    },
+    "combat_techniques": {
+      "down_thrust": {
+        "completed": false
+      },
+      "jump_thrust": {
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "parapa_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e3/TAoL_Parapa_Palace_Overworld.png/150px-TAoL_Parapa_Palace_Overworld.png",
+      "item": {
+        "key": "candle",
+        "completed": false,
+        "hooks": ["candle"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/TAoL_Horsehead_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_1"]
+      },
+      "completed": false
+    },
+    "midoro_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ac/TAoL_Midoro_Palace_Overworld.png/150px-TAoL_Midoro_Palace_Overworld.png",
+      "item": {
+        "key": "handy_glove",
+        "completed": false,
+        "hooks": ["handy_glove"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8d/TAoL_Helmethead_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_2"]
+      },
+      "completed": false
+    },
+    "island_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/35/TAoL_Island_Palace_Overworld.png/150px-TAoL_Island_Palace_Overworld.png",
+      "item": {
+        "key": "raft",
+        "completed": false,
+        "hooks": ["raft"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/87/TAoL_Rebonack_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_3"]
+      },
+      "completed": false
+    },
+    "maze_island_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/87/TAoL_Maze_Island_Palace_Overworld.png/150px-TAoL_Maze_Island_Palace_Overworld.png",
+      "item": {
+        "key": "boots",
+        "completed": false,
+        "hooks": ["boots"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/43/TAoL_Carock_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_4"]
+      },
+      "completed": false
+    },
+    "palace_on_the_sea": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/de/TAoL_Palace_on_the_Sea_Overworld.png/150px-TAoL_Palace_on_the_Sea_Overworld.png",
+      "item": {
+        "key": "whistle",
+        "completed": false,
+        "hooks": ["whistle"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/db/TAoL_Gooma_Attacking_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_5"]
+      },
+      "completed": false
+    },
+    "three-eye_rock_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8a/TAoL_Three-Eye_Rock_Palace_Overworld.png/150px-TAoL_Three-Eye_Rock_Palace_Overworld.png",
+      "item": {
+        "key": "cross",
+        "completed": false,
+        "hooks": ["cross"]
+      },
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c6/TAoL_Barba_Sprite.png/93px-TAoL_Barba_Sprite.png",
+        "completed": false,
+        "hooks": ["crystal_placement_6"]
+      },
+      "completed": false
+    },
+    "great_palace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/49/TAoL_Great_Palace_Exterior.png/150px-TAoL_Great_Palace_Exterior.png",
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/TAoL_Thunderbird_Sprite.png",
+        "completed": false,
+        "hooks": []
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    "get_trophy_back_to_the_woman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/TAoL_Trophy_Sprite.png",
+      "completed": false,
+      "hooks": ["jump_spell"]
+    },
+    "take_the_mirror_to_the_lady": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/TAoL_Unnamed_Character_Sprite_2.png",
+      "completed": false,
+      "hooks": ["life_spell"]
+    },
+    "show_the_river_guard_that_you_are_bagun's_friend": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/TAoL_Bagu_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "beat_death_mountain": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/TAoL_Hammer_Sprite.png",
+      "completed": false,
+      "hooks": ["hammer"]
+    },
+    "cure_the_old_woman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9e/TAoL_Water_of_Life_Sprite.png",
+      "completed": false,
+      "hooks": ["fairy_spell"]
+    },
+    "give_water_to_the_woman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a9/TAoL_Old_Man%27s_Niece_Sprite.png",
+      "completed": false,
+      "hooks": ["fire_spell"]
+    },
+    "rescue_the_child": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/TAoL_Child_Sprite.png",
+      "completed": false,
+      "hooks": ["reflect_spell"]
+    },
+    "rise_the_big_building": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/39/TAoL_Kasuto_Sign.png",
+      "completed": false,
+      "hooks": ["magical_key"]
+    },
+    "fight_dark_link": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/00/TAoL_Link%27s_Shadow_Sprite.png",
+      "completed": false,
+      "hooks": ["triforce_of_courage"]
+    }
+  },
+  "minigames": {
+  },
+  "abilities": {
+    "sidebar": {
+      "magic_containers_pieces": {
+        "magic_container_piece_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1f/TAoL_Magic_Container_Sprite.png",
+          "completed": false,
+          "hooks": ["magic_container_1"]
+        },
+        "magic_container_piece_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1f/TAoL_Magic_Container_Sprite.png",
+          "completed": false,
+          "hooks": ["magic_container_2"]
+        },
+        "magic_container_piece_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1f/TAoL_Magic_Container_Sprite.png",
+          "completed": false,
+          "hooks": ["magic_container_3"]
+        },
+        "magic_container_piece_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1f/TAoL_Magic_Container_Sprite.png",
+          "completed": false,
+          "hooks": ["magic_container_4"]
+        }
+      }
+    },
+    "main": {
+      "crystal_placements_and_triforce": {
+        "crystal_placement_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "crystal_placement_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "crystal_placement_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "crystal_placement_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "crystal_placement_5": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "crystal_placement_6": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TAoL_Crystal_Sprite.png",
+          "completed": false
+        },
+        "triforce_of_courage": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/TLoZ_Triforce_Shard_Sprite.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+    },
+    "bottom": {
+      
+    }
+  },
+  "countable_collectibles": {
+    "sidebar": {
+      "link_dolls": {
+        "key": "link_doll",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/TAoL_Doll_Sprite.png",
+        "info": "https://www.zeldadungeon.net/wiki/Link_Doll",
+        "total": 6
+      }
+    },
+    "bottom": {
+    }
+  }
+}

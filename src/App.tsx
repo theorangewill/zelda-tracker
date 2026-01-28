@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import GamePageOne from './pages/GamePageOne';
 import './styles.css';
 import GamePageTwo from './pages/GamePageTwo';
+import GamePageAdventureOfLink from './pages/GamePageAdventureOfLink';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/01-zelda" element={<GamePageTwo gameId='01-zelda' />} />
+          <Route path="/02-adventureoflink" element={<GamePageAdventureOfLink gameId='02-adventureoflink' />} />
           <Route path="/03-linktothepast" element={<GamePageTwo gameId='03-linktothepast' />} />
           <Route path="/06-majora" element={<GamePageOne gameId='06-majora' />} />
           <Route path="/05-ocarina" element={<GamePageTwo gameId='05-ocarina' />} />
