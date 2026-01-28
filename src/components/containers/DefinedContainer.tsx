@@ -10,7 +10,9 @@ interface Props {
 }
 
 export default function DefinedContainerComponent({ name, section, onToggle, hookedItems }: Props) {
-
+  if (!section || Object.keys(section).length === 0) {
+    return null;
+  }
   return (
     <div>
       <div className="bg-gray-800 border border-gray-700 p-5 m-2 rounded-xl shadow-xl">
