@@ -11,23 +11,28 @@ export default function applyCountableCollectibles(base: GameDataSchema): GameDa
         if (!source) continue;
 
         for (const sectionKey of Object.keys(source)) {
-        const section = source[sectionKey];
+            const section = source[sectionKey];
 
-        const newSection: Record<string, ItemSchema> = {};
+            const newSection: Record<string, ItemSchema> = {};
 
-        for (let i = 0; i < section.total; i++) {
-            newSection[`${sectionKey}_${i + 1}`] = {
-            image: section.image,
-            completed: false,
-            };
-        }
+            for (let i = 0; i < section.total; i++) {
+                newSection[`${sectionKey}_${i + 1}`] = {
+                image: section.image,
+                completed: false,
+                };
+            }
 
-        // garante que o destino exista
-        if (!base.collectibles[position]) {
-            base.collectibles[position] = {};
-        }
+            // garante que o destino exista
+            if (!base.collectibles[position]) {
+                base.collectibles[position] = {};
+            }
 
-        base.collectibles[position][sectionKey] = newSection;
+            if (!base.infos.collectibles) {
+                base.infos.collectibles = {};
+            }
+
+            base.collectibles[position][sectionKey] = newSection;
+            base.infos.collectibles[sectionKey] = section.info;
         }
     }
 
