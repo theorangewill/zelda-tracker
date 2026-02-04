@@ -1,5 +1,6 @@
 export interface ImagesSchema {
   logo: string;
+  poster: string;
   compass: string;
   map: string;
   boss_key: string;
