@@ -16,7 +16,7 @@ export default function applyCountableCollectibles(base: GameDataSchema): GameDa
             const newSection: Record<string, ItemSchema> = {};
 
             for (let i = 0; i < section.total; i++) {
-                newSection[`${sectionKey}_${i + 1}`] = {
+                newSection[`${section.key}_${i + 1}`] = {
                 image: section.image,
                 completed: false,
                 };
@@ -32,6 +32,7 @@ export default function applyCountableCollectibles(base: GameDataSchema): GameDa
             }
 
             base.collectibles[position][sectionKey] = newSection;
+            console.log(newSection)
             base.infos.collectibles[sectionKey] = section.info;
         }
     }
