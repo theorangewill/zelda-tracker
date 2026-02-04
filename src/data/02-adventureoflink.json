@@ -3,6 +3,7 @@
   "title": "Zelda II: Adventure of Link",
   "images": {
     "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/44/TAoL_English_Logo.png/250px-TAoL_English_Logo.png",
+    "poster": "https://cdn.wikimg.net/en/zeldawiki/images/1/10/ZW_Tile_TAoL.png",
     "compass": "",
     "map": "",
     "boss_key": "",
@@ -323,6 +324,87 @@
           "completed": false
         }
       }
+    },
+    "bottom": {
+
+    "life_experience": {
+      "1": {
+        "completed": false
+      },
+      "2": {
+        "completed": false
+      },
+      "3": {
+        "completed": false
+      },
+      "4": {
+        "completed": false
+      },
+      "5": {
+        "completed": false
+      },
+      "6": {
+        "completed": false
+      },
+      "7": {
+        "completed": false
+      },
+      "8": {
+        "completed": false
+      }
+    },
+    "magic_experience": {
+      "1": {
+        "completed": false
+      },
+      "2": {
+        "completed": false
+      },
+      "3": {
+        "completed": false
+      },
+      "4": {
+        "completed": false
+      },
+      "5": {
+        "completed": false
+      },
+      "6": {
+        "completed": false
+      },
+      "7": {
+        "completed": false
+      },
+      "8": {
+        "completed": false
+      }
+    },
+    "attack_experience": {
+      "1": {
+        "completed": false
+      },
+      "2": {
+        "completed": false
+      },
+      "3": {
+        "completed": false
+      },
+      "4": {
+        "completed": false
+      },
+      "5": {
+        "completed": false
+      },
+      "6": {
+        "completed": false
+      },
+      "7": {
+        "completed": false
+      },
+      "8": {
+        "completed": false
+      }
+    }
     }
   },
   "collectibles": {
@@ -334,14 +416,14 @@
   },
   "countable_collectibles": {
     "sidebar": {
+    },
+    "bottom": {
       "link_dolls": {
         "key": "link_doll",
         "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/TAoL_Doll_Sprite.png",
         "info": "https://www.zeldadungeon.net/wiki/Link_Doll",
         "total": 6
       }
-    },
-    "bottom": {
     }
   }
 }
