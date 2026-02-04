@@ -29,7 +29,7 @@ export default function Home() {
       {/* Grid */}
       <div className="flex-1 p-8">
         <div className="max-w-7xl mx-auto pt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {Object.entries(gamesData).map(([filename, game]) => (
               <Link
                 key={filename}
@@ -48,7 +48,7 @@ export default function Home() {
                 flex items-center justify-center
               ">
                 <img
-                  src={game.images.logo}
+                  src={game.images.poster}
                   alt={game.title}
                   className="h-full max-w-none object-contain"
                 />
