@@ -36,14 +36,26 @@ export default function GamePageAdventureOfLink({ gameId }: { gameId: string }) 
       }
     }
 
-    for (const item of Object.values(gameData.equipments || {})) {
-      for (const [subkey, subitem] of Object.entries(item)) {
-        if (subitem.image) {
-          images[subkey] = subitem.image;
+    function collectNestedImages(
+      source: Record<string, Record<string, any>> | undefined
+    ) {
+      for (const item of Object.values(source || {})) {
+        for (const [subkey, subitem] of Object.entries(item)) { 
+          if (subitem.image) { 
+            images[subkey] = subitem.image;
+          } 
         }
       }
     }
 
+    collectNestedImages(gameData.equipments);
+    collectNestedImages(gameData.collectibles?.main);
+    collectNestedImages(gameData.collectibles?.sidebar);
+    collectNestedImages(gameData.collectibles?.bottom);
+    collectNestedImages(gameData.abilities?.main);
+    collectNestedImages(gameData.abilities?.sidebar);
+    collectNestedImages(gameData.abilities?.bottom);
+    
     return images;
   }, [gameData]);
 
