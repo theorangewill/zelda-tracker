@@ -1,0 +1,871 @@
+{
+  "id": "04_linksawakening",
+  "title": "The Legend of Zelda: Link's Awakening NS",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ed/LA_English_Logo.png/250px-LA_English_Logo.png",
+    "poster": "https://cdn.wikimg.net/en/zeldawiki/images/e/ed/ZW_Tile_LA.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/93/LANS_Compass_Model.png/62px-LANS_Compass_Model.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/45/LANS_Map_Model.png/57px-LANS_Map_Model.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/80/LANS_Nightmare_Key_Model.png/39px-LANS_Nightmare_Key_Model.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/45/LANS_Piece_of_Heart_Model.png/64px-LANS_Piece_of_Heart_Model.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0f/LANS_Heart_Container_Model.png/64px-LANS_Heart_Container_Model.png"
+  },
+  "styling": {
+    "items": "9",
+    "health": "10",
+    "quests": "4",
+    "minigames": "4",
+    "equipments": {
+      "capacities": "2"
+    },
+    "abilities": {
+    },
+    "collectibles": {
+    }
+  },
+  "infos": {
+  },
+  "health": {
+    "info": {
+      "min": 3,
+      "max": 20,
+      "heart_cointainers_total": 9,
+      "heart_pieces_total": 32,
+      "proportion_of_heart_pieces_per_heart_container": 4,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Link%27s_Awakening_Heart_Pieces"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 0,
+      "max": 0,
+      "magic_containers_total": 0
+    }
+  },
+  "items": {
+    "bow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c0/LANS_Bow_Model.png/64px-LANS_Bow_Model.png",
+      "completed": false
+    },
+    "boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e5/LANS_Boomerang_Model.png/64px-LANS_Boomerang_Model.png",
+      "completed": false
+    },
+    "hookshot": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0f/LANS_Hookshot_Model.png/64px-LANS_Hookshot_Model.png",
+      "completed": false
+    },
+    "bomb": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/55/LANS_Bomb_Model.png/44px-LANS_Bomb_Model.png",
+      "completed": false
+    },
+    "magic_rod": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/78/LANS_Magic_Rod_Model.png/24px-LANS_Magic_Rod_Model.png",
+      "completed": false
+    },
+    "shovel": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ee/LANS_Shovel_Model.png/31px-LANS_Shovel_Model.png",
+      "completed": false
+    },
+    "ocarina": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/LANS_Ocarina_Model.png/64px-LANS_Ocarina_Model.png",
+      "completed": false
+    },
+    "roc's_feather": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/LANS_Roc%27s_Feather_Model.png/42px-LANS_Roc%27s_Feather_Model.png",
+      "completed": false
+    },
+    "fairy_bottle_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ae/LANS_Fairy_Bottle_Model.png/51px-LANS_Fairy_Bottle_Model.png",
+      "completed": false
+    },
+    "fairy_bottle_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ae/LANS_Fairy_Bottle_Model.png/51px-LANS_Fairy_Bottle_Model.png",
+      "completed": false
+    },
+    "fairy_bottle_3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ae/LANS_Fairy_Bottle_Model.png/51px-LANS_Fairy_Bottle_Model.png",
+      "completed": false
+    },
+    "seashell_sensor": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b0/LANS_Seashell_Sensor_Model.png/119px-LANS_Seashell_Sensor_Model.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bd/LANS_Sword_Model.png/26px-LANS_Sword_Model.png",
+        "completed": false
+      },
+      "koholint_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/66/LANS_Koholint_Sword_Model.png/24px-LANS_Koholint_Sword_Model.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/13/LANS_Shield_Model.png/55px-LANS_Shield_Model.png",
+        "completed": false
+      },
+      "mirror_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/67/LANS_Mirror_Shield_Model.png/54px-LANS_Mirror_Shield_Model.png",
+        "completed": false
+      }
+    },
+    "bracelet": {
+      "power_bracelet": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/63/LANS_Power_Bracelet_Model.png/64px-LANS_Power_Bracelet_Model.png",
+        "completed": false
+      },
+      "powerful_bracelet": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/18/LANS_Powerful_Bracelet_Model.png/64px-LANS_Powerful_Bracelet_Model.png",
+        "completed": false
+      }
+    },
+    "shoes": {
+      "pegasus_shoes": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/LANS_Pegasus_Boots_Model.png/64px-LANS_Pegasus_Boots_Model.png",
+        "completed": false
+      },
+      "flippers": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e9/LANS_Flippers_Model.png/36px-LANS_Flippers_Model.png",
+        "completed": false
+      }
+    },
+    "lures": {
+      "lightweight_lure": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/LANS_Lightweight_Lure_Model.png/64px-LANS_Lightweight_Lure_Model.png",
+        "completed": false
+      },
+      "middleweight_lure": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/44/LANS_Middleweight_Lure_Model.png/64px-LANS_Middleweight_Lure_Model.png",
+        "completed": false
+      },
+      "heavyweight_lure": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f9/LANS_Heavyweight_Lure_Model.png/64px-LANS_Heavyweight_Lure_Model.png",
+        "completed": false
+      }
+    },
+    "tunics": {
+      "red_mail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/LADX_Red_Clothes_Sprite.png",
+        "completed": false
+      },
+      "blue_mail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/LADX_Blue_Clothes_Sprite.png",
+        "completed": false
+      }
+    },
+    "upgrades": {
+      "arrow_upgrade": {
+        "completed": false
+      },
+      "bomb_upgrade": {
+        "completed": false
+      },
+      "magic_powder_upgrade": {
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "tail_cave": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bc/LANS_Tail_Cave.png/320px-LANS_Tail_Cave.png",
+      "item": {
+        "key": "roc's_feather",
+        "completed": false,
+        "hooks": ["roc's_feather"]
+      },
+      "item2": {
+        "key": "stone_beak_1",
+        "completed": false,
+        "hooks": ["stone_beak_1"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/LANS_Moldorm_Model.png/320px-LANS_Moldorm_Model.png",
+        "completed": false,
+        "hooks": ["full_moon_cello", "heart_container_1"]
+      },
+      "completed": false
+    },
+    "bottle_grotto": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bf/LANS_Bottle_Grotto.png/320px-LANS_Bottle_Grotto.png",
+      "item": {
+        "key": "power_bracelet",
+        "completed": false,
+        "hooks": ["power_bracelet"]
+      },
+      "item2": {
+        "key": "stone_beak_2",
+        "completed": false,
+        "hooks": ["stone_beak_2"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/60/LANS_Genie_Model.png/307px-LANS_Genie_Model.png",
+        "completed": false,
+        "hooks": ["conch_horn", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "key_cavern": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ef/LANS_Key_Cavern.png/320px-LANS_Key_Cavern.png",
+      "item": {
+        "key": "pegasus_shoes",
+        "completed": false,
+        "hooks": ["pegasus_shoes"]
+      },
+      "item2": {
+        "key": "stone_beak_3",
+        "completed": false,
+        "hooks": ["stone_beak_3"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/LANS_Slime_Eye_Model.png/320px-LANS_Slime_Eye_Model.png",
+        "completed": false,
+        "hooks": ["sea_lily's_bell", "heart_container_3"]
+      },
+      "completed": false
+    },
+    "color_dungeon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1f/LANS_Color_Dungeon.png/178px-LANS_Color_Dungeon.png",
+      "item": {
+        "key": "stone_beak_4",
+        "completed": false,
+        "hooks": ["stone_beak_4"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c3/LANS_Hardhit_Beetle_Model.png/320px-LANS_Hardhit_Beetle_Model.png",
+        "completed": false,
+        "hooks": ["blue_mail", "red_mail"]
+      },
+      "completed": false
+    },
+    "angler's_tunnel": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/LANS_Angler%27s_Tunnel.png/320px-LANS_Angler%27s_Tunnel.png",
+      "item": {
+        "key": "flippers",
+        "completed": false,
+        "hooks": ["flippers"]
+      },
+      "item2": {
+        "key": "stone_beak_5",
+        "completed": false,
+        "hooks": ["stone_beak_5"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f0/LANS_Angler_Fish_Model.png/320px-LANS_Angler_Fish_Model.png",
+        "completed": false,
+        "hooks": ["surf_harp", "heart_container_4"]
+      },
+      "completed": false
+    },
+    "catfish's_maw": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f3/LANS_Catfish%27s_Maw.png/320px-LANS_Catfish%27s_Maw.png",
+      "item": {
+        "key": "hookshot",
+        "completed": false,
+        "hooks": ["hookshot"]
+      },
+      "item2": {
+        "key": "stone_beak_6",
+        "completed": false,
+        "hooks": ["stone_beak_6"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/LANS_Slime_Eel_Model.png/257px-LANS_Slime_Eel_Model.png",
+        "completed": false,
+        "hooks": ["wind_marimba", "heart_container_5"]
+      },
+      "completed": false
+    },
+    "face_shrine": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/76/LANS_Face_Shrine.png/320px-LANS_Face_Shrine.png",
+      "item": {
+        "key": "powerful_bracelet",
+        "completed": false,
+        "hooks": ["powerful_bracelet"]
+      },
+      "item2": {
+        "key": "stone_beak_7",
+        "completed": false,
+        "hooks": ["stone_beak_7"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f2/LANS_Facade_Model.png/320px-LANS_Facade_Model.png",
+        "completed": false,
+        "hooks": ["coral_triangle", "heart_container_6"]
+      },
+      "completed": false
+    },
+    "eagle's_tower": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/LANS_Eagle%27s_Tower.jpg/320px-LANS_Eagle%27s_Tower.jpg",
+      "item": {
+        "key": "mirror_shield",
+        "completed": false,
+        "hooks": ["mirror_shield"]
+      },
+      "item2": {
+        "key": "stone_beak_8",
+        "completed": false,
+        "hooks": ["stone_beak_8"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/75/LANS_Evil_Eagle_Model.png",
+        "completed": false,
+        "hooks": ["organ_of_evening_calm", "heart_container_7"]
+      },
+      "completed": false
+    },
+    "turtle_rock": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2e/LANS_Turtle_Rock.png/320px-LANS_Turtle_Rock.png",
+      "item": {
+        "key": "magic_rod",
+        "completed": false,
+        "hooks": ["magic_rod"]
+      },
+      "item2": {
+        "key": "stone_beak_9",
+        "completed": false,
+        "hooks": ["stone_beak_9"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a3/LANS_Hot_Head_Model.png/224px-LANS_Hot_Head_Model.png",
+        "completed": false,
+        "hooks": ["thunder_drum", "heart_container_8"]
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    "wake_up": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/48/LANS_Link_Model.png/79px-LANS_Link_Model.png",
+      "completed": false,
+      "hooks": ["shield"]
+    },
+    "fine_your_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e3/LANS_Owl_Model.png/88px-LANS_Owl_Model.png",
+      "completed": false,
+      "hooks": ["sword"]
+    },
+    "transform_tarin_back_to_normal": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/dc/LANS_Raccoon_Model.png/263px-LANS_Raccoon_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "give_yoshi_doll_to_the_baby": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/LANS_Yoshi_Doll_Model.png/180px-LANS_Yoshi_Doll_Model.png",
+      "completed": false,
+      "hooks": ["ribbon"]
+    },
+    "give_ribbon_to_ciaoCiao": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/LANS_CiaoCiao_Model.png",
+      "completed": false,
+      "hooks": ["dog_food"]
+    },
+    "trade_dog_food_with_bananas": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3a/LANS_Bananas_Model.png/320px-LANS_Bananas_Model.png",
+      "completed": false,
+      "hooks": ["bananas"]
+    },
+    "rescue_bowWow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3b/LANS_BowWow_Model.png/320px-LANS_BowWow_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "be_cursed_by_li'l_devil_at_the_forest": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/77/LANS_Li%27l_Devil_Model.png/120px-LANS_Li%27l_Devil_Model.png",
+      "completed": false,
+      "hooks": ["magic_powder_upgrade"]
+    },
+    "be_cursed_by_li'l_devil_at_the_bay": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/77/LANS_Li%27l_Devil_Model.png/120px-LANS_Li%27l_Devil_Model.png",
+      "completed": false,
+      "hooks": ["bomb_upgrade"]
+    },
+    "be_cursed_by_li'l_devil_in_the_mountain": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/77/LANS_Li%27l_Devil_Model.png/120px-LANS_Li%27l_Devil_Model.png",
+      "completed": false,
+      "hooks": ["arrow_upgrade"]
+    },
+    "give_bananas_to_kiki": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/57/LANS_Kiki_the_Monkey_Model.png/86px-LANS_Kiki_the_Monkey_Model.png",
+      "completed": false,
+      "hooks": ["stick"]
+    },
+    "help_tarin_with_the_bees": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/LANS_Tarin_Model.png/109px-LANS_Tarin_Model.png",
+      "completed": false,
+      "hooks": ["honeycomb"]
+    },
+    "give_the_golden_leaves_to_richard": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a3/LANS_Richard_Model.png/89px-LANS_Richard_Model.png",
+      "completed": false,
+      "hooks": ["slime_key"]
+    },
+    "fall_asleep_at_dream_shrine": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/LANS_Ocarina_Model.png/64px-LANS_Ocarina_Model.png",
+      "completed": false,
+      "hooks": ["ocarina"]
+    },
+    "learn_the_ballad": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/LANS_Ocarina_Model.png/64px-LANS_Ocarina_Model.png",
+      "completed": false,
+      "hooks": ["ballad_of_the_wind_fish"]
+    },
+    "give_the_honeybomb_to_the_chef": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ed/LANS_Chef_Bear_Model.png/95px-LANS_Chef_Bear_Model.png",
+      "completed": false,
+      "hooks": ["pineapple"]
+    },
+    "stare_the_ocean_with_marin": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/79/LANS_Marin_Model.png/73px-LANS_Marin_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "get_rid_of_walrus": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7e/LANS_Walrus_Model.png/120px-LANS_Walrus_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "defeat_lanmola": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/57/LANS_Lanmola_Model.png/120px-LANS_Lanmola_Model.png",
+      "completed": false,
+      "hooks": ["angler_key"]
+    },
+    "talk_to_the_giant_fish": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/38/LANS_Manbo_Model.png/92px-LANS_Manbo_Model.png",
+      "completed": false,
+      "hooks": ["manbo's_mambo"]
+    },
+    "take_the_ghost_home": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f7/LANS_Ghost_Model.png/111px-LANS_Ghost_Model.png",
+      "completed": false,
+      "hooks": ["fairy_bottle_1"]
+    },
+    "give_food_to_papahl": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/85/LANS_Papahl_Model.png/115px-LANS_Papahl_Model.png",
+      "completed": false,
+      "hooks": ["hibiscus"]
+    },
+    "give_the_flower_to_christine": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/LANS_Christine_Model.png/92px-LANS_Christine_Model.png",
+      "completed": false,
+      "hooks": ["letter"]
+    },
+    "deliver_the_message": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/LANS_Mr._Write_Model.png/106px-LANS_Mr._Write_Model.png",
+      "completed": false,
+      "hooks": ["broom"]
+    },
+    "grandma_yahoo_needs_a_broom": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3f/LANS_Grandma_Yahoo_Model.png/63px-LANS_Grandma_Yahoo_Model.png",
+      "completed": false,
+      "hooks": ["fishing_hook"]
+    },
+    "give_a_hand_for_fisherman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b4/LANS_Fisherman_Model.png/109px-LANS_Fisherman_Model.png",
+      "completed": false,
+      "hooks": ["necklace"]
+    },
+    "return_the_missing_necklace": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8a/LANS_Mermaid_Model.png/65px-LANS_Mermaid_Model.png",
+      "completed": false,
+      "hooks": ["scale"]
+    },
+    "place_the_scale": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a0/LANS_The_Mourning_Mermaid_Model.png/84px-LANS_The_Mourning_Mermaid_Model.png",
+      "completed": false,
+      "hooks": ["magnifying_lens"]
+    },
+    "make_business_with_goriya": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/01/LANS_Goriya_Model.png/117px-LANS_Goriya_Model.png",
+      "completed": false,
+      "hooks": ["boomerang"]
+    },
+    "defeat_the_armos_knight": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/LANS_Armos_Knight_Model.png/120px-LANS_Armos_Knight_Model.png",
+      "completed": false,
+      "hooks": ["face_key"]
+    },
+    "find_the_maze_path": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/LANS_Frog%27s_Song_of_Soul_Icon.png",
+      "completed": false,
+      "hooks": ["frog's_song_of_soul"]
+    },
+    "bring_the_rooster_back_from_the_dead": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/38/LANS_Flying_Rooster_Model.png/95px-LANS_Flying_Rooster_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "read_the_small_text_in_the_book": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/92/LANS_Dark_Secrets_and_Mysteries_of_Koholint_Model.png/320px-LANS_Dark_Secrets_and_Mysteries_of_Koholint_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "break_the_egg": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/29/LANS_Wind_Fish%27s_Egg_Model.png/104px-LANS_Wind_Fish%27s_Egg_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "wake_the_wind_fish_up": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/ca/LANS_Wind_Fish_Model.png/120px-LANS_Wind_Fish_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "got_5_seashells": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_10"]
+    },
+    "got_15_seashells": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["seashell_sensor"]
+    },
+    "got_30_seashells": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["chamber_stone_5"]
+    },
+    "got_40_seashells": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["koholint_sword"]
+    },
+    "got_50_seashells": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["chamber_stone_13"]
+    }
+  },
+  "minigames": {
+    "fishing_-_first_time": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/LANS_Lightweight_Lure_Model.png/64px-LANS_Lightweight_Lure_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_3"]
+    },
+    "fishing_-_lunker": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/44/LANS_Middleweight_Lure_Model.png/64px-LANS_Middleweight_Lure_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_4", "middleweight_lure"]
+    },
+    "fishing_-_cheep_cheep": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["seashell_42"]
+    },
+    "fishing_-_fairy_bottle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ae/LANS_Fairy_Bottle_Model.png",
+      "completed": false,
+      "hooks": ["fairy_bottle_2"]
+    },
+    "fishing_-_blooper": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f9/LANS_Heavyweight_Lure_Model.png/64px-LANS_Heavyweight_Lure_Model.png",
+      "completed": false,
+      "hooks": ["heavyweight_lure"]
+    },
+    "fishing_-_blooper_of_100cm": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/LANS_Secret_Seashell_Model.png/41px-LANS_Secret_Seashell_Model.png",
+      "completed": false,
+      "hooks": ["seashell_43"]
+    },
+    "trendy_game_-_heart_piece_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/LANS_Goomba_Figure_Icon.png",
+      "completed": false,
+      "hooks": ["heart_piece_2"]
+    },
+    "trendy_game_-_heart_piece_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/LANS_Spiny_Figure_Icon.png",
+      "completed": false,
+      "hooks": ["heart_piece_17"]
+    },
+    "trendy_game_-_yoshi_doll": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/LANS_Yoshi_Doll_Model.png/180px-LANS_Yoshi_Doll_Model.png",
+      "completed": false,
+      "hooks": ["yoshi_doll"]
+    },
+    "trendy_game_-_seashell": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/LANS_Cheep_Cheep_Figure_Icon.png",
+      "completed": false,
+      "hooks": ["seashell_2"]
+    },
+    "chamber_dungeon_-_fill_up_your_heart": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/LANS_Damp%C3%A9_Model.png/84px-LANS_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_16"]
+    },
+    "chamber_dungeon_-_all_level_two": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/LANS_Damp%C3%A9_Model.png/84px-LANS_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_26"]
+    },
+    "chamber_dungeon_-_four_times": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/LANS_Damp%C3%A9_Model.png/84px-LANS_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["seashell_27"]
+    },
+    "chamber_dungeon_-_heart_shortage": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/LANS_Damp%C3%A9_Model.png/84px-LANS_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["fairy_bottle_3"]
+    },
+    "chamber_dungeon_-_all_chambers": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/LANS_Damp%C3%A9_Model.png/84px-LANS_Damp%C3%A9_Model.png",
+      "completed": false,
+      "hooks": ["heart_container_9"]
+    },
+    "rapids_race_-_40_seconds": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/LANS_Raft_Model.png/120px-LANS_Raft_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_29"]
+    },
+    "rapids_race_-_35_seconds": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/LANS_Raft_Model.png/120px-LANS_Raft_Model.png",
+      "completed": false,
+      "hooks": ["seashell_40"]
+    },
+    "rapids_race_-_30_seconds": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e6/LANS_Raft_Model.png/120px-LANS_Raft_Model.png",
+      "completed": false,
+      "hooks": ["chamber_stone_4"]
+    }
+  },
+  "abilities": {
+    "sidebar": {
+      "songs": {
+        "ballad_of_the_wind_fish": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/LANS_Ballad_of_the_Wind_Fish_Icon.png",
+          "completed": true
+        },
+        "manbo's_mambo": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/LANS_Manbo%27s_Mambo_Icon.png",
+          "completed": true
+        },
+        "frog's_song_of_soul": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/LANS_Frog%27s_Song_of_Soul_Icon.png",
+          "completed": true
+        }
+      }
+    },
+    "main": {
+        "instruments_of_the_sirens": {
+            "conch_horn": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/23/LANS_Conch_Horn_Model.png/64px-LANS_Conch_Horn_Model.png",
+                "completed": false
+            },
+            "coral_triangle": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ed/LANS_Coral_Triangle_Model.png/51px-LANS_Coral_Triangle_Model.png",
+                "completed": false
+            },
+            "full_moon_cello": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cc/LANS_Full_Moon_Cello_Model.png/31px-LANS_Full_Moon_Cello_Model.png",
+                "completed": false
+            },
+            "organ_of_evening_calm": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4d/LANS_Organ_of_Evening_Calm_Model.png/64px-LANS_Organ_of_Evening_Calm_Model.png",
+                "completed": false
+            },
+            "sea_lily's_bell": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/LANS_Sea_Lily%27s_Bell_Model.png/42px-LANS_Sea_Lily%27s_Bell_Model.png",
+                "completed": false
+            },
+            "surf_harp": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1a/LANS_Surf_Harp_Model.png/53px-LANS_Surf_Harp_Model.png",
+                "completed": false
+            },
+            "thunder_drum": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/LANS_Thunder_Drum_Model.png/52px-LANS_Thunder_Drum_Model.png",
+                "completed": false
+            },
+            "wind_marimba": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8f/LANS_Wind_Marimba_Model.png/62px-LANS_Wind_Marimba_Model.png",
+                "completed": false
+            }
+        }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+        "figures": {
+            "blopper_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bd/LANS_Blooper_Figure_Icon.png",
+                "completed": false
+            },
+            "boo_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/52/LANS_Boo_Figure_Icon.png",
+                "completed": false
+            },
+            "bowWow_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8a/LANS_BowWow_Figure_Icon.png",
+                "completed": false
+            },
+            "cheep_cheep_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/LANS_Cheep_Cheep_Figure_Icon.png",
+                "completed": false
+            },
+            "ciaociao_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/LANS_CiaoCiao_Figure_Icon.png",
+                "completed": false
+            },
+            "goomba_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/LANS_Goomba_Figure_Icon.png",
+                "completed": false
+            },
+            "piranha_plant_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/51/LANS_Piranha_Plant_Figure_Icon.png",
+                "completed": false
+            },
+            "pokey_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/30/LANS_Pokey_Figure_Icon.png",
+                "completed": false
+            },
+            "shy_guy_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/36/LANS_Shy_Guy_Figure_Icon.png",
+                "completed": false
+            },
+            "spiny_figure": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c8/LANS_Spiny_Figure_Icon.png",
+                "completed": false
+            }
+        },
+        "keys": {
+          "angler_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e8/LANS_Angler_Key_Model.png/35px-LANS_Angler_Key_Model.png",
+            "completed": false
+          },
+          "bird_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6b/LANS_Bird_Key_Model.png/34px-LANS_Bird_Key_Model.png",
+            "completed": false
+          },
+          "face_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e1/LANS_Face_Key_Model.png/32px-LANS_Face_Key_Model.png",
+            "completed": false
+          },
+          "slime_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ad/LANS_Slime_Key_Model.png/26px-LANS_Slime_Key_Model.png",
+            "completed": false
+          },
+          "tail_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/27/LANS_Tail_Key_Model.png/25px-LANS_Tail_Key_Model.png",
+            "completed": false
+          }
+        },
+        "trade_quest": {
+          "bananas": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3a/LANS_Bananas_Model.png/64px-LANS_Bananas_Model.png",
+            "completed": false
+          },
+          "broom": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/96/LANS_Broom_Model.png/24px-LANS_Broom_Model.png",
+            "completed": false
+          },
+          "dog_food": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/52/LANS_Dog_Food_Model.png/62px-LANS_Dog_Food_Model.png",
+            "completed": false
+          },
+          "fishing_hook": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/LANS_Fishing_Hook_Model.png/40px-LANS_Fishing_Hook_Model.png",
+            "completed": false
+          },
+          "hibiscus": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d0/LANS_Hibiscus_Model.png/62px-LANS_Hibiscus_Model.png",
+            "completed": false
+          },
+          "honeycomb": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/63/LANS_Honeycomb_Model.png/64px-LANS_Honeycomb_Model.png",
+            "completed": false
+          },
+          "letter": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9f/LANS_Goat%27s_Letter_Model.png/64px-LANS_Goat%27s_Letter_Model.png",
+            "completed": false
+          },
+          "necklace": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1b/LANS_Necklace_Model.png/59px-LANS_Necklace_Model.png",
+            "completed": false
+          },
+          "magnifying_lens": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/52/LANS_Magnifying_Lens_Model.png/35px-LANS_Magnifying_Lens_Model.png",
+            "completed": false
+          },
+          "pineapple": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/76/LANS_Pineapple_Model.png/38px-LANS_Pineapple_Model.png",
+            "completed": false
+          },
+          "ribbon": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/53/LANS_Ribbon_Model.png/64px-LANS_Ribbon_Model.png",
+            "completed": false
+          },
+          "scale": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f8/LANS_Scale_Model.png/64px-LANS_Scale_Model.png",
+            "completed": false
+          },
+          "stick": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/29/LANS_Stick_Model.png/23px-LANS_Stick_Model.png",
+            "completed": false
+          },
+          "yoshi_doll": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/LANS_Yoshi_Doll_Model.png/36px-LANS_Yoshi_Doll_Model.png",
+            "completed": false
+          }
+        }
+    },
+    "bottom": {
+    }
+  },
+  "countable_collectibles": {
+    "sidebar": {
+      "seashells": {
+        "key": "seashell",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoT3D_Golden_Skull_Token_Icon.png",
+        "info": "https://www.zeldadungeon.net/wiki/Link%27s_Awakening_Secret_Seashells",
+        "total": 50
+      },
+      "chamber_stones": {
+        "key": "chamber_stone",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/40/LANS_Chamber_Stone_Icon.png",
+        "info": "https://www.zeldadungeon.net/wiki/Chamber_Stone",
+        "total": 14
+      },
+      "golden_leaves": {
+        "key": "golden_leaf",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e1/LANS_Golden_Leaf_Model.png/37px-LANS_Golden_Leaf_Model.png",
+        "total": 5
+      },
+      "stone_beaks": {
+        "key": "stone_beak",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3c/LANS_Stone_Beak_Model.png/48px-LANS_Stone_Beak_Model.png",
+        "total": 9
+      }
+    },
+    "bottom": {
+    }
+  }
+}
