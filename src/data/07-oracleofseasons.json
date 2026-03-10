@@ -197,10 +197,10 @@
       }
     },
     "upgrades": {
-      "bomb_bag": {
+      "bomb_bag_upgrade": {
         "completed": false
       },
-      "seed_satchel": {
+      "seed_satchel_upgrade": {
         "completed": false
       }
     }
@@ -489,7 +489,7 @@
     "run_into_maple": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/78/OoS_Maple_Sprite.png",
       "completed": false,
-      "hooks": ["ghaslty_doll"]
+      "hooks": ["ghastly_doll"]
     },
     "help_the_woman_to_have_a_fright": {
       "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/OoS_Ghastly_Doll_Sprite.png",
