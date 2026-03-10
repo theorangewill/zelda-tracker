@@ -1,0 +1,956 @@
+{
+  "id": "07_oracleofseasons",
+  "title": "The Legend of Zelda: Oracle of Seasons",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/OoS_English_Logo.png/250px-OoS_English_Logo.png",
+    "poster": "https://cdn.wikimg.net/en/zeldawiki/images/0/04/ZW_Tile_OoS.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/OoS_Compass_Sprite.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/2/25/OoS_Dungeon_Map_Sprite.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/b/b5/OoS_Boss_Key_Sprite.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/OoS_Piece_of_Heart_Sprite.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/d/d5/LADX_Heart_Sprite.png"
+  },
+  "styling": {
+    "items": "9",
+    "health": "8",
+    "quests": "4",
+    "minigames": "4",
+    "equipments": {
+      "capacities": "2",
+      "mystical_seeds": "7",
+      "upgrades": "2"
+    },
+    "abilities": {
+      "jewels": "9"
+    },
+    "collectibles": {
+    }
+  },
+  "infos": {
+  },
+  "health": {
+    "info": {
+      "min": 4,
+      "max": 15,
+      "heart_cointainers_total": 8,
+      "heart_pieces_total": 12,
+      "proportion_of_heart_pieces_per_heart_container": 4,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/Oracle_of_Seasons_Heart_Pieces"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 0,
+      "max": 0,
+      "magic_containers_total": 0
+    }
+  },
+  "items": {
+    "bomb": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2d/OoS_Bomb_Sprite.png",
+      "completed": false
+    },
+    "magnetic_glove": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d0/OoS_Magnetic_Glove_North_Sprite.png",
+      "completed": false
+    },
+    "power_bracelet": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9c/OoS_Power_Bracelet_Sprite.png",
+      "completed": false
+    },
+    "roc's_feather": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/12/OoS_Roc%27s_Feather_Sprite.png",
+      "completed": false
+    },
+    "roc's_cape": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/63/OoS_Roc%27s_Cape_Sprite.png",
+      "completed": false
+    },
+    "rod_of_seasons": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/OoS_Rod_of_Seasons_Sprite.png",
+      "completed": false
+    },
+    "seed_satchel": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/04/OoS_Seed_Satchel_Sprite.png",
+      "completed": false
+    },
+    "slingshot": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/44/OoS_Slingshot_Sprite.png",
+      "completed": false
+    },
+    "hyper_slingshot": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/60/OoS_Hyper_Slingshot_Sprite.png",
+      "completed": false
+    },
+    "shovel": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9a/OoS_Shovel_Sprite.png",
+      "completed": false
+    },
+    "boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/OoS_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "magical_boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/82/OoS_Magical_Boomerang_Sprite.png",
+      "completed": false
+    },
+    "strange_flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2d/OoS_Strange_Flute_Sprite.png",
+      "completed": false
+    },
+    "dimitri's_flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c6/OoS_Dimitri%27s_Flute_Sprite.png",
+      "completed": false
+    },
+    "moosh's_flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/25/OoS_Moosh%27s_Flute_Sprite.png",
+      "completed": false
+    },
+    "ricky's_flute": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3c/OoS_Ricky%27s_Flute_Sprite.png",
+      "completed": false
+    },
+    "flippers": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/50/OoS_Zora%27s_Flippers_Sprite.png",
+      "completed": false
+    },
+    "huge_maku_seed": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/95/OoS_Huge_Maku_Seed_Sprite.png",
+      "completed": false
+    },
+    "pirate's_bell": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2f/OoS_Pirate%27s_Bell_Sprite.png",
+      "completed": false
+    },
+    "member's_card": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/OoS_Member%27s_Card_Sprite.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoS_Wooden_Sword_Sprite.png",
+        "completed": false
+      },
+      "noble_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c3/OoS_Noble_Sword_Sprite.png",
+        "completed": false
+      },
+      "master_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b2/OoS_Master_Sword_Sprite.png",
+        "completed": false
+      },
+      "biggoron_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/25/OoS_Biggoron_Sword_Sprite.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "wooden_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e9/OoS_Wooden_Shield_Sprite.png",
+        "completed": false
+      },
+      "iron_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b6/OoS_Iron_Shield_Sprite.png",
+        "completed": false
+      },
+      "mirror_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/OoS_Mirror_Shield_Sprite.png",
+        "completed": false
+      }
+    },
+    "mystical_seeds": {
+      "ember_seed": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b0/OoS_Ember_Seed_Sprite.png",
+        "completed": false
+      },
+      "mystery_seed": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/87/OoS_Mystery_Seed_Sprite.png",
+        "completed": false
+      },
+      "scent_seed": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/OoS_Scent_Seed_Sprite.png",
+        "completed": false
+      },
+      "pegasus_seed": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/63/OoS_Pegasus_Seed_Sprite.png",
+        "completed": false
+      },
+      "gale_seed": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c7/OoS_Gale_Seed_Sprite.png",
+        "completed": false
+      }
+    },
+    "ring_boxes": {
+      "ring_box_l-1": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/OoS_Ring_Box_L-1_Sprite.png",
+        "completed": false
+      },
+      "ring_box_l-2": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/OoS_Ring_Box_L-2_Sprite.png",
+        "completed": false
+      },
+      "ring_box_l-3": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9c/OoS_Ring_Box_L-3_Sprite.png",
+        "completed": false
+      }
+    },
+    "upgrades": {
+      "bomb_bag": {
+        "completed": false
+      },
+      "seed_satchel": {
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "gnarled_root_dungeon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0a/OoS_Gnarled_Root_Dungeon.png",
+      "item": {
+        "key": "bomb",
+        "completed": false,
+        "hooks": ["bomb"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8b/OoS_Aquamentus_Sprite.png",
+        "completed": false,
+        "hooks": ["fertile_soil", "heart_container_1"]
+      },
+      "completed": false
+    },
+    "snake's_remains": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/20/OoS_Snake%27s_Remains.png",
+      "item": {
+        "key": "power_bracelet",
+        "completed": false,
+        "hooks": ["power_bracelet"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6e/OoS_Dodongo_Sprite.png",
+        "completed": false,
+        "hooks": ["gift_of_time", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "poison_moth's_lair": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1c/OoS_Poison_Moth%27s_Lair.png",
+      "item": {
+        "key": "roc's_feather",
+        "completed": false,
+        "hooks": ["roc's_feather"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/34/OoS_Mothula_Sprite.png",
+        "completed": false,
+        "hooks": ["bright_sun", "heart_container_3"]
+      },
+      "completed": false
+    },
+    "dancing_dragon_dungeon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/03/OoS_Dancing_Dragon_Dungeon.png",
+      "item": {
+        "key": "slingshot",
+        "completed": false,
+        "hooks": ["slingshot"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fd/OoS_Gohma_Sprite.png",
+        "completed": false,
+        "hooks": ["soothing_rain", "heart_container_4"]
+      },
+      "completed": false
+    },
+    "unicorn's_cave": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/69/OoS_Unicorn%27s_Cave.png",
+      "item": {
+        "key": "magnetic_glove",
+        "completed": false,
+        "hooks": ["magnetic_glove"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0a/OoS_Digdogger_Sprite.png",
+        "completed": false,
+        "hooks": ["nurturing_warmth", "heart_container_5"]
+      },
+      "completed": false
+    },
+    "ancient_ruins": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/dc/OoS_Ancient_Ruins.png",
+      "item": {
+        "key": "magical_boomerang",
+        "completed": false,
+        "hooks": ["magical_boomerang"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/92/OoS_Manhandla_Sprite.png",
+        "completed": false,
+        "hooks": ["blowing_wind", "heart_container_6"]
+      },
+      "completed": false
+    },
+    "explorer's_crypt": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/26/OoS_Explorer%27s_Crypt.png",
+      "item": {
+        "key": "roc's_cape",
+        "completed": false,
+        "hooks": ["roc's_cape"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/OoS_Gleeok_Sprite.png",
+        "completed": false,
+        "hooks": ["seed_of_life", "heart_container_7"]
+      },
+      "completed": false
+    },
+    "sword_and_shield_maze": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4f/OoS_Sword_%26_Shield_Maze.png",
+      "item": {
+        "key": "hyper_slingshot",
+        "completed": false,
+        "hooks": ["hyper_slingshot"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b6/OoS_Medusa_Head_Sprite.png",
+        "completed": false,
+        "hooks": ["changing_seasons", "heart_container_8"]
+      },
+      "completed": false
+    },
+    "onox's_castle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f0/OoS_Onox%27s_Castle.png/150px-OoS_Onox%27s_Castle.png",
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/81/OoS_Onox_Sprite.png",
+        "completed": false,
+        "hooks": []
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    "dance_with_din": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ad/OoS_Din_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "learn_to_plant_gasha_seeds": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bc/OoS_Gasha_Seed_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "find_the_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoS_Wooden_Sword_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "talk_with_maku_tree": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoS_Gnarled_Key_Sprite.png",
+      "completed": false,
+      "hooks": ["gnarled_key"]
+    },
+    "follow_rosa_into_subrosia": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/OoS_Rosa_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "dance_off_for_the_boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d1/OoS_Green_Subrosian_Sprite.png",
+      "completed": false,
+      "hooks": ["boomerang"]
+    },
+    "seek_the_rod_of_seasons": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/OoS_Rod_of_Seasons_Sprite.png",
+      "completed": false,
+      "hooks": ["rod_of_seasons"]
+    },
+    "pretend_to_be_santa_claus": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9a/OoS_Shovel_Sprite.png",
+      "completed": false,
+      "hooks": ["shovel"]
+    },
+    "beat_up_blaino": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6b/OoA_Ricky%27s_Gloves_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "give_the_gloves_to_ricky": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/OoS_Ricky_Sprite.png",
+      "completed": false,
+      "hooks": ["ricky's_flute"]
+    },
+    "fish_up_the_floodgate_key": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoS_Floodgate_Key_Sprite.png",
+      "completed": false,
+      "hooks": ["floodgate_key"]
+    },
+    "ask_rosa_for_a_date": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/OoS_Rosa_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "solve_statue_puzzle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/50/OoS_Zora%27s_Flippers_Sprite.png",
+      "completed": false,
+      "hooks": ["flippers"]
+    },
+    "help_dimitri": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2b/OoS_Dimitri_Sprite.png",
+      "completed": false,
+      "hooks": ["dimitri's_flute"]
+    },
+    "get_your_feather_back": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/33/Subrosian_Gold.png",
+      "completed": false,
+      "hooks": []
+    },
+    "help_moosh": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/OoS_Moosh_Sprite.png",
+      "completed": false,
+      "hooks": ["moosh's_flute"]
+    },
+    "gain_the_power_of_summer": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/OoS_Rod_of_Seasons_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "gain_the_power_of_autumn": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/OoS_Rod_of_Seasons_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "gain_the_power_of_spring": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/OoS_Rod_of_Seasons_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "invade_tarm_ruins": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/OoS_Pyramid_Jewel_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "find_captain's_bell": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/OoS_Cap%27n_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "polish_captain's_bell": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/OoS_Cap%27n_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "give_the_bell_back_to_captain": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/58/OoS_Cap%27n_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "receive_the_huge_maku_seed": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/95/OoS_Huge_Maku_Seed_Sprite.png",
+      "completed": false,
+      "hooks": ["huge_maku_seed"]
+    },
+    "light_Mr._write_lantern": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f2/OoS_Dr._Left_Sprite.png",
+      "completed": false,
+      "hooks": ["cuccodex"]
+    },
+    "give_cuccodex_to_malon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/39/Malon_OoS.png",
+      "completed": false,
+      "hooks": ["lon_lon_egg"]
+    },
+    "run_into_maple": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/78/OoS_Maple_Sprite.png",
+      "completed": false,
+      "hooks": ["ghaslty_doll"]
+    },
+    "help_the_woman_to_have_a_fright": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/OoS_Ghastly_Doll_Sprite.png",
+      "completed": false,
+      "hooks": ["iron_pot"]
+    },
+    "help_to_season_a_soup": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/70/OoS_Iron_Pot_Sprite.png",
+      "completed": false,
+      "hooks": ["lava_soup"]
+    },
+    "warm_goron_with_the_soup": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/12/OoS_Lava_Soup_Sprite.png",
+      "completed": false,
+      "hooks": ["goron_vase"]
+    },
+    "trade_the_vase_with_Ingo": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3a/OoS_Ingo_Sprite.png",
+      "completed": false,
+      "hooks": ["fish"]
+    },
+    "feed_the_cat": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3a/OoS_Mittens_Sprite.png",
+      "completed": false,
+      "hooks": ["megaphone"]
+    },
+    "wake_talon_up": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6b/OOS_Talon.png",
+      "completed": false,
+      "hooks": ["mushroom"]
+    },
+    "give_the_missing_ingredient_to_the_witch": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/OoS_Syrup_Sprite.png",
+      "completed": false,
+      "hooks": ["wooden_bird"]
+    },
+    "give_the_bird_to_clockmaker": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2f/OoS_Tick_Tock_Sprite.png",
+      "completed": false,
+      "hooks": ["engine_grease"]
+    },
+    "grease_the_windmill": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a4/OoS_Guru-Guru_Sprite.png",
+      "completed": false,
+      "hooks": ["phonograph"]
+    },
+    "find_noble_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c3/OoS_Noble_Sword_Sprite.png",
+      "completed": false,
+      "hooks": ["noble_sword"]
+    },
+    "help_zelda_(linked_game)": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a6/OoS_Zelda_Sprite.png",
+      "completed": false,
+      "hooks": ["shovel"]
+    },
+    "defeat_room_of_rites_(linked_game)": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f9/OoA_Ganon_Sprite.png",
+      "completed": false,
+      "hooks": []
+    },
+    "defeat_heroe's_cave_(linked_game)": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoS_Wooden_Sword_Sprite.png",
+      "completed": false,
+      "hooks": []
+    }
+  },
+  "minigames": {
+    
+  },
+  "abilities": {
+    "sidebar": {
+      "rings": {
+        "Friendship Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/OoS_Friendship_Ring_Sprite.png",
+          "completed": false
+        },
+        "Power Ring L-1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/42/OoS_Power_Ring_L-1_Sprite.png",
+          "completed": false
+        },
+        "Power Ring L-2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2b/OoS_Power_Ring_L-2_Sprite.png",
+          "completed": false
+        },
+        "Power Ring L-3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/65/OoS_Power_Ring_L-3_Sprite.png",
+          "completed": false
+        },
+        "Armor Ring L-1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4c/OoS_Armor_Ring_L-1_Sprite.png",
+          "completed": false
+        },
+        "Armor Ring L-2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ee/OoS_Armor_Ring_L-2_Sprite.png",
+          "completed": false
+        },
+        "Armor Ring L-3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5d/OoS_Armor_Ring_L-3_Sprite.png",
+          "completed": false
+        },
+        "Red Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d4/OoS_Red_Ring_Sprite.png",
+          "completed": false
+        },
+        "Blue Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/68/OoS_Blue_Ring_Sprite.png",
+          "completed": false
+        },
+        "Green Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/16/OoS_Green_Ring_Sprite.png",
+          "completed": false
+        },
+        "Cursed Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/dd/OoS_Cursed_Ring_Sprite.png",
+          "completed": false
+        },
+        "Expert's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f8/OoS_Expert%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Blast Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c4/OoS_Blast_Ring_Sprite.png",
+          "completed": false
+        },
+        "Rang Ring L-1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/07/OoS_Rang_Ring_L-1_Sprite.png",
+          "completed": false
+        },
+        "GBA Time Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f0/OoS_GBA_Time_Ring_Sprite.png",
+          "completed": false
+        },
+        "Maple's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/74/OoS_Maple%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Steadfast Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/3c/OoS_Steadfast_Ring_Sprite.png",
+          "completed": false
+        },
+        "Pegasus Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/OoS_Pegasus_Ring_Sprite.png",
+          "completed": false
+        },
+        "Toss Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/OoS_Toss_Ring_Sprite.png",
+          "completed": false
+        },
+        "Heart Ring L-1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8f/OoS_Heart_Ring_L-1_Sprite.png",
+          "completed": false
+        },
+        "Heart Ring L-2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2b/OoS_Heart_Ring_L-2_Sprite.png",
+          "completed": false
+        },
+        "Swimmer's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/74/OoS_Swimmer%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Charge Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/OoS_Charge_Ring_Sprite.png",
+          "completed": false
+        },
+        "Light Ring L-1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/16/OoS_Light_Ring_L-1_Sprite.png",
+          "completed": false
+        },
+        "Light Ring L-2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/OoS_Light_Ring_L-2_Sprite.png",
+          "completed": false
+        },
+        "Bomber's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoS_Bomber%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Green Luck Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/14/OoS_Green_Luck_Ring_Sprite.png",
+          "completed": false
+        },
+        "Blue Luck Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5a/OoS_Blue_Luck_Ring_Sprite.png",
+          "completed": false
+        },
+        "Gold Luck Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e6/OoS_Gold_Luck_Ring_Sprite.png",
+          "completed": false
+        },
+        "Red Luck Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ec/OoS_Red_Luck_Ring_Sprite.png",
+          "completed": false
+        },
+        "Green Holy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f5/OoS_Green_Holy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Blue Holy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoS_Blue_Holy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Red Holy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c7/OoS_Red_Holy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Snowshoe Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/OoS_Snowshoe_Ring_Sprite.png",
+          "completed": false
+        },
+        "Roc's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/05/OoS_Roc%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Quicksand Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/dc/OoS_Quicksand_Ring_Sprite.png",
+          "completed": false
+        },
+        "Red Joy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/26/OoS_Red_Joy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Blue Joy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c0/OoS_Blue_Joy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Gold Joy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/78/OoS_Gold_Joy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Green Joy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/OoS_Green_Joy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Discovery Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e4/OoS_Discovery_Ring_Sprite.png",
+          "completed": false
+        },
+        "Rang Ring L-2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/OoS_Rang_Ring_L-2_Sprite.png",
+          "completed": false
+        },
+        "Octo Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f2/OoS_Octo_Ring_Sprite.png",
+          "completed": false
+        },
+        "Moblin Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ac/OoS_Moblin_Ring_Sprite.png",
+          "completed": false
+        },
+        "Like Like Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/de/OoS_Like_Like_Ring_Sprite.png",
+          "completed": false
+        },
+        "Subrosian Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bd/OoS_Subrosian_Ring_Sprite.png",
+          "completed": false
+        },
+        "First Gen Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoS_First_Gen_Ring_Sprite.png",
+          "completed": false
+        },
+        "Spin Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/35/OoS_Spin_Ring_Sprite.png",
+          "completed": false
+        },
+        "Bombproof Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/OoS_Bombproof_Ring_Sprite.png",
+          "completed": false
+        },
+        "Energy Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ab/OoS_Energy_Ring_Sprite.png",
+          "completed": false
+        },
+        "Dbl. Edged Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f1/OoS_Dbl._Edged_Ring_Sprite.png",
+          "completed": false
+        },
+        "GBA Nature Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/51/OoS_GBA_Nature_Ring_Sprite.png",
+          "completed": false
+        },
+        "Slayer's Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b6/OoS_Slayer%27s_Ring_Sprite.png",
+          "completed": false
+        },
+        "Rupee Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/64/OoS_Rupee_Ring_Sprite.png",
+          "completed": false
+        },
+        "Victory Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b1/OoS_Victory_Ring_Sprite.png",
+          "completed": false
+        },
+        "Sign Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e4/OoS_Sign_Ring_Sprite.png",
+          "completed": false
+        },
+        "100th Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/60/OoS_100th_Ring_Sprite.png",
+          "completed": false
+        },
+        "Whisp Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/OoS_Whisp_Ring_Sprite.png",
+          "completed": false
+        },
+        "Gasha Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b9/OoS_Gasha_Ring_Sprite.png",
+          "completed": false
+        },
+        "Peace Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/da/OoS_Peace_Ring_Sprite.png",
+          "completed": false
+        },
+        "Zora Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/OoS_Zora_Ring_Sprite.png",
+          "completed": false
+        },
+        "Fist Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/dd/OoS_Fist_Ring_Sprite.png",
+          "completed": false
+        },
+        "Whimsical Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/OoS_Whimsical_Ring_Sprite.png",
+          "completed": false
+        },
+        "Protection Ring": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/ad/OoS_Protection_Ring_Sprite.png",
+          "completed": false
+        }
+      }
+    },
+    "main": {
+        "essenses_of_nature": {
+            "fertile_soil": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d4/OoS_Fertile_Soil_Sprite.png",
+                "completed": false
+            },
+            "gift_of_time": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/OoS_Gift_of_Time_Sprite.png",
+                "completed": false
+            },
+            "bright_sun": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/80/OoS_Bright_Sun_Sprite.png",
+                "completed": false
+            },
+            "soothing_rain": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/2d/OoS_Soothing_Rain_Sprite.png",
+                "completed": false
+            },
+            "nurturing_warmth": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoS_Nurturing_Warmth_Sprite.png",
+                "completed": false
+            },
+            "blowing_wind": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/OoS_Blowing_Wind_Sprite.png",
+                "completed": false
+            },
+            "seed_of_life": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/69/OoS_Seed_of_Life_Sprite.png",
+                "completed": false
+            },
+            "changing_seasons": {
+                "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/OoS_Changing_Seasons_Sprite.png",
+                "completed": false
+            }
+        }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+        
+        "keys": {
+          "gnarled_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoS_Gnarled_Key_Sprite.png",
+            "completed": false
+          },
+          "floodgate_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/OoS_Floodgate_Key_Sprite.png",
+            "completed": false
+          },
+          "dragon_key": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/59/OoS_Dragon_Key_Sprite.png",
+            "completed": false
+          }
+        },
+        "jewels": {
+          "pyramid_jewel": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/OoS_Pyramid_Jewel_Sprite.png",
+            "completed": false
+          },
+          "round_jewel": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoS_Round_Jewel_Sprite.png",
+            "completed": false
+          },
+          "square_jewel": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/ea/OoS_Square_Jewel_Sprite.png",
+            "completed": false
+          },
+          "x-shaped_jewel": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4b/OoS_X-Shaped_Jewel_Sprite.png",
+            "completed": false
+          }
+        },
+        "trade_quest": {
+          "cuccodex": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/OoS_Cuccodex_Sprite.png",
+            "completed": false
+          },
+          "engine_grease": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/14/OoS_Engine_Grease_Sprite.png",
+            "completed": false
+          },
+          "fish": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/01/OoS_Fish_Sprite.png",
+            "completed": false
+          },
+          "ghastly_doll": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/OoS_Ghastly_Doll_Sprite.png",
+            "completed": false
+          },
+          "goron_vase": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/39/OoS_Goron_Vase_Sprite.png",
+            "completed": false
+          },
+          "iron_pot": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/70/OoS_Iron_Pot_Sprite.png",
+            "completed": false
+          },
+          "lava_soup": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/12/OoS_Lava_Soup_Sprite.png",
+            "completed": false
+          },
+          "lon_lon_egg": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/OoS_Lon_Lon_Egg_Sprite.png",
+            "completed": false
+          },
+          "megaphone": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5a/OoS_Megaphone_Sprite.png",
+            "completed": false
+          },
+          "mushroom": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/OoS_Mushroom_Sprite.png",
+            "completed": false
+          },
+          "phonograph": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/OoS_Phonograph_Sprite.png",
+            "completed": false
+          },
+          "wooden_bird": {
+            "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/ff/OoS_Wooden_Bird_Sprite.png",
+            "completed": false
+          }
+        }
+    },
+    "bottom": {
+    }
+  },
+  "countable_collectibles": {
+    "sidebar": {
+    },
+    "bottom": {
+    }
+  }
+}

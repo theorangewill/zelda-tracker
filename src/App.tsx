@@ -15,8 +15,9 @@ function App() {
           <Route path="/02-adventureoflink" element={<GamePageAdventureOfLink gameId='02-adventureoflink' />} />
           <Route path="/03-linktothepast" element={<GamePageTwo gameId='03-linktothepast' />} />
           <Route path="/04-linksawakening" element={<GamePageTwo gameId='04-linksawakening' />} />
-          <Route path="/06-majora" element={<GamePageOne gameId='06-majora' />} />
           <Route path="/05-ocarina" element={<GamePageTwo gameId='05-ocarina' />} />
+          <Route path="/06-majora" element={<GamePageOne gameId='06-majora' />} />
+          <Route path="/07-oracleofseasons" element={<GamePageTwo gameId='07-oracleofseasons' />} />
         </Routes>
       </div>
     </HashRouter>
