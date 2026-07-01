@@ -1,0 +1,1018 @@
+{
+  "id": "09_windwaker",
+  "title": "The Legend of Zelda: Wind Waker",
+  "images": {
+    "logo": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/73/TWW_English_Logo.png/250px-TWW_English_Logo.png",
+    "poster": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/ZW_Tile_TWW.png",
+    "compass": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0f/TWWHD_Compass_Icon.png/64px-TWWHD_Compass_Icon.png",
+    "map": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d4/TWWHD_Dungeon_Map_Icon.png/64px-TWWHD_Dungeon_Map_Icon.png",
+    "boss_key": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/86/TWWHD_Big_Key_Icon.png/56px-TWWHD_Big_Key_Icon.png",
+    "heart_piece": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a4/TWW_Piece_of_Heart_Model.png/320px-TWW_Piece_of_Heart_Model.png",
+    "heart_container": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b2/TWW_Heart_Container_Model.png/320px-TWW_Heart_Container_Model.png"
+  },
+  "styling": {
+    "items": 8,
+    "health": 10,
+    "quests": 4,
+    "minigames": 4,
+    "equipments": {
+      "powers": 2
+    },
+    "abilities": {
+      "songs": 8,
+      "boss_masks": 6,
+      "masks": 6
+    },
+    "collectibles": {
+      "maps": 6,
+      "sea_charts": 7
+    }
+  },
+  "infos": {
+
+  },
+  "health": {
+    "info": {
+      "min": 3,
+      "max": 20,
+      "heart_cointainers_total": 6,
+      "heart_pieces_total": 44,
+      "proportion_of_heart_pieces_per_heart_container": 4,
+      "heart_pieces_list": "https://www.zeldadungeon.net/wiki/The_Wind_Waker_Heart_Pieces"
+    }
+  },
+  "magic_power": {
+    "info": {
+      "min": 0,
+      "max": 2,
+      "magic_containers_total": 2
+    }
+  },
+  "items": {
+    "wind_waker": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+      "completed": false
+    },
+    "grappling_hook": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/TWWHD_Grappling_Hook_Icon.png/64px-TWWHD_Grappling_Hook_Icon.png",
+      "completed": false
+    },
+    "iron_boots": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/68/TWWHD_Iron_Boots_Icon.png/64px-TWWHD_Iron_Boots_Icon.png",
+      "completed": false
+    },
+    "hookshot": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/aa/TWWHD_Hookshot_Icon.png/64px-TWWHD_Hookshot_Icon.png",
+      "completed": false
+    },
+    "boomerang": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/62/TWWHD_Boomerang_Icon.png/64px-TWWHD_Boomerang_Icon.png",
+      "completed": false
+    },
+    "deku_leaf": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/TWWHD_Deku_Leaf_Icon.png/64px-TWWHD_Deku_Leaf_Icon.png",
+      "completed": false
+    },
+    "hero's_bow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cb/TWWHD_Hero%27s_Bow_Icon.png/64px-TWWHD_Hero%27s_Bow_Icon.png",
+      "completed": false
+    },
+    "fire_arrow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/36/TWWHD_Fire_Arrow_Icon.png/64px-TWWHD_Fire_Arrow_Icon.png",
+      "completed": false
+    },
+    "ice_arrow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/93/TWWHD_Ice_Arrow_Icon.png/64px-TWWHD_Ice_Arrow_Icon.png",
+      "completed": false
+    },
+    "light_arrow": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c6/TWWHD_Light_Arrow_Icon.png/64px-TWWHD_Light_Arrow_Icon.png",
+      "completed": false
+    },
+    "bomb": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/88/TWWHD_Bomb_Icon.png/64px-TWWHD_Bomb_Icon.png",
+      "completed": false
+    },
+    "skull_hammer": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7b/TWWHD_Skull_Hammer_Icon.png/64px-TWWHD_Skull_Hammer_Icon.png",
+      "completed": false
+    },
+    "telescope": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/13/TWWHD_Telescope_Icon.png/64px-TWWHD_Telescope_Icon.png",
+      "completed": false
+    },
+    "tingle_bottle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/89/TWWHD_Tingle_Bottle_Icon.png/64px-TWWHD_Tingle_Bottle_Icon.png",
+      "completed": false
+    },
+    "picto_box": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3b/TWWHD_Picto_Box_Icon.png/64px-TWWHD_Picto_Box_Icon.png",
+      "completed": false
+    },
+    "deluxe_picto_box": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/55/TWWHD_Deluxe_Picto_Box_Icon.png/64px-TWWHD_Deluxe_Picto_Box_Icon.png",
+      "completed": false
+    },
+    "magic_armor": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a8/TWWHD_Magic_Armor_Icon.png/64px-TWWHD_Magic_Armor_Icon.png",
+      "completed": false
+    },
+    "pirate's_charm": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5a/TWWHD_Pirate%27s_Charm_Icon.png/64px-TWWHD_Pirate%27s_Charm_Icon.png",
+      "completed": false
+    },
+    "power_bracelets": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fa/TWWHD_Power_Bracelets_Icon.png/64px-TWWHD_Power_Bracelets_Icon.png",
+      "completed": false
+    },
+    "hero's_charm": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/24/TWWHD_Hero%27s_Charm_Icon.png/64px-TWWHD_Hero%27s_Charm_Icon.png",
+      "completed": false
+    },
+    "bottle_1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/TWWHD_Empty_Bottle_Icon.png/64px-TWWHD_Empty_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle_2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/TWWHD_Empty_Bottle_Icon.png/64px-TWWHD_Empty_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle_3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/TWWHD_Empty_Bottle_Icon.png/64px-TWWHD_Empty_Bottle_Icon.png",
+      "completed": false
+    },
+    "bottle_4": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3d/TWWHD_Empty_Bottle_Icon.png/64px-TWWHD_Empty_Bottle_Icon.png",
+      "completed": false
+    }
+  },
+  "equipments": {
+    "swords": {
+      "hero's_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0b/TWWHD_Hero%27s_Sword_Icon.png/62px-TWWHD_Hero%27s_Sword_Icon.png",
+        "completed": false
+      },
+      "master_sword": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3c/TWWHD_Master_Sword_Icon.png/64px-TWWHD_Master_Sword_Icon.png",
+        "completed": false
+      }
+    },
+    "shields": {
+      "hero's_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/53/TWWHD_Hero%27s_Shield_Icon.png/63px-TWWHD_Hero%27s_Shield_Icon.png",
+        "completed": false
+      },
+      "mirror_shield": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/75/TWWHD_Mirror_Shield_Icon.png/63px-TWWHD_Mirror_Shield_Icon.png",
+        "completed": false
+      }
+    },
+    "bomb_bags": {
+      "large_bomb_bag": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/42/TWWHD_Bomb_Bag_Upgrade_1_Artwork.png/227px-TWWHD_Bomb_Bag_Upgrade_1_Artwork.png",
+        "completed": false
+      },
+      "giant_bomb_bag": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c4/TWWHD_Bomb_Bag_Upgrade_2_Artwork.png/255px-TWWHD_Bomb_Bag_Upgrade_2_Artwork.png",
+        "completed": false
+      }
+    },
+    "quivers": {
+      "large_quiver": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/24/TWWHD_Quiver_Upgrade_1_Artwork.png/320px-TWWHD_Quiver_Upgrade_1_Artwork.png",
+        "completed": false
+      },
+      "giant_quiver": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/98/TWWHD_Quiver_Upgrade_2_Artwork.png/320px-TWWHD_Quiver_Upgrade_2_Artwork.png",
+        "completed": false
+      }
+    },
+    "wallets": {
+      "wallet_1": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/83/TWWHD_Wallet_Upgrade_1_Artwork.png/51px-TWWHD_Wallet_Upgrade_1_Artwork.png",
+        "completed": false
+      },
+      "wallet_2": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4a/TWWHD_Wallet_Upgrade_2_Artwork.png/52px-TWWHD_Wallet_Upgrade_2_Artwork.png",
+        "completed": false
+      }
+    },
+    "sails": {
+      "sail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/cf/TWWHD_Sail_Icon.png/64px-TWWHD_Sail_Icon.png",
+        "completed": false
+      },
+      "swift_sail": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/TWWHD_Swift_Sail_Icon.png/59px-TWWHD_Swift_Sail_Icon.png",
+        "completed": false
+      }
+    },
+    "bags": {
+      "spoils_bag": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b2/TWWHD_Spoils_Bag_Icon.png/64px-TWWHD_Spoils_Bag_Icon.png",
+        "completed": false
+      },
+      "bait_bag": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/41/TWWHD_Bait_Bag_Icon.png/64px-TWWHD_Bait_Bag_Icon.png",
+        "completed": false
+      },
+      "delivery_bag": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1a/TWWHD_Delivery_Bag_Icon.png/64px-TWWHD_Delivery_Bag_Icon.png",
+        "completed": false
+      }
+    },
+    "powers": {
+      "hurricane_spin": {
+        "completed": false
+      }
+    }
+  },
+  "dungeons": {
+    "dragon_roost_cavern": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/91/TWWHD_Dragon_Roost_Cavern.png/320px-TWWHD_Dragon_Roost_Cavern.png",
+      "item": {
+        "key": "grappling_hook",
+        "completed": false,
+        "hooks": ["grappling_hook"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d8/TWW_Gohma_Artwork.png/320px-TWW_Gohma_Artwork.png",
+        "completed": false,
+        "hooks": ["din's_pearl", "heart_container_1"]
+      },
+      "completed": false
+    },
+    "forbidden_woods": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/71/TWWHD_Forbidden_Woods.png/320px-TWWHD_Forbidden_Woods.png",
+      "item": {
+        "key": "boomerang",
+        "completed": false,
+        "hooks": ["boomerang"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f2/TWW_Kalle_Demos_Artwork.png/320px-TWW_Kalle_Demos_Artwork.png",
+        "completed": false,
+        "hooks": ["farore's_pearl", "heart_container_2"]
+      },
+      "completed": false
+    },
+    "tower_of_the_gods": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a6/TWWHD_Tower_of_the_Gods.png/320px-TWWHD_Tower_of_the_Gods.png",
+      "item": {
+        "key": "hero's_bow",
+        "completed": false,
+        "hooks": ["hero's_bow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/dd/TWW_Gohdan_Artwork.png/320px-TWW_Gohdan_Artwork.png",
+        "completed": false,
+        "hooks": ["heart_container_3"]
+      },
+      "completed": false
+    },
+    "forsaken_fortress": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/dd/TWWHD_Forsaken_Fortress.png/320px-TWWHD_Forsaken_Fortress.png",
+      "item": {
+        "key": "skull_hammer",
+        "completed": false,
+        "hooks": ["skull_hammer"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/c3/TWW_Helmaroc_King_Artwork.png/290px-TWW_Helmaroc_King_Artwork.png",
+        "completed": false,
+        "hooks": ["heart_container_4"]
+      },
+      "completed": false
+    },
+    "earth_temple": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/92/SSHD_Earth_Temple.png/320px-SSHD_Earth_Temple.png",
+      "item": {
+        "key": "mirror_shield",
+        "completed": false,
+        "hooks": ["mirror_shield"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/TWW_Jalhalla_Artwork.png/320px-TWW_Jalhalla_Artwork.png",
+        "completed": false,
+        "hooks": ["heart_container_5"]
+      },
+      "completed": false
+    },
+    "wind_temple": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9a/Wind_Temple_Interior.jpg/320px-Wind_Temple_Interior.jpg",
+      "item": {
+        "key": "hookshot",
+        "completed": false,
+        "hooks": ["hookshot"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/38/TWW_Molgera_Artwork.png/320px-TWW_Molgera_Artwork.png",
+        "completed": false,
+        "hooks": ["heart_container_6"]
+      },
+      "completed": false
+    },
+    "ganon's_castle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/49/WW_ganontower.jpg/320px-WW_ganontower.jpg",
+      "item": {
+        "key": "light_arrow",
+        "completed": false,
+        "hooks": ["light_arrow"]
+      },
+      "compass": false,
+      "map": false,
+      "boss_key": false,
+      "boss": {
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0a/TWW_Puppet_Ganon_Artwork.png/320px-TWW_Puppet_Ganon_Artwork.png",
+        "completed": false,
+        "hooks": []
+      },
+      "completed": false
+    }
+  },
+  "quests": {
+    
+    "get_clothes_from_grandma": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f5/TWW_Grandma_Model.png/79px-TWW_Grandma_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "see_the_sea_with_aryll": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6e/TWW_Aryll_Model.png/59px-TWW_Aryll_Model.png",
+      "completed": false,
+      "hooks": ["telescope"]
+    },
+    "pass_the_orca's_test": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/TWW_Orca_Model.png/64px-TWW_Orca_Model.png",
+      "completed": false,
+      "hooks": ["hero's_sword"]
+    },
+    "help_tetra": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/32/TWWHD_Tetra_Artwork.png/125px-TWWHD_Tetra_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "say_goodbye_to_grandma": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/53/TWWHD_Hero%27s_Shield_Icon.png/63px-TWWHD_Hero%27s_Shield_Icon.png",
+      "completed": false,
+      "hooks": []
+    },
+    "meet_beedle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9d/TWW_Beedle_Model.png/163px-TWW_Beedle_Model.png",
+      "completed": false,
+      "hooks": ["bait_bag"]
+    },
+    "pass_niko's_challenges": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e0/TWW_Niko_Model.png/194px-TWW_Niko_Model.png",
+      "completed": false,
+      "hooks": ["spoils_bag"]
+    },
+    "defeat_forsaken_fortress": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/65/TWW_Blue_Moblin_Model.png/256px-TWW_Blue_Moblin_Model.png",
+      "completed": false,
+      "hooks": ["pirate's_charm"]
+    },
+    "meet_king_of_red_lions": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/34/TWWHD_Link_Sailing_Artwork.png/206px-TWWHD_Link_Sailing_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "free_tingle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/73/TWW_Tingle_Model.png/90px-TWW_Tingle_Model.png",
+      "completed": false,
+      "hooks": ["tingle_bottle"]
+    },
+    "play_hide_and_seek": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e3/TWW_Ivan_Model.png/67px-TWW_Ivan_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "take_picture_of_hopeless_romantic": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/TWW_Lenzo_Model.png/174px-TWW_Lenzo_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "take_picture_of_most_cowardly_resident": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/TWW_Lenzo_Model.png/174px-TWW_Lenzo_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "take_picture_of_a_couple": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7d/TWW_Lenzo_Model.png/174px-TWW_Lenzo_Model.png",
+      "completed": false,
+      "hooks": ["deluxe_picto_box"]
+    },
+    "take_picture_of_minenco": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/55/TWWHD_Deluxe_Picto_Box_Icon.png/64px-TWWHD_Deluxe_Picto_Box_Icon.png",
+      "completed": false,
+      "hooks": ["treasure_chart_33"]
+    },
+    "learn_to_control_the_wind": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4e/TWW_Zephos_Model.png/320px-TWW_Zephos_Model.png",
+      "completed": false,
+      "hooks": ["wind's_requiem"]
+    },
+    "give_letter_to_prince_komali": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f4/TWW_Komali_Model.png/67px-TWW_Komali_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "help_medli_to_climb_dragon_roost": {
+      "image": "",
+      "completed": false,
+      "hooks": ["bottle_1"]
+    },
+    "play_to_tott": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/TWW_Tott_Model.png/82px-TWW_Tott_Model.png",
+      "completed": false,
+      "hooks": ["song_of_passing"]
+    },
+    "help_kamo's_depression": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e5/TWW_Kamo_Model.png/43px-TWW_Kamo_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_31"]
+    },
+    "playing_cupid": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/81/TWW_Linda_Model.png/39px-TWW_Linda_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_6"]
+    },
+    "gossip_with_the_girls": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/df/TWW_Vera_Model.png/58px-TWW_Vera_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_24"]
+    },
+    "get_deku_leaf": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/TWWHD_Deku_Leaf_Icon.png/64px-TWWHD_Deku_Leaf_Icon.png",
+      "completed": false,
+      "hooks": ["deku_leaf", "magic_container_1"]
+    },
+    "water_all_korok_trees": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5c/TWW_Great_Deku_Tree_Model.png/71px-TWW_Great_Deku_Tree_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_36"]
+    },
+    "collect_pearl_from_jabun": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f6/TWW_Jabun_Model.png/320px-TWW_Jabun_Model.png",
+      "completed": false,
+      "hooks": ["nayru's_pearl"]
+    },
+    "give_20_joy_pendants_to_mrs._marie": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2f/TWWHD_Joy_Pendant_Artwork.png/303px-TWWHD_Joy_Pendant_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "give_40_joy_pendants_to_mrs._marie": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2f/TWWHD_Joy_Pendant_Artwork.png/303px-TWWHD_Joy_Pendant_Artwork.png",
+      "completed": false,
+      "hooks": ["treasure_chart_45"]
+    },
+    "decorate_the_town": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6b/TWW_Town_Flower_Render.png/164px-TWW_Town_Flower_Render.png",
+      "completed": false,
+      "hooks": ["heart_piece_30"]
+    },
+    "place_all_pearls": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/67/TWW_Farore_Statue_Model.png/120px-TWW_Farore_Statue_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "shape_the_triforce_blocks": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/8b/TWWHD_Triforce_Piece_Icon.png",
+      "completed": false,
+      "hooks": []
+    },
+    "get_master_sword": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/3c/TWWHD_Master_Sword_Icon.png/64px-TWWHD_Master_Sword_Icon.png",
+      "completed": false,
+      "hooks": ["master_sword"]
+    },
+    "shoot_cyclos": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/28/TWW_Cyclos_Model.png/264px-TWW_Cyclos_Model.png",
+      "completed": false,
+      "hooks": ["ballad_of_gales"]
+    },
+    "meet_the_real_tetra": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/7f/TWWHD_Princess_Zelda_Artwork.png/202px-TWWHD_Princess_Zelda_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "speak_to_fairy_queen": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0c/TWWHD_Queen_of_the_Fairies_Artwork.png/142px-TWWHD_Queen_of_the_Fairies_Artwork.png",
+      "completed": false,
+      "hooks": ["fire_arrow", "ice_arrow"]
+    },
+    "fire_the_windmill": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/57/TWW_Kreeb_Model.png/56px-TWW_Kreeb_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_37"]
+    },
+    "catch_mila_stealing": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/a8/TWW_Mila_Model.png/68px-TWW_Mila_Model.png",
+      "completed": false,
+      "hooks": ["bottle_2"]
+    },
+    "deliver_the_letter_to_maggie": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/72/TWW_Maggie_Model.png/58px-TWW_Maggie_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_39"]
+    },
+    "give_20_skull_necklaces_to_maggie's_father": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/06/TWWHD_Skull_Necklace_Artwork.png/283px-TWWHD_Skull_Necklace_Artwork.png",
+      "completed": false,
+      "hooks": ["treasure_chart_2"]
+    },
+    "defeat_fire_mountain": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/35/TWW_Fire_Keese_Model.png/120px-TWW_Fire_Keese_Model.png",
+      "completed": false,
+      "hooks": ["power_bracelets"]
+    },
+    "defeat_ice_ring_isle": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/68/TWWHD_Iron_Boots_Icon.png/64px-TWWHD_Iron_Boots_Icon.png",
+      "completed": false,
+      "hooks": ["iron_boots"]
+    },
+    "dig_up_the_soil": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f4/TWW_Link_%28Pig%29_Model.png/676px-TWW_Link_%28Pig%29_Model.png?20230120021719",
+      "completed": false,
+      "hooks": ["heart_piece_41"]
+    },
+    "meet_up_with_zora_sage": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/4c/TWWHD_Laruto_Artwork.png/222px-TWWHD_Laruto_Artwork.png",
+      "completed": false,
+      "hooks": ["earth_god's_lyric"]
+    },
+    "get_help_from_medli": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ac/TWW_Medli_Model.png/154px-TWW_Medli_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "meet_up_with_wind_sage": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/7/71/TWWHD_Fado_Artwork.png/277px-TWWHD_Fado_Artwork.png",
+      "completed": false,
+      "hooks": ["wind_god's_aria"]
+    },
+    "get_help_from_makar": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/TWW_Makar_Model.png/320px-TWW_Makar_Model.png",
+      "completed": false,
+      "hooks": []
+    },
+    "defeat_ghost_ship": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/28/PH_Ghost_Ship_Model.png/230px-PH_Ghost_Ship_Model.png",
+      "completed": false,
+      "hooks": ["triforce_shard_4"]
+    },
+    "defeat_cabana_underground": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/e5/TWW_Mrs._Marie_Model.png/67px-TWW_Mrs._Marie_Model.png",
+      "completed": false,
+      "hooks": ["triforce_shard_2"]
+    },
+    "defeat_savage_labyrinth": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/f5/TWW_Kargaroc_Model.png/120px-TWW_Kargaroc_Model.png",
+      "completed": false,
+      "hooks": ["triforce_shard_5", "hero's_charm"]
+    },
+    "beat_ganon's_tower_maze": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bf/TWW_Phantom_Ganon_Artwork.png/120px-TWW_Phantom_Ganon_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "defeat_ganon": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/12/TWW_Ganondorf_Artwork.png/117px-TWW_Ganondorf_Artwork.png",
+      "completed": false,
+      "hooks": []
+    }
+  },
+  "minigames": {
+    "boating_course": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9b/TWW_Link_King_of_Red_Lions_Artwork.png/76px-TWW_Link_King_of_Red_Lions_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "cannon_minigame_#1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/TWWHD_Cannon_Icon.png",
+      "completed": false,
+      "hooks": ["heart_piece_19"]
+    },
+    "cannon_minigame_#2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/TWWHD_Cannon_Icon.png",
+      "completed": false,
+      "hooks": ["treasure_chart_17"]
+    },
+    "rope_game_#1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5e/TWW_Niko_Artwork.png/68px-TWW_Niko_Artwork.png",
+      "completed": false,
+      "hooks": ["spoils_bag"]
+    },
+    "rope_game_#2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5e/TWW_Niko_Artwork.png/68px-TWW_Niko_Artwork.png",
+      "completed": false,
+      "hooks": ["bomb"]
+    },
+    "shooting_fishman": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8a/TWW_Fishman_Artwork.png/118px-TWW_Fishman_Artwork.png",
+      "completed": false,
+      "hooks": []
+    },
+    "squid_hunt_#1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/TWW_Salvatore_Model.png/91px-TWW_Salvatore_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_3"]
+    },
+    "squid_hunt_#2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/TWW_Salvatore_Model.png/91px-TWW_Salvatore_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_7"]
+    },
+    "squid_hunt_less_than_20_shots": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/2a/TWW_Salvatore_Model.png/91px-TWW_Salvatore_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_23"]
+    },
+    "sword_training": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/TWW_Orca_Model.png/64px-TWW_Orca_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_16"]
+    },
+    "windfall_auction_#1": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/TWW_Zunari_Model.png/74px-TWW_Zunari_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_20"]
+    },
+    "windfall_auction_#2": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/TWW_Zunari_Model.png/74px-TWW_Zunari_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_18"]
+    },
+    "windfall_auction_#3": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/TWW_Zunari_Model.png/74px-TWW_Zunari_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_38"]
+    },
+    "windfall_auction_#4": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8c/TWW_Zunari_Model.png/74px-TWW_Zunari_Model.png",
+      "completed": false,
+      "hooks": ["swift_sail"]
+    },
+    "mail_center": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/0/0d/TWW_Baito_Model.png/75px-TWW_Baito_Model.png",
+      "completed": false,
+      "hooks": ["heart_piece_5"]
+    },
+    "flight_control_plataform": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5d/TWWHD_Deku_Leaf_Icon.png/64px-TWWHD_Deku_Leaf_Icon.png",
+      "completed": false,
+      "hooks": ["heart_piece_24"]
+    },
+    "piggy_sitting": {
+      "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b2/TWW_Candy_Model.png/84px-TWW_Candy_Model.png",
+      "completed": false,
+      "hooks": ["treasure_chart_42"]
+    }
+  },
+  "abilities": {
+    "sidebar": {
+      "songs": {
+        "wind's_requiem": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        },
+        "ballad_of_gales": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        },
+        "command_melody": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        },
+        "earth_god's_lyric": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        },
+        "wind_god's_aria": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        },
+        "song_of_passing": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/39/TWWHD_Wind_Waker_Icon.png/63px-TWWHD_Wind_Waker_Icon.png",
+          "completed": false
+        }
+      }
+    },
+    "main": {
+      "goddess_pearls": {
+        "din's_pearl": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a3/TWWHD_Din%27s_Pearl_Icon.png",
+          "completed": false
+        },
+        "farore's_pearl": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/TWWHD_Farore%27s_Pearl_Icon.png",
+          "completed": false
+        },
+        "nayru's_pearl": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f9/TWWHD_Nayru%27s_Pearl_Icon.png",
+          "completed": false
+        }
+      },
+      "triforce_shards": {
+        "triforce_shard_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fb/TWWHD_Triforce_Shard_Icon.png",
+          "completed": false
+        },
+        "triforce_shard_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b0/TWWHD_Triforce_Shard_Icon_2.png",
+          "completed": false
+        },
+        "triforce_shard_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/TWWHD_Triforce_Shard_Icon_3.png",
+          "completed": false
+        },
+        "triforce_shard_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/TWWHD_Triforce_Shard_Icon_4.png",
+          "completed": false
+        },
+        "triforce_shard_5": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a7/TWWHD_Triforce_Shard_Icon_5.png",
+          "completed": false
+        },
+        "triforce_shard_6": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fb/TWWHD_Triforce_Shard_Icon_6.png",
+          "completed": false
+        },
+        "triforce_shard_7": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/89/TWWHD_Triforce_Shard_Icon_7.png",
+          "completed": false 
+        },
+        "triforce_shard_8": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/79/TWWHD_Triforce_Shard_Icon_8.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "collectibles": {
+    "sidebar": {
+    },
+    "bottom": {
+      
+      "triforce_charts": {
+        "triforce_chart_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1c/TWWHD_Triforce_Chart_Artwork.png/320px-TWWHD_Triforce_Chart_Artwork.png",
+          "completed": false
+        },
+        "triforce_chart_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1c/TWWHD_Triforce_Chart_Artwork.png/320px-TWWHD_Triforce_Chart_Artwork.png",
+          "completed": false
+        },
+        "triforce_chart_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1c/TWWHD_Triforce_Chart_Artwork.png/320px-TWWHD_Triforce_Chart_Artwork.png",
+          "completed": false
+        }
+      },
+      "special_charts": {
+        "tingle's_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "IN-credible_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "ghost_ship_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "beedle's_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "octo_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "great_fairy_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "sea_hearts_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "island_hearts_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "secret_cave_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "light_ring_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "plataform_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        },
+        "submarine_chart": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/4/46/TWWHD_Special_Chart_Artwork.png/320px-TWWHD_Special_Chart_Artwork.png",
+          "completed": false
+        }
+        
+      },
+
+      "big_octos": {
+        "big_octos_two_eye_reef": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": ["magic_container_2"]
+        },
+        "big_octos_diamond_steppe_island": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": []
+        },
+        "big_octos_fire_mountain": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": []
+        },
+        "big_octos_private_oasis": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": []
+        },
+        "big_octos_seven_star_isles": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": ["heart_piece_23"]
+        },
+        "big_octos_tingle_island": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWW_Big_Octo_Model.png/320px-TWW_Big_Octo_Model.png",
+          "completed": false,
+          "hooks": ["heart_piece_18"]
+        }
+      },
+      "sliding_picture_puzzle": {
+        "sliding_picture_puzzle_1": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/23/TWWHD_Puzzle_1_Zill.png/120px-TWWHD_Puzzle_1_Zill.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_2": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/e/ea/TWWHD_Puzzle_2_Aryll.png/120px-TWWHD_Puzzle_2_Aryll.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_3": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b3/TWWHD_Puzzle_3_Tingle.png/120px-TWWHD_Puzzle_3_Tingle.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_4": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/ae/TWWHD_Puzzle_4_Salvatore.png/120px-TWWHD_Puzzle_4_Salvatore.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_5": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/99/TWWHD_Puzzle_5_Tetra.png/120px-TWWHD_Puzzle_5_Tetra.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_6": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d4/TWWHD_Puzzle_6_Makar.png/120px-TWWHD_Puzzle_6_Makar.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_7": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b5/TWWHD_Puzzle_7_Medli.png/120px-TWWHD_Puzzle_7_Medli.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_8": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/80/TWWHD_Puzzle_8_King_of_Red_Lions.png/120px-TWWHD_Puzzle_8_King_of_Red_Lions.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_9": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/11/TWWHD_Puzzle_9_Orca.png/120px-TWWHD_Puzzle_9_Orca.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_10": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/55/TWWHD_Puzzle_10_Grandma.png/120px-TWWHD_Puzzle_10_Grandma.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_11": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/57/TWWHD_Puzzle_11_Doc_Bandam.png/120px-TWWHD_Puzzle_11_Doc_Bandam.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_12": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/bb/TWWHD_Puzzle_12_Quill.png/120px-TWWHD_Puzzle_12_Quill.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_13": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/6f/TWWHD_Puzzle_13_Niko.png/120px-TWWHD_Puzzle_13_Niko.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_14": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/8/8e/TWWHD_Puzzle_14_Beedle.png/120px-TWWHD_Puzzle_14_Beedle.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_15": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/1/1d/TWWHD_Puzzle_15_Moblin.png/120px-TWWHD_Puzzle_15_Moblin.png",
+          "completed": false
+        },
+        "sliding_picture_puzzle_16": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/50/TWWHD_Puzzle_16_Helmaroc_King.png/120px-TWWHD_Puzzle_16_Helmaroc_King.png",
+          "completed": false
+        }
+      },
+      "trade_quest": {
+        "town_flower": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/20/TWWHD_Town_Flower_Icon.png/64px-TWWHD_Town_Flower_Icon.png",
+          "completed": false
+        },
+        "sea_flower": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fd/TWWHD_Sea_Flower_Icon.png/64px-TWWHD_Sea_Flower_Icon.png",
+          "completed": false
+        },
+        "exotic_flower": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/a/af/TWWHD_Exotic_Flower_Icon.png/64px-TWWHD_Exotic_Flower_Icon.png",
+          "completed": false
+        },
+        "pinwheel": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/97/TWWHD_Pinwheel_Icon.png/64px-TWWHD_Pinwheel_Icon.png",
+          "completed": false
+        },
+        "big_catch_flag": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fe/TWWHD_Big_Catch_Flag_Icon.png/64px-TWWHD_Big_Catch_Flag_Icon.png",
+          "completed": false
+        },
+        "big_sale_flag": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b9/TWWHD_Big_Sale_Flag_Icon.png/64px-TWWHD_Big_Sale_Flag_Icon.png",
+          "completed": false
+        },
+        "hero's_flag": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b8/TWWHD_Hero%27s_Flag_Icon.png/64px-TWWHD_Hero%27s_Flag_Icon.png",
+          "completed": false
+        },
+        "sickle_moon_flag": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/9d/TWWHD_Sickle_Moon_Flag_Icon.png/64px-TWWHD_Sickle_Moon_Flag_Icon.png",
+          "completed": false
+        },
+        "skull_tower_idol": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/5/5f/TWWHD_Skull_Tower_Idol_Icon.png/64px-TWWHD_Skull_Tower_Idol_Icon.png",
+          "completed": false
+        },
+        "fountain_idol": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/c/ce/TWWHD_Fountain_Idol_Icon.png/64px-TWWHD_Fountain_Idol_Icon.png",
+          "completed": false
+        },
+        "postman_statue": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/68/TWWHD_Postman_Statue_Icon.png/64px-TWWHD_Postman_Statue_Icon.png",
+          "completed": false
+        },
+        "shop_guru_statue": {
+          "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/b/b7/TWWHD_Shop_Guru_Statue_Icon.png/64px-TWWHD_Shop_Guru_Statue_Icon.png",
+          "completed": false
+        }
+      }
+    }
+  },
+  "countable_collectibles": {
+    
+    "sidebar": {
+      "sea_charts": {
+        "key": "sea_chart",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/3/36/Great_Sea_Chart.jpg/320px-Great_Sea_Chart.jpg",
+        "info": "",
+        "total": 49
+      },
+      "treasure_charts": {
+        "key": "treasure_chart",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/6/64/TWWHD_Treasure_Chart_Artwork.png/320px-TWWHD_Treasure_Chart_Artwork.png",
+        "info": "https://www.zeldadungeon.net/wiki/The_Wind_Waker_Treasure_Charts",
+        "total": 46
+      }
+    },
+    "bottom": {
+
+      "tingle_statues": {
+        "key": "tingle_statue",
+        "image": "https://cdn.wikimg.net/en/zeldawiki/images/thumb/9/95/TWW_Dragon_Tingle_Statue_Model.png/189px-TWW_Dragon_Tingle_Statue_Model.png",
+        "info": "https://zeldawiki.wiki/wiki/Tingle_Statue",
+        "total": 5
+      }
+    }
+  }
+}
