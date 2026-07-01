@@ -16,7 +16,8 @@
     "quests": "4",
     "minigames": "4",
     "equipments": {
-      "capacities": "2"
+      "capacities": "2",
+      "upgrades": "2"
     },
     "abilities": {
     },
