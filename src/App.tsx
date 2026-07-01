@@ -18,6 +18,7 @@ function App() {
           <Route path="/05-ocarina" element={<GamePageTwo gameId='05-ocarina' />} />
           <Route path="/06-majora" element={<GamePageOne gameId='06-majora' />} />
           <Route path="/07-oracleofseasons" element={<GamePageTwo gameId='07-oracleofseasons' />} />
+          <Route path="/09-windwaker" element={<GamePageTwo gameId='09-windwaker' />} />
         </Routes>
       </div>
     </HashRouter>
